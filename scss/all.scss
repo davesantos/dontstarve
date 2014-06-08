@@ -97,7 +97,7 @@ ul {
 }
 
 
-#commands {
+#itemsearch {
 	@include full;
 	.header {
 	}
@@ -111,7 +111,7 @@ ul {
 		@extend %liststyle;
 		li {
 			background:$gray;
-			padding: 12px 8px;
+			padding: 0 4px;
 			margin:10px 0;
 			transition: all 0.1s ease;
 			span {
