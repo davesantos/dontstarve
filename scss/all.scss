@@ -1,0 +1,148 @@
+@import "base";
+
+//1322 Grid System
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 90px;            // each column is 4em wide
+$gutter-width   : 20px;            // 1em gutters between columns
+
+$gray : #eee;
+$darkgray : #bbb;
+
+
+$leading: 1.6em;
+@function spacing($multiple) {
+
+	@return $leading * $multiple;
+
+}
+
+$susy: (
+	columns: $total-columns,
+	gutters: $gutter-width / $column-width,
+	column-width: $column-width,
+);
+
+* {
+	 @include box-sizing(border-box);
+
+}
+
+body {
+	padding:0 20px;
+	 @include container;
+	font-size:14pt;
+	line-height:$leading;
+	font-family: "Lato",Arial, "Helvetica Neue", Helvetica, sans-serif;
+	// background: url(http://griddle.it/1300-12-20) repeat-y center top;
+	// padding-left: $gutter-width/2;
+	// padding-right: $gutter-width/2;
+}
+
+a {}
+
+img, video, object, embed {
+	max-width: 100%;
+	height: auto !important;
+}
+h3 {
+	font-weight:normal;
+	font-size:24pt;
+}
+///////////////////////////////////////////////////////////////////
+// Structure
+///////////////////////////////////////////////////////////////////
+
+
+.header {
+	text-align:center;
+	margin-bottom:spacing(1);
+}
+
+%liststyle {
+	list-style:none;
+	padding-left:0
+}
+
+
+
+
+
+#selector {
+	overflow:hidden;
+	background-color:$darkgray;
+}
+
+.selectors {
+	background-color:#999;
+	padding:0 $gutter-width;
+	li span {display:inline-block}
+}
+
+.arguments {}
+
+.panel {
+	@include span($total-columns/2);
+	&:last-child {
+		@include last;
+	}
+	// @include gallery(2);
+
+}
+
+ul {
+	@extend %liststyle;
+	li {
+		// @include gallery(3);
+	}
+}
+
+
+#commands {
+	@include full;
+	.header {
+	}
+	h2 {
+		display:inline-block;
+	}
+	input {
+		display:inline;
+	}
+	ul {
+		@extend %liststyle;
+		li {
+			background:$gray;
+			padding: 12px 8px;
+			margin:10px 0;
+			transition: all 0.1s ease;
+			span {
+				color:$darkgray;
+			}
+			&.is-hidden {
+				height: 0;
+				font-size: 0;
+				padding:0;
+				margin:0;
+				visibility: hidden;
+			}
+		}
+
+	}
+}
+
+.footer {
+	@include full;
+}
+
+
+// Tablet
+ @media only screen and (max-width: 1023px) {
+	body {
+	}
+}
+
+// Mobile
+
+@media handheld, only screen and (max-width: 767px) {
+	body {
+	}
+}
