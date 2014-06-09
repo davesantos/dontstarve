@@ -1,14 +1,12 @@
 doctype html
 html(lang="en")
     head
-        title pageTitle
+        title Don't Starve Items
         link(rel='stylesheet', href='css/all.css')
 body
 
     .header
         h1 Don't Starve Items
-
-
 
     #itemsearch
         input(type='search' id='s' placeholder='Item' autofocus)
@@ -17,20 +15,19 @@ body
             //- Block Mixin
             mixin item(name,id)
                 li
-                    //- div.icon(class=id)
-                    if id
-                        img(src='assets/items/' + id + '.png')
-                    else
-                        p No Image
+                    div.icon(class=id)
+
                     span= name
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
+
             +item('Abigail\'s Flower','abigail_flower')
             +item('Ash','ash')
             +item('Axe','axe')
             +item('Azure Feather','feather_robin_winter')
             +item('Backpack','backpack')
             +item('Bacon and Eggs','baconeggs')
+            +item('Ball and Cup','trinket_7')
             +item('Bat Bat', 'batbat')
             +item('Batilisk Wing', 'batwing')
             +item('Battle Helm','wathgrithrhat')
@@ -106,8 +103,10 @@ body
             +item('Electrical Doodad', 'transistor')
             +item('Eye Bone', 'chester_eyebone')
             +item('Eyebrella', 'eyebrellahat')
+            +item('Fake Kazoo', 'trinket_2')
             +item('Fashion Melon', 'watermelonhat')
             +item('Feather Hat', 'featherhat')
+            +item('Fire Dart', 'blowdart_fire')
             +item('Fire Staff', 'firestaff')
             +item('Fireflies', 'fireflies')
             +item('Fish', 'fish')
@@ -122,6 +121,7 @@ body
             +item('Foliage', 'foliage')
             +item('Football Helmet', 'footballhat')
             +item('Forest Turf', 'turf_forest')
+            +item('Frazzeled Wires', 'trinket_6')
             +item('Frog Legs', 'froglegs')
             +item('Froggle Bunwich', 'frogglebunwich')
             +item('Fruit Medley', 'fruitmedley')
@@ -132,11 +132,12 @@ body
             +item('Glommer\'s Goop', 'glommerfuel')
             +item('Glommer\'s Wings', 'glommerwings')
             +item('Glow Berry', 'wormlight')
+            +item('Gnome', 'trinket_4')
             +item('Gold Nugget', 'goldnugget')
+            +item('Gord\'s Knot', 'trinket_3')
             +item('Grass Suit', 'armorgrass')
             +item('Grass Tuft', 'dug_grass')
             +item('Grass Turf', 'turf_grass')
-            //- +item('Gravedigger Items', '')
             +item('Green Cap', 'green_cap')
             +item('Green Gem', 'greengem')
             +item('Guacamole', 'guacamole')
@@ -147,6 +148,7 @@ body
             +item('Ham Bat', 'hambat')
             +item('Hay Wall', 'wall_hay_item')
             +item('Hammer', 'hammer')
+            +item('Hardened Rubber Bung', 'trinket_8')
             +item('Healing Salve', 'healingsalve')
             +item('Hibearnation Vest', 'beargervest')
             +item('Honey', 'honey')
@@ -166,6 +168,7 @@ body
             +item('Kabobs', 'kabobs')
             +item('Koalefant Trunk', 'trunk_winter')
             +item('Lantern', 'lantern')
+            +item('Lying Robot', 'trinket_11')
             +item('Leafy Meat','plantmeat')
             +item('Lichen', 'cutlichen')
             +item('Life Giving Amulet', 'amulet')
@@ -185,9 +188,11 @@ body
             +item('Meat', 'smallmeat')
             +item('Meatballs', 'meatballs')
             +item('Meaty Stew', 'bonestew')
+            +item('Melty Marbles', 'trinket_1')
             +item('Melonsicle', 'watermelonicle')
             +item('Metal Potato Thing', 'teleportato_potato')
             +item('Miner Hat', 'minerhat')
+            +item('Mismatched Buttons', 'trinket_9')
             +item('Moggles', 'molehat')
             +item('Moleworm', 'mole')
             +item('Monster Jerky', 'monstermeat_dried')
@@ -243,11 +248,13 @@ body
             //- +item('Scaled Chest', 'dragonflychest')
             +item('Scalemail', 'armordragonfly')
             +item('Scales', 'dragon_scales')
+            +item('Second-hand Dentures', 'trinket_10')
             +item('Seeds', 'seeds')
             +item('Sewing Kit', 'sewing_kit')
             +item('Shelmet', 'slurtlehat')
             +item('Shovel', 'shovel')
             +item('Silk', 'silk')
+            +item('Sleep Dart', 'blowdart_sleep')
             +item('Slimey Turf', 'turf_sinkhole')
             +item('Slurper', 'armor_slurper')
             +item('Slurper Pelt', 'slurper_pelt')
@@ -276,13 +283,14 @@ body
             +item('The Lazy Forager', 'orangeamulet')
             +item('Thermal Stone', 'heatrock')
             +item('Thick Fur', 'bearger_fur')
+            +item('Thulecite', 'thulecite')
             +item('Thulecite Club', 'ruins_bat')
             +item('Thulecite Crown', 'ruinshat')
             +item('Thulecite Fragments', 'thulecite_pieces')
             +item('Thulecite Medallion', 'nightmare_timepiece')
             +item('Thulecite Suit', 'armorruins')
             +item('Thulecite Wall', 'wall_ruins_item')
-            +item('Thulecite', 'thulecite')
+            +item('Tiny Rocketship', 'trinket_5')
             +item('Tooth Trap', 'trap_teeth')
             +item('Top Hat', 'tophat')
             +item('Torch', 'torch')
