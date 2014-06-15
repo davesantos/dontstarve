@@ -11,13 +11,17 @@ body
     #itemsearch
         input(type='search' id='s' placeholder='Item' autofocus)
         p Food, Weapons, Armor
+
+        .info
+
         ul#list
             //- Block Mixin
             mixin item(name,id)
-                li
-                    div.icon(class=id)
-
-                    span= name
+                  li
+                        .item
+                              .icon(class=id)
+                              span= name
+                        div
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
 
@@ -167,6 +171,7 @@ body
             +item('Jet Feather','feather_crow')
             +item('Kabobs', 'kabobs')
             +item('Koalefant Trunk', 'trunk_winter')
+            +item('Krampus\' Sack', 'krampus_sack')
             +item('Lantern', 'lantern')
             +item('Lying Robot', 'trinket_11')
             +item('Leafy Meat','plantmeat')
@@ -219,6 +224,7 @@ body
             +item('Pig Skin', 'pigskin')
             +item('Pile o\' Balloons', 'balloons_empty')
             +item('Pine Cone', 'pinecone')
+            +item('Piggyback', 'piggyback')
             +item('Pitchfork', 'pitchfork')
             +item('Pomegranate', 'pomegranate')
             +item('Powdercake', 'powcake')
