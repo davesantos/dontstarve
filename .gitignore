@@ -1,5 +1,7 @@
 *.DS_Store
 *.sass-cache
 *.json
-/css/all.css
+/css/*
 /components/*
+/assets/*
+/source/*
