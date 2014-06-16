@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>pageTitle</title>
+    <title>Don't Starve Items</title>
     <link rel="stylesheet" href="css/all.css">
   </head>
 </html>
@@ -9,1116 +9,909 @@
   <div class="header">
     <h1>Don't Starve Items</h1>
   </div>
-  <div id="itemsearch">
-    <input type="search" id="filter" placeholder="Item">
+  <div class="content">
+    <input type="search" id="s" placeholder="Item" autofocus>
     <p>Food, Weapons, Armor</p>
-    <ul id="list">
-            <li>
-              <div class="icon abigail_flower"></div><img src="assets/items/abigail_flower.png">Abigail's Flower
+    <div class="info"></div>
+    <ul id="itemlist">
+            <li class="item">
+              <div class="icon abigail_flower"></div><span>Abigail's Flower</span>
             </li>
-            <li>
-              <div class="icon ash"></div><img src="assets/items/ash.png">Ash
+            <li class="item">
+              <div class="icon book_gardening"></div><span>Applied Horticulture</span>
             </li>
-            <li>
-              <div class="icon axe"></div><img src="assets/items/axe.png">Axe
+            <li class="item">
+              <div class="icon ash"></div><span>Ash</span>
             </li>
-            <li>
-              <div class="icon backpack"></div><img src="assets/items/backpack.png">Backpack
+            <li class="item">
+              <div class="icon axe"></div><span>Axe</span>
             </li>
-            <li>
-              <div class="icon baconeggs"></div><img src="assets/items/baconeggs.png">Bacon and Eggs
+            <li class="item">
+              <div class="icon feather_robin_winter"></div><span>Azure Feather</span>
             </li>
-            <li>
-              <div class="icon batbat"></div><img src="assets/items/batbat.png">Bat Bat
+            <li class="item">
+              <div class="icon backpack"></div><span>Backpack</span>
             </li>
-            <li>
-              <div class="icon batwing"></div><img src="assets/items/batwing.png">Batilisk Wing
+            <li class="item">
+              <div class="icon baconeggs"></div><span>Bacon and Eggs</span>
             </li>
-            <li>
-              <div class="icon wathgrithrhat"></div><img src="assets/items/wathgrithrhat.png">Battle Helm
+            <li class="item">
+              <div class="icon trinket_7"></div><span>Ball and Cup</span>
             </li>
-            <li>
-              <div class="icon spear_wathgrithr"></div><img src="assets/items/spear_wathgrithr.png">Battle Spear
+            <li class="item">
+              <div class="icon batbat"></div><span>Bat Bat</span>
             </li>
-            <li>
-              <div class="icon beardhair"></div><img src="assets/items/beardhair.png">Beard Hair
+            <li class="item">
+              <div class="icon batwing"></div><span>Batilisk Wing</span>
             </li>
-            <li>
-              <div class="icon bedroll_straw"></div><img src="assets/items/bedroll_straw.png">Bed Roll
+            <li class="item">
+              <div class="icon wathgrithrhat"></div><span>Battle Helm</span>
             </li>
-            <li>
-              <div class="icon bee"></div><img src="assets/items/bee.png">Bee
+            <li class="item">
+              <div class="icon spear_wathgrithr"></div><span>Battle Spear</span>
             </li>
-            <li>
-              <div class="icon beemine"></div><img src="assets/items/beemine.png">Bee Mine
+            <li class="item">
+              <div class="icon beardhair"></div><span>Beard Hair</span>
             </li>
-            <li>
-              <div class="icon beefalohat"></div><img src="assets/items/beefalohat.png">Beefalo Hat
+            <li class="item">
+              <div class="icon bedroll_straw"></div><span>Bed Roll</span>
             </li>
-            <li>
-              <div class="icon horn"></div><img src="assets/items/horn.png">Beefalo Horn
+            <li class="item">
+              <div class="icon bee"></div><span>Bee</span>
             </li>
-            <li>
-              <div class="icon beefalowool"></div><img src="assets/items/beefalowool.png">Beefalo Wool
+            <li class="item">
+              <div class="icon beemine"></div><span>Bee Mine</span>
             </li>
-            <li>
-              <div class="icon beehat"></div><img src="assets/items/beehat.png">Beekeeper Hat
+            <li class="item">
+              <div class="icon beefalohat"></div><span>Beefalo Hat</span>
             </li>
-            <li>
-              <div class="icon armorslurper"></div><img src="assets/items/armorslurper.png">Belt of Hunger
+            <li class="item">
+              <div class="icon horn"></div><span>Beefalo Horn</span>
             </li>
-            <li>
-              <div class="icon berries"></div><img src="assets/items/berries.png">Berries
+            <li class="item">
+              <div class="icon beefalowool"></div><span>Beefalo Wool</span>
             </li>
-            <li>
-              <div class="icon berrybush"></div><img src="assets/items/berrybush.png">Berry Bush
+            <li class="item">
+              <div class="icon beehat"></div><span>Beekeeper Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Birchnut
+            <li class="item">
+              <div class="icon armorslurper"></div><span>Belt of Hunger</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bird Trap
+            <li class="item">
+              <div class="icon berries"></div><span>Berries</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Birds
+            <li class="item">
+              <div class="icon dug_berrybush"></div><span>Berry Bush</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Blow Dart
+            <li class="item">
+              <div class="icon acorn"></div><span>Birchnut</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Blue Gem
+            <li class="item">
+              <div class="icon birdtrap"></div><span>Bird Trap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Blueprint
+            <li class="item">
+              <div class="icon book_birds"></div><span>Birds of the World</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Boards
+            <li class="item">
+              <div class="icon blowdart_pipe"></div><span>Blow Dart</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bone Shards
+            <li class="item">
+              <div class="icon blue_cap"></div><span>Blue Cap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Boomerang
+            <li class="item">
+              <div class="icon bluegem"></div><span>Blue Gem</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Box Thing
+            <li class="item">
+              <div class="icon blueprint"></div><span>Blueprint</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Breezy Vest
+            <li class="item">
+              <div class="icon boards"></div><span>Boards</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Broken Shell
+            <li class="item">
+              <div class="icon boneshard"></div><span>Bone Shards</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bucket-o-poop
+            <li class="item">
+              <div class="icon boomerang"></div><span>Boomerang</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bug Net
+            <li class="item">
+              <div class="icon teleportato_box"></div><span>Box Thing</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bunny Puff
+            <li class="item">
+              <div class="icon trunkvest_summer"></div><span>Breezy Vest</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Bush Hat
+            <li class="item">
+              <div class="icon slurtle_shellpieces"></div><span>Broken Shell</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Butter
+            <li class="item">
+              <div class="icon fertilizer"></div><span>Bucket-o-poop</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Butter Muffin
+            <li class="item">
+              <div class="icon bugnet"></div><span>Bug Net</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Butterfly
+            <li class="item">
+              <div class="icon manrabbit_tail"></div><span>Bunny Puff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Butterfly Wings
+            <li class="item">
+              <div class="icon bushhat"></div><span>Bush Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cactus Flesh
+            <li class="item">
+              <div class="icon butterflymuffin"></div><span>Butter Muffin</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cactus Flower
+            <li class="item">
+              <div class="icon butter"></div><span>Butter</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Carpeted Flooring
+            <li class="item">
+              <div class="icon butterfly"></div><span>Butterfly</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Carrot
+            <li class="item">
+              <div class="icon butterflywings"></div><span>Butterfly Wings</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cat Cap
+            <li class="item">
+              <div class="icon cactus_meat"></div><span>Cactus Flesh</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cat Tail
+            <li class="item">
+              <div class="icon cactus_flower"></div><span>Cactus Flower</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cave Banana
+            <li class="item">
+              <div class="icon turf_checkerfloor"></div><span>Carpeted Flooring</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cave Rock Turf
+            <li class="item">
+              <div class="icon carrot"></div><span>Carrot</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Charcoal
+            <li class="item">
+              <div class="icon catcoonhat"></div><span>Cat Cap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Checkerboard Flooring
+            <li class="item">
+              <div class="icon coontail"></div><span>Cat Tail</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Chilled Amulet
+            <li class="item">
+              <div class="icon cave_banana"></div><span>Cave Banana</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cobblestones
+            <li class="item">
+              <div class="icon turf_underrock"></div><span>Cave Rock Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Codex Umbra
+            <li class="item">
+              <div class="icon charcoal"></div><span>Charcoal</span>
             </li>
-            <li>
-              <div class="icon compass"></div><img src="assets/items/compass.png">Compass
+            <li class="item">
+              <div class="icon turf_checkerfloor"></div><span>Checkerboard Flooring</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Construction Amulet
+            <li class="item">
+              <div class="icon blueamulet"></div><span>Chilled Amulet</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Cooked Egg
+            <li class="item">
+              <div class="icon turf_road"></div><span>Cobblestones</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Corn
+            <li class="item">
+              <div class="icon waxwelljournal"></div><span>Codex Umbra</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Crank Thing
+            <li class="item">
+              <div class="icon compass"></div><span>Compass</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Crop Seeds
+            <li class="item">
+              <div class="icon greenamulet"></div><span>Construction Amulet</span>
             </li>
-            <li>
-              <div class="icon cutgrass"></div><img src="assets/items/cutgrass.png">Cut Grass
+            <li class="item">
+              <div class="icon corn"></div><span>Corn</span>
             </li>
-            <li>
-              <div class="icon cutreeds"></div><img src="assets/items/cutreeds.png">Cut Reeds
+            <li class="item">
+              <div class="icon teleportato_crank"></div><span>Crank Thing</span>
             </li>
-            <li>
-              <div class="icon cutstone"></div><img src="assets/items/cutstone.png">Cut Stone
+            <li class="item">
+              <div class="icon feather_robin"></div><span>Crimson Feather</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Dairy product
+            <li class="item">
+              <div class="icon cutgrass"></div><span>Cut Grass</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Dapper Vest
+            <li class="item">
+              <div class="icon cutreeds"></div><span>Cut Reeds</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Dark Sword
+            <li class="item">
+              <div class="icon cutstone"></div><span>Cut Stone</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Deciduous Turf
+            <li class="item">
+              <div class="icon sweatervest"></div><span>Dapper Vest</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Deconstruction Staff
+            <li class="item">
+              <div class="icon petals_evil"></div><span>Dark Petals</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Deerclops Eyeball
+            <li class="item">
+              <div class="icon nightsword"></div><span>Dark Sword</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Divining Rod
+            <li class="item">
+              <div class="icon turf_deciduous"></div><span>Deciduous Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Down Feather
+            <li class="item">
+              <div class="icon greenstaff"></div><span>Deconstruction Staff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Dragon Fruit
+            <li class="item">
+              <div class="icon deerclops_eyeball"></div><span>Deerclops Eyeball</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Dragonpie
+            <li class="item">
+              <div class="icon diviningrod"></div><span>Divining Rod</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Drumstick
+            <li class="item">
+              <div class="icon goose_feather"></div><span>Down Feather</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Durian
+            <li class="item">
+              <div class="icon dragonfruit"></div><span>Dragon Fruit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Eel
+            <li class="item">
+              <div class="icon dragonpie"></div><span>Dragonpie</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Eggplant
+            <li class="item">
+              <div class="icon drumstick"></div><span>Drumstick</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Egg
+            <li class="item">
+              <div class="icon durian"></div><span>Durian</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Electric Milk
+            <li class="item">
+              <div class="icon eel"></div><span>Eel</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Electrical Doodad
+            <li class="item">
+              <div class="icon eggplant"></div><span>Eggplant</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Eye Bone
+            <li class="item">
+              <div class="icon bird_egg"></div><span>Egg</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Eyebrella
+            <li class="item">
+              <div class="icon goatmilk"></div><span>Electric Milk</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fashion Melon
+            <li class="item">
+              <div class="icon transistor"></div><span>Electrical Doodad</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Feather
+            <li class="item">
+              <div class="icon chester_eyebone"></div><span>Eye Bone</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Feather Hat
+            <li class="item">
+              <div class="icon eyebrellahat"></div><span>Eyebrella</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fire Staff
+            <li class="item">
+              <div class="icon trinket_2"></div><span>Fake Kazoo</span>
             </li>
-            <li>
-              <div class="icon fireflies"></div><img src="assets/items/fireflies.png">Fireflies
+            <li class="item">
+              <div class="icon watermelonhat"></div><span>Fashion Melon</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fish
+            <li class="item">
+              <div class="icon featherhat"></div><span>Feather Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fish
+            <li class="item">
+              <div class="icon blowdart_fire"></div><span>Fire Dart</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fish Tacos
+            <li class="item">
+              <div class="icon firestaff"></div><span>Fire Staff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fishing Rod
+            <li class="item">
+              <div class="icon fireflies"></div><span>Fireflies</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fishsticks
+            <li class="item">
+              <div class="icon fish"></div><span>Fish</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fist Full of Jam
+            <li class="item">
+              <div class="icon fishtacos"></div><span>Fish Tacos</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fleshy Bulb
+            <li class="item">
+              <div class="icon fishingrod"></div><span>Fishing Rod</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Flint
+            <li class="item">
+              <div class="icon fishsticks"></div><span>Fishsticks</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Floral Shirt
+            <li class="item">
+              <div class="icon jammypreserves"></div><span>Fist Full of Jam</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Flower Salad
+            <li class="item">
+              <div class="icon lureplantbulb"></div><span>Fleshy Bulb</span>
             </li>
-            <li>
-              <div class="icon footballhat"></div><img src="assets/items/footballhat.png">Football Helmet
+            <li class="item">
+              <div class="icon flint"></div><span>Flint</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Forest Turf
+            <li class="item">
+              <div class="icon hawaiianshirt"></div><span>Floral Shirt</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Frog Legs
+            <li class="item">
+              <div class="icon flowersalad"></div><span>Flower Salad</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Froggle Bunwich
+            <li class="item">
+              <div class="icon foliage"></div><span>Foliage</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fruit
+            <li class="item">
+              <div class="icon footballhat"></div><span>Football Helmet</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fruit Medley
+            <li class="item">
+              <div class="icon turf_forest"></div><span>Forest Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Fungal Turf
+            <li class="item">
+              <div class="icon trinket_6"></div><span>Frazzeled Wires</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Garland
+            <li class="item">
+              <div class="icon froglegs"></div><span>Frog Legs</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Gears
+            <li class="item">
+              <div class="icon frogglebunwich"></div><span>Froggle Bunwich</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Gems
+            <li class="item">
+              <div class="icon fruitmedley"></div><span>Fruit Medley</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Glommer's Flower
+            <li class="item">
+              <div class="icon turf_fungus"></div><span>Fungal Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Glommer's Goop
+            <li class="item">
+              <div class="icon flowerhat"></div><span>Garland</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Glommer's Wings
+            <li class="item">
+              <div class="icon gears"></div><span>Gears</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Glow Berry
+            <li class="item">
+              <div class="icon glommerflower"></div><span>Glommer's Flower</span>
             </li>
-            <li>
-              <div class="icon goldnugget"></div><img src="assets/items/goldnugget.png">Gold Nugget
+            <li class="item">
+              <div class="icon glommerfuel"></div><span>Glommer's Goop</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Grass Suit
+            <li class="item">
+              <div class="icon glommerwings"></div><span>Glommer's Wings</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Grass Tuft
+            <li class="item">
+              <div class="icon wormlight"></div><span>Glow Berry</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Grass Turf
+            <li class="item">
+              <div class="icon trinket_4"></div><span>Gnome</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Gravedigger Items
+            <li class="item">
+              <div class="icon goldnugget"></div><span>Gold Nugget</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Green Gem
+            <li class="item">
+              <div class="icon trinket_3"></div><span>Gord's Knot</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Guacamole
+            <li class="item">
+              <div class="icon armorgrass"></div><span>Grass Suit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Guano
+            <li class="item">
+              <div class="icon dug_grass"></div><span>Grass Tuft</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Guano Turf
+            <li class="item">
+              <div class="icon turf_grass"></div><span>Grass Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Guardian's Horn
+            <li class="item">
+              <div class="icon green_cap"></div><span>Green Cap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Gunpowder
+            <li class="item">
+              <div class="icon greengem"></div><span>Green Gem</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ham Bat
+            <li class="item">
+              <div class="icon guacamole"></div><span>Guacamole</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Hammer
+            <li class="item">
+              <div class="icon turf_cave"></div><span>Guano Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Healing Salve
+            <li class="item">
+              <div class="icon guano"></div><span>Guano</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Hibearnation Vest
+            <li class="item">
+              <div class="icon minotaurhorn"></div><span>Guardian's Horn</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Honey
+            <li class="item">
+              <div class="icon gunpowder"></div><span>Gunpowder</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Honey Ham
+            <li class="item">
+              <div class="icon hambat"></div><span>Ham Bat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Honey Nuggets
+            <li class="item">
+              <div class="icon wall_hay_item"></div><span>Hay Wall</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Honey Poultice
+            <li class="item">
+              <div class="icon hammer"></div><span>Hammer</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Honeycomb
+            <li class="item">
+              <div class="icon trinket_8"></div><span>Hardened Rubber Bung</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Hound's Tooth
+            <li class="item">
+              <div class="icon healingsalve"></div><span>Healing Salve</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Houndius Shootius
+            <li class="item">
+              <div class="icon beargervest"></div><span>Hibearnation Vest</span>
             </li>
-            <li>
-              <div class="icon ice"></div><img src="assets/items/ice.png">Ice
+            <li class="item">
+              <div class="icon honey"></div><span>Honey</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ice Cream
+            <li class="item">
+              <div class="icon honeyham"></div><span>Honey Ham</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ice Cube
+            <li class="item">
+              <div class="icon honeynuggets"></div><span>Honey Nuggets</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ice Flingomatic
+            <li class="item">
+              <div class="icon bandage"></div><span>Honey Poultice</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ice Staff
+            <li class="item">
+              <div class="icon honeycomb"></div><span>Honeycomb</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Insulated Pack
+            <li class="item">
+              <div class="icon houndstooth"></div><span>Hound's Tooth</span>
             </li>
-            <li>
-              <div class="icon jerky"></div><img src="assets/items/jerky.png">Jerky
+            <li class="item">
+              <div class="icon ice"></div><span>Ice</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Kabobs
+            <li class="item">
+              <div class="icon icecream"></div><span>Ice Cream</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Koalefant Trunk
+            <li class="item">
+              <div class="icon icehat"></div><span>Ice Cube</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Lantern
+            <li class="item">
+              <div class="icon firesuppressor"></div><span>Ice Flingomatic</span>
             </li>
-            <li>
-              <div class="icon plantmeat"></div><img src="assets/items/plantmeat.png">Leafy Meat
+            <li class="item">
+              <div class="icon icestaff"></div><span>Ice Staff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Lichen
+            <li class="item">
+              <div class="icon icepack"></div><span>Insulated Pack</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Life Giving Amulet
+            <li class="item">
+              <div class="icon meat_dried"></div><span>Jerky</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Light Bulb
+            <li class="item">
+              <div class="icon feather_crow"></div><span>Jet Feather</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Living Log
+            <li class="item">
+              <div class="icon kabobs"></div><span>Kabobs</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Log
+            <li class="item">
+              <div class="icon trunk_winter"></div><span>Koalefant Trunk</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Log Suit
+            <li class="item">
+              <div class="icon krampus_sack"></div><span>Krampus' Sack</span>
             </li>
-            <li>
-              <div class="icon lucy"></div><img src="assets/items/lucy.png">Lucy the Axe
+            <li class="item">
+              <div class="icon lantern"></div><span>Lantern</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Luxury Fan
+            <li class="item">
+              <div class="icon trinket_11"></div><span>Lying Robot</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Magiluminescence
+            <li class="item">
+              <div class="icon plantmeat"></div><span>Leafy Meat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mandrake
+            <li class="item">
+              <div class="icon cutlichen"></div><span>Lichen</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mandrake Soup
+            <li class="item">
+              <div class="icon amulet"></div><span>Life Giving Amulet</span>
             </li>
-            <li>
-              <div class="icon manure"></div><img src="assets/items/manure.png">Manure
+            <li class="item">
+              <div class="icon lightbulb"></div><span>Light Bulb</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Marble
+            <li class="item">
+              <div class="icon livinglog"></div><span>Living Log</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Marble Suit
+            <li class="item">
+              <div class="icon log"></div><span>Log</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Marsh Turf
+            <li class="item">
+              <div class="icon armorwood"></div><span>Log Suit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Meat
+            <li class="item">
+              <div class="icon lucy"></div><span>Lucy the Axe</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Meatballs
+            <li class="item">
+              <div class="icon featherfan"></div><span>Luxury Fan</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Meats
+            <li class="item">
+              <div class="icon yellowamulet"></div><span>Magiluminescence</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Meaty Stew
+            <li class="item">
+              <div class="icon mandrake"></div><span>Mandrake</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Melonsicle
+            <li class="item">
+              <div class="icon mandrakesoup"></div><span>Mandrake Soup</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Metal Potato Thing
+            <li class="item">
+              <div class="icon manure"></div><span>Manure</span>
             </li>
-            <li>
-              <div class="icon minerhat"></div><img src="assets/items/minerhat.png">Miner Hat
+            <li class="item">
+              <div class="icon marble"></div><span>Marble</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Moggles
+            <li class="item">
+              <div class="icon armormarble"></div><span>Marble Suit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Moleworm
+            <li class="item">
+              <div class="icon turf_marsh"></div><span>Marsh Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Monster Jerky
+            <li class="item">
+              <div class="icon smallmeat"></div><span>Meat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Monster Lasagna
+            <li class="item">
+              <div class="icon meatballs"></div><span>Meatballs</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Monster Meat
+            <li class="item">
+              <div class="icon bonestew"></div><span>Meaty Stew</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Morning Star
+            <li class="item">
+              <div class="icon trinket_1"></div><span>Melty Marbles</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Morsel
+            <li class="item">
+              <div class="icon watermelonicle"></div><span>Melonsicle</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mosquito
+            <li class="item">
+              <div class="icon teleportato_potato"></div><span>Metal Potato Thing</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mosquito Sack
+            <li class="item">
+              <div class="icon minerhat"></div><span>Miner Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mud Turf
+            <li class="item">
+              <div class="icon trinket_9"></div><span>Mismatched Buttons</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Mushrooms
+            <li class="item">
+              <div class="icon molehat"></div><span>Moggles</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Night Armour
+            <li class="item">
+              <div class="icon mole"></div><span>Moleworm</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Nightmare Amulet
+            <li class="item">
+              <div class="icon monstermeat_dried"></div><span>Monster Jerky</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Nightmare Fuel
+            <li class="item">
+              <div class="icon monsterlasagna"></div><span>Monster Lasagna</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Nitre
+            <li class="item">
+              <div class="icon monstermeat"></div><span>Monster Meat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Non-renewable resources
+            <li class="item">
+              <div class="icon nightstick"></div><span>Morning Star</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Note
+            <li class="item">
+              <div class="icon cookedsmallmeat"></div><span>Morsel</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Old Bell
+            <li class="item">
+              <div class="icon mosquito"></div><span>Mosquito</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>One-man Band
+            <li class="item">
+              <div class="icon mosquitosack"></div><span>Mosquito Sack</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Orange Gem
+            <li class="item">
+              <div class="icon turf_mud"></div><span>Mud Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ornate Chest
+            <li class="item">
+              <div class="icon armor_sanity"></div><span>Night Armour</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pan Flute
+            <li class="item">
+              <div class="icon purpleamulet"></div><span>Nightmare Amulet</span>
             </li>
-            <li>
-              <div class="icon papyrus"></div><img src="assets/items/papyrus.png">Papyrus
+            <li class="item">
+              <div class="icon nightmarefuel"></div><span>Nightmare Fuel</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Petals
+            <li class="item">
+              <div class="icon nitre"></div><span>Nitre</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pickaxe
+            <li class="item">
+              <div class="icon bell"></div><span>Old Bell</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pierogi
+            <li class="item">
+              <div class="icon book_tentacles"></div><span>On Tentacles</span>
             </li>
-            <li>
-              <div class="icon pigskin"></div><img src="assets/items/pigskin.png">Pig Skin
+            <li class="item">
+              <div class="icon onemanband"></div><span>One-man Band</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pile o' Balloons
+            <li class="item">
+              <div class="icon orangegem"></div><span>Orange Gem</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pine Cone
+            <li class="item">
+              <div class="icon panflute"></div><span>Pan Flute</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pitchfork
+            <li class="item">
+              <div class="icon papyrus"></div><span>Papyrus</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pomegranate
+            <li class="item">
+              <div class="icon petals"></div><span>Petals</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Powdercake
+            <li class="item">
+              <div class="icon pickaxe"></div><span>Pickaxe</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Pretty Parasol
+            <li class="item">
+              <div class="icon multitool_axe_pickaxe"></div><span>Pick/Axe</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Puffy Vest
+            <li class="item">
+              <div class="icon perogies"></div><span>Pierogi</span>
             </li>
-            <li>
-              <div class="icon pumpkin"></div><img src="assets/items/pumpkin.png">Pumpkin
+            <li class="item">
+              <div class="icon pigskin"></div><span>Pig Skin</span>
             </li>
-            <li>
-              <div class="icon pumpkincookie"></div><img src="assets/items/pumpkincookie.png">Pumpkin Cookie
+            <li class="item">
+              <div class="icon balloons_empty"></div><span>Pile o' Balloons</span>
             </li>
-            <li>
-              <div class="icon pumpkin_lantern"></div><img src="assets/items/pumpkin_lantern.png">Pumpkin Lantern
+            <li class="item">
+              <div class="icon pinecone"></div><span>Pine Cone</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Purple Gem
+            <li class="item">
+              <div class="icon piggyback"></div><span>Piggyback</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rabbit
+            <li class="item">
+              <div class="icon pitchfork"></div><span>Pitchfork</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rabbit Earmuff
+            <li class="item">
+              <div class="icon pomegranate"></div><span>Pomegranate</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rain Coat
+            <li class="item">
+              <div class="icon powcake"></div><span>Powdercake</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rain Hat
+            <li class="item">
+              <div class="icon grass_umbrella"></div><span>Pretty Parasol</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ratatouille
+            <li class="item">
+              <div class="icon trunkvest_winter"></div><span>Puffy Vest</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Razor
+            <li class="item">
+              <div class="icon pumpkincookie"></div><span>Pumpkin Cookie</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Red Gem
+            <li class="item">
+              <div class="icon pumpkin_lantern"></div><span>Pumpkin Lantern</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Ring Thing
+            <li class="item">
+              <div class="icon pumpkin"></div><span>Pumpkin</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Road Turf
+            <li class="item">
+              <div class="icon purplegem"></div><span>Purple Gem</span>
             </li>
-            <li>
-              <div class="icon rocks"></div><img src="assets/items/rocks.png">Rocks
+            <li class="item">
+              <div class="icon rabbit"></div><span>Rabbit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rocky Turf
+            <li class="item">
+              <div class="icon earmuffshat"></div><span>Rabbit Earmuff</span>
             </li>
-            <li>
-              <div class="icon rope"></div><img src="assets/items/rope.png">Rope
+            <li class="item">
+              <div class="icon raincoat"></div><span>Rain Coat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rot
+            <li class="item">
+              <div class="icon rainhat"></div><span>Rain Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Rotten Egg
+            <li class="item">
+              <div class="icon ratatouille"></div><span>Ratatouille</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Runic Turf
+            <li class="item">
+              <div class="icon razor"></div><span>Razor</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Sandy Turf
+            <li class="item">
+              <div class="icon red_cap"></div><span>Red Cap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Sapling
+            <li class="item">
+              <div class="icon redgem"></div><span>Red Gem</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Savanna Turf
+            <li class="item">
+              <div class="icon teleportato_ring"></div><span>Ring Thing</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Scaled Chest
+            <li class="item">
+              <div class="icon rocks"></div><span>Rocks</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Scalemail
+            <li class="item">
+              <div class="icon turf_rocky"></div><span>Rocky Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Scales
+            <li class="item">
+              <div class="icon rope"></div><span>Rope</span>
             </li>
-            <li>
-              <div class="icon seeds"></div><img src="assets/items/seeds.png">Seeds
+            <li class="item">
+              <div class="icon spoiled_food"></div><span>Rot</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Sewing Kit
+            <li class="item">
+              <div class="icon rottenegg"></div><span>Rotten Egg</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Shelmet
+            <li class="item">
+              <div class="icon turf_desertdirt"></div><span>Sandy Turf</span>
             </li>
-            <li>
-              <div class="icon shovel"></div><img src="assets/items/shovel.png">Shovel
+            <li class="item">
+              <div class="icon sapling"></div><span>Sapling</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Sign
+            <li class="item">
+              <div class="icon turf_savanna"></div><span>Savanna Turf</span>
             </li>
-            <li>
-              <div class="icon silk"></div><img src="assets/items/silk.png">Silk
+            <li class="item">
+              <div class="icon armordragonfly"></div><span>Scalemail</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Slimey Turf
+            <li class="item">
+              <div class="icon dragon_scales"></div><span>Scales</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Slurper
+            <li class="item">
+              <div class="icon trinket_10"></div><span>Second-hand Dentures</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Slurper Pelt
+            <li class="item">
+              <div class="icon seeds"></div><span>Seeds</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Slurtle Slime
+            <li class="item">
+              <div class="icon sewing_kit"></div><span>Sewing Kit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Small Jerky
+            <li class="item">
+              <div class="icon slurtlehat"></div><span>Shelmet</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Snurtle Shell Armor
+            <li class="item">
+              <div class="icon shovel"></div><span>Shovel</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spear
+            <li class="item">
+              <div class="icon silk"></div><span>Silk</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spicy Chili
+            <li class="item">
+              <div class="icon blowdart_sleep"></div><span>Sleep Dart</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spider Eggs
+            <li class="item">
+              <div class="icon book_sleep"></div><span>Sleepytime Stories</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spider Gland
+            <li class="item">
+              <div class="icon turf_sinkhole"></div><span>Slimey Turf</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spiderhat
+            <li class="item">
+              <div class="icon slurper_pelt"></div><span>Slurper Pelt</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Spiky Bush
+            <li class="item">
+              <div class="icon armor_slurper"></div><span>Slurper</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Star Caller's Staff
+            <li class="item">
+              <div class="icon slurtleslime"></div><span>Slurtle Slime</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Sticky Webbing
+            <li class="item">
+              <div class="icon smallmeat_dried"></div><span>Small Jerky</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Stinger
+            <li class="item">
+              <div class="icon armorsnurtleshell"></div><span>Snurtle Shell Armor</span>
             </li>
-            <li>
-              <div class="icon strawhat"></div><img src="assets/items/strawhat.png">Straw Hat
+            <li class="item">
+              <div class="icon spear"></div><span>Spear</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Stuffed Eggplant
+            <li class="item">
+              <div class="icon hotchili"></div><span>Spicy Chili</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Summer Frest
+            <li class="item">
+              <div class="icon spidereggsack"></div><span>Spider Eggs</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Taffy
+            <li class="item">
+              <div class="icon spidergland"></div><span>Spider Gland</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Tallbird Egg
+            <li class="item">
+              <div class="icon spiderhat"></div><span>Spiderhat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Tam o' Shanter
+            <li class="item">
+              <div class="icon dug_marsh_bush"></div><span>Spiky Bush</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Telelocator Staff
+            <li class="item">
+              <div class="icon yellowstaff"></div><span>Star Caller's Staff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Tentacle Spike
+            <li class="item">
+              <div class="icon stinger"></div><span>Stinger</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Tentacle Spots
+            <li class="item">
+              <div class="icon wall_stone_item"></div><span>Stone Wall</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>The Lazy Explorer
+            <li class="item">
+              <div class="icon strawhat"></div><span>Straw Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>The Lazy Forager
+            <li class="item">
+              <div class="icon stuffedeggplant"></div><span>Stuffed Eggplant</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thermal Stone
+            <li class="item">
+              <div class="icon reflectivevest"></div><span>Summer Frest</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thick Fur
+            <li class="item">
+              <div class="icon taffy"></div><span>Taffy</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite
+            <li class="item">
+              <div class="icon tallbirdegg"></div><span>Tallbird Egg</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite Club
+            <li class="item">
+              <div class="icon walrushat"></div><span>Tam o' Shanter</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite Crown
+            <li class="item">
+              <div class="icon telestaff"></div><span>Telelocator Staff</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite Fragments
+            <li class="item">
+              <div class="icon tentaclespike"></div><span>Tentacle Spike</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite Medallion
+            <li class="item">
+              <div class="icon tentaclespots"></div><span>Tentacle Spots</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Thulecite Suit
+            <li class="item">
+              <div class="icon book_brimstone"></div><span>The End is Nigh</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Tooth Trap
+            <li class="item">
+              <div class="icon orangestaff"></div><span>The Lazy Explorer</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Top Hat
+            <li class="item">
+              <div class="icon orangeamulet"></div><span>The Lazy Forager</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Torch
+            <li class="item">
+              <div class="icon heatrock"></div><span>Thermal Stone</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Trail Mix
+            <li class="item">
+              <div class="icon bearger_fur"></div><span>Thick Fur</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Trap
+            <li class="item">
+              <div class="icon thulecite"></div><span>Thulecite</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Turkey Dinner
+            <li class="item">
+              <div class="icon ruins_bat"></div><span>Thulecite Club</span>
             </li>
-            <li>
-              <div class="icon twigs"></div><img src="assets/items/twigs.png">Twigs
+            <li class="item">
+              <div class="icon ruinshat"></div><span>Thulecite Crown</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Umbrella
+            <li class="item">
+              <div class="icon thulecite_pieces"></div><span>Thulecite Fragments</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Unagi
+            <li class="item">
+              <div class="icon nightmare_timepiece"></div><span>Thulecite Medallion</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Vegetables
+            <li class="item">
+              <div class="icon armorruins"></div><span>Thulecite Suit</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Volt Goat Horn
+            <li class="item">
+              <div class="icon wall_ruins_item"></div><span>Thulecite Wall</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Waffles
+            <li class="item">
+              <div class="icon trinket_5"></div><span>Tiny Rocketship</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Walking Cane
+            <li class="item">
+              <div class="icon trap_teeth"></div><span>Tooth Trap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Wall
+            <li class="item">
+              <div class="icon tophat"></div><span>Top Hat</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Walrus Tusk
+            <li class="item">
+              <div class="icon torch"></div><span>Torch</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Watermelon
+            <li class="item">
+              <div class="icon trailmix"></div><span>Trail Mix</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Weather Pain
+            <li class="item">
+              <div class="icon trap"></div><span>Trap</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Webber's Skull
+            <li class="item">
+              <div class="icon turkeydinner"></div><span>Turkey Dinner</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Wet Goop
+            <li class="item">
+              <div class="icon twigs"></div><span>Twigs</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Willow's Lighter
+            <li class="item">
+              <div class="icon umbrella"></div><span>Umbrella</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Winter Hat
+            <li class="item">
+              <div class="icon unagi"></div><span>Unagi</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Wooden Flooring
+            <li class="item">
+              <div class="icon lightninggoathorn"></div><span>Volt Goat Horn</span>
             </li>
-            <li>
-              <div class="icon"></div>
-              <p>No Image</p>Yellow Gem
+            <li class="item">
+              <div class="icon waffles"></div><span>Waffles</span>
+            </li>
+            <li class="item">
+              <div class="icon cane"></div><span>Walking Cane</span>
+            </li>
+            <li class="item">
+              <div class="icon walrus_tusk"></div><span>Walrus Tusk</span>
+            </li>
+            <li class="item">
+              <div class="icon watermelon"></div><span>Watermelon</span>
+            </li>
+            <li class="item">
+              <div class="icon staff_tornado"></div><span>Weather Pain</span>
+            </li>
+            <li class="item">
+              <div class="icon webberskull"></div><span>Webber's Skull</span>
+            </li>
+            <li class="item">
+              <div class="icon wetgoop"></div><span>Wet Goop</span>
+            </li>
+            <li class="item">
+              <div class="icon lighter"></div><span>Willow's Lighter</span>
+            </li>
+            <li class="item">
+              <div class="icon winterhat"></div><span>Winter Hat</span>
+            </li>
+            <li class="item">
+              <div class="icon turf_woodfloor"></div><span>Wooden Flooring</span>
+            </li>
+            <li class="item">
+              <div class="icon wall_wood_item"></div><span>Wooden Wall</span>
+            </li>
+            <li class="item">
+              <div class="icon yellowgem"></div><span>Yellow Gem</span>
             </li>
     </ul>
   </div>
-  <div class="footer"></div>
+</body>
+<div class="footer">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/all.js"></script>
-</body>
+</div>

@@ -5,25 +5,23 @@ html(lang="en")
         link(rel='stylesheet', href='css/all.css')
 body
 
-    .header
+      .header
         h1 Don't Starve Items
 
-    #itemsearch
+      .content
         input(type='search' id='s' placeholder='Item' autofocus)
         p Food, Weapons, Armor
 
         .info
 
-        ul#list
+        ul#itemlist
             //- Block Mixin
             mixin item(name,id)
-                  li
-                        .item
-                              .icon(class=id)
-                              span= name
-                        div
-                    //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
-                    //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
+                  li.item
+                        .icon(class=id)
+                        span= name
+                        //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
+                        //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
 
             +item('Abigail\'s Flower','abigail_flower')
             +item('Applied Horticulture','book_gardening')

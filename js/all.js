@@ -1,5 +1,5 @@
 var search = document.getElementById('s');
-var list = document.getElementById('list');
+var list = document.getElementById('itemlist');
 var listItems = list.querySelectorAll('li');
 
 // search.focus();
