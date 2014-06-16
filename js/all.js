@@ -1,10 +1,10 @@
-var filter = document.getElementById('filter');
+var search = document.getElementById('s');
 var list = document.getElementById('list');
 var listItems = list.querySelectorAll('li');
 
-//filter.focus();
+// search.focus();
 
-filter.addEventListener('keyup', function(e) {
+search.addEventListener('keyup', function(e) {
   var val = new RegExp(e.target.value, 'gi');
   for(var i=0; i<listItems.length; i++) {
 	if( e.target.value.length > 0) {
