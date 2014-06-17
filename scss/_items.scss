@@ -1,2077 +1,1757 @@
-%itemsize {
-  width: 64px;
-  height: 64px;
+%icon {
+  width:64px;
+  height:64px;
 }
 
 .abigail_flower {
-  background: url(../assets/items/items.png) -1105px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -379px 0px no-repeat;
+@extend %icon
 }
 
 .acorn {
-  background: url(../assets/items/items.png) 0px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -511px 0px no-repeat;
+@extend %icon
 }
 
 .acorn_cooked {
-  background: url(../assets/items/items.png) -1171px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -445px 0px no-repeat;
+@extend %icon
 }
 
 .amulet {
-  background: url(../assets/items/items.png) -66px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -577px 0px no-repeat;
+@extend %icon
 }
 
 .armor_sanity {
-  background: url(../assets/items/items.png) -132px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -643px 0px no-repeat;
+@extend %icon
 }
 
 .armor_slurper {
-  background: url(../assets/items/items.png) -132px -1205px no-repeat;
+  background: url(../assets/items.png) -264px -1205px no-repeat;
+  display: block;
   width: 63px;
   height: 63px;
 }
 
 .armordragonfly {
-  background: url(../assets/items/items.png) -198px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -709px 0px no-repeat;
+@extend %icon
 }
 
 .armorgrass {
-  background: url(../assets/items/items.png) -264px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -775px 0px no-repeat;
+@extend %icon
 }
 
 .armormarble {
-  background: url(../assets/items/items.png) -330px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -841px 0px no-repeat;
+@extend %icon
 }
 
 .armorruins {
-  background: url(../assets/items/items.png) -396px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -907px 0px no-repeat;
+@extend %icon
 }
 
 .armorslurper {
-  background: url(../assets/items/items.png) -462px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -973px 0px no-repeat;
+@extend %icon
 }
 
 .armorsnurtleshell {
-  background: url(../assets/items/items.png) -528px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1039px 0px no-repeat;
+@extend %icon
 }
 
 .armorwood {
-  background: url(../assets/items/items.png) -594px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1105px 0px no-repeat;
+@extend %icon
 }
 
 .ash {
-  background: url(../assets/items/items.png) -660px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1171px 0px no-repeat;
+@extend %icon
 }
 
 .axe {
-  background: url(../assets/items/items.png) -726px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -83px no-repeat;
+@extend %icon
 }
 
 .backpack {
-  background: url(../assets/items/items.png) -792px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -83px no-repeat;
+@extend %icon
 }
 
 .baconeggs {
-  background: url(../assets/items/items.png) -858px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -83px no-repeat;
+@extend %icon
 }
 
 .balloons_empty {
-  background: url(../assets/items/items.png) -924px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -83px no-repeat;
+@extend %icon
 }
 
 .bandage {
-  background: url(../assets/items/items.png) -990px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -83px no-repeat;
+@extend %icon
 }
 
 .batbat {
-  background: url(../assets/items/items.png) -1056px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -83px no-repeat;
+@extend %icon
 }
 
 .batwing {
-  background: url(../assets/items/items.png) -1188px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -83px no-repeat;
+@extend %icon
 }
 
 .batwing_cooked {
-  background: url(../assets/items/items.png) -1122px -83px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -83px no-repeat;
+@extend %icon
 }
 
 .beardhair {
-  background: url(../assets/items/items.png) 0px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -83px no-repeat;
+@extend %icon
 }
 
 .bearger_fur {
-  background: url(../assets/items/items.png) -66px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -83px no-repeat;
+@extend %icon
 }
 
 .beargervest {
-  background: url(../assets/items/items.png) -132px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -83px no-repeat;
+@extend %icon
 }
 
 .bedroll_straw {
-  background: url(../assets/items/items.png) -198px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -83px no-repeat;
+@extend %icon
 }
 
 .bee {
-  background: url(../assets/items/items.png) -264px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -83px no-repeat;
+@extend %icon
 }
 
 .beebox {
-  background: url(../assets/items/items.png) -330px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -83px no-repeat;
+@extend %icon
 }
 
 .beefalohat {
-  background: url(../assets/items/items.png) -396px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -83px no-repeat;
+@extend %icon
 }
 
 .beefalowool {
-  background: url(../assets/items/items.png) -462px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -83px no-repeat;
+@extend %icon
 }
 
 .beehat {
-  background: url(../assets/items/items.png) -528px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -83px no-repeat;
+@extend %icon
 }
 
 .beemine {
-  background: url(../assets/items/items.png) -594px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -83px no-repeat;
+@extend %icon
 }
 
 .bell {
-  background: url(../assets/items/items.png) -660px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -83px no-repeat;
+@extend %icon
 }
 
 .berries {
-  background: url(../assets/items/items.png) -726px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -149px no-repeat;
+@extend %icon
+}
+
+.berries_cooked {
+  background: url(../assets/items.png) 0px -149px no-repeat;
+@extend %icon
 }
 
 .bird_egg {
-  background: url(../assets/items/items.png) -858px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -149px no-repeat;
+@extend %icon
 }
 
 .bird_egg_cooked {
-  background: url(../assets/items/items.png) -792px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -149px no-repeat;
+@extend %icon
 }
 
 .birdtrap {
-  background: url(../assets/items/items.png) -924px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -149px no-repeat;
+@extend %icon
 }
 
 .blowdart_fire {
-  background: url(../assets/items/items.png) -990px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -149px no-repeat;
+@extend %icon
 }
 
 .blowdart_pipe {
-  background: url(../assets/items/items.png) -1056px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -149px no-repeat;
+@extend %icon
 }
 
 .blowdart_sleep {
-  background: url(../assets/items/items.png) -1122px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -149px no-repeat;
+@extend %icon
 }
 
 .blue_cap {
-  background: url(../assets/items/items.png) 0px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -149px no-repeat;
+@extend %icon
 }
 
 .blue_cap_cooked {
-  background: url(../assets/items/items.png) -1188px -149px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -149px no-repeat;
+@extend %icon
 }
 
 .blueamulet {
-  background: url(../assets/items/items.png) -66px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -149px no-repeat;
+@extend %icon
 }
 
 .bluegem {
-  background: url(../assets/items/items.png) -132px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -149px no-repeat;
+@extend %icon
 }
 
 .blueprint {
-  background: url(../assets/items/items.png) -198px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -149px no-repeat;
+@extend %icon
 }
 
 .boards {
-  background: url(../assets/items/items.png) -264px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -149px no-repeat;
+@extend %icon
 }
 
 .boneshard {
-  background: url(../assets/items/items.png) -330px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -149px no-repeat;
+@extend %icon
 }
 
 .bonestew {
-  background: url(../assets/items/items.png) -396px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -149px no-repeat;
+@extend %icon
 }
 
 .book_birds {
-  background: url(../assets/items/items.png) -462px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -149px no-repeat;
+@extend %icon
 }
 
 .book_brimstone {
-  background: url(../assets/items/items.png) -528px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -149px no-repeat;
+@extend %icon
 }
 
 .book_gardening {
-  background: url(../assets/items/items.png) -594px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -149px no-repeat;
+@extend %icon
 }
 
 .book_sleep {
-  background: url(../assets/items/items.png) -660px -215px no-repeat;
+  background: url(../assets/items.png) 0px -215px no-repeat;
+  display: block;
   width: 63px;
   height: 64px;
 }
 
 .book_tentacles {
-  background: url(../assets/items/items.png) -725px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -65px -215px no-repeat;
+@extend %icon
 }
 
 .boomerang {
-  background: url(../assets/items/items.png) -791px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -131px -215px no-repeat;
+@extend %icon
 }
 
 .bugnet {
-  background: url(../assets/items/items.png) -857px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -197px -215px no-repeat;
+@extend %icon
 }
 
 .bushhat {
-  background: url(../assets/items/items.png) -923px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -263px -215px no-repeat;
+@extend %icon
 }
 
 .butter {
-  background: url(../assets/items/items.png) -989px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -329px -215px no-repeat;
+@extend %icon
 }
 
 .butterfly {
-  background: url(../assets/items/items.png) -1055px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -395px -215px no-repeat;
+@extend %icon
 }
 
 .butterflymuffin {
-  background: url(../assets/items/items.png) -1121px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -461px -215px no-repeat;
+@extend %icon
 }
 
 .butterflywings {
-  background: url(../assets/items/items.png) -1187px -215px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -527px -215px no-repeat;
+@extend %icon
 }
 
 .cactus_flower {
-  background: url(../assets/items/items.png) 0px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -593px -215px no-repeat;
+@extend %icon
 }
 
 .cactus_meat {
-  background: url(../assets/items/items.png) -132px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -725px -215px no-repeat;
+@extend %icon
 }
 
 .cactus_meat_cooked {
-  background: url(../assets/items/items.png) -66px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -659px -215px no-repeat;
+@extend %icon
 }
 
 .cane {
-  background: url(../assets/items/items.png) -198px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -791px -215px no-repeat;
+@extend %icon
 }
 
 .carrot {
-  background: url(../assets/items/items.png) -330px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -989px -215px no-repeat;
+@extend %icon
 }
 
 .carrot_cooked {
-  background: url(../assets/items/items.png) -264px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -857px -215px no-repeat;
+@extend %icon
 }
 
 .carrot_seeds {
-  background: url(../assets/items/items.png) -379px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -923px -215px no-repeat;
+@extend %icon
 }
 
 .catcoonhat {
-  background: url(../assets/items/items.png) -396px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1055px -215px no-repeat;
+@extend %icon
 }
 
 .cave_banana {
-  background: url(../assets/items/items.png) -528px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1187px -215px no-repeat;
+@extend %icon
 }
 
 .cave_banana_cooked {
-  background: url(../assets/items/items.png) -462px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1121px -215px no-repeat;
+@extend %icon
 }
 
 .charcoal {
-  background: url(../assets/items/items.png) -594px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -281px no-repeat;
+@extend %icon
 }
 
 .chester_eyebone {
-  background: url(../assets/items/items.png) -660px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -281px no-repeat;
+@extend %icon
 }
 
 .compass {
-  background: url(../assets/items/items.png) -726px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -281px no-repeat;
+@extend %icon
 }
 
 .cookedmandrake {
-  background: url(../assets/items/items.png) -792px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -281px no-repeat;
+@extend %icon
 }
 
 .cookedmonstermeat {
-  background: url(../assets/items/items.png) -858px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -281px no-repeat;
+@extend %icon
 }
 
 .cookedsmallmeat {
-  background: url(../assets/items/items.png) -924px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -281px no-repeat;
+@extend %icon
 }
 
 .coontail {
-  background: url(../assets/items/items.png) -990px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -281px no-repeat;
+@extend %icon
 }
 
 .corn {
-  background: url(../assets/items/items.png) -1122px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -281px no-repeat;
+@extend %icon
 }
 
 .corn_cooked {
-  background: url(../assets/items/items.png) -1056px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -281px no-repeat;
+@extend %icon
 }
 
 .corn_seeds {
-  background: url(../assets/items/items.png) -445px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -281px no-repeat;
+@extend %icon
 }
 
 .cutgrass {
-  background: url(../assets/items/items.png) -1188px -281px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -281px no-repeat;
+@extend %icon
 }
 
 .cutlichen {
-  background: url(../assets/items/items.png) 0px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -281px no-repeat;
+@extend %icon
 }
 
 .cutreeds {
-  background: url(../assets/items/items.png) -66px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -281px no-repeat;
+@extend %icon
 }
 
 .cutstone {
-  background: url(../assets/items/items.png) -132px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -281px no-repeat;
+@extend %icon
 }
 
 .deerclops_eyeball {
-  background: url(../assets/items/items.png) -198px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -281px no-repeat;
+@extend %icon
 }
 
 .diviningrod {
-  background: url(../assets/items/items.png) -264px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -281px no-repeat;
+@extend %icon
 }
 
 .dragon_scales {
-  background: url(../assets/items/items.png) -330px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -281px no-repeat;
+@extend %icon
 }
 
 .dragonflychest {
-  background: url(../assets/items/items.png) -396px -347px no-repeat;
+  background: url(../assets/items.png) -1122px -281px no-repeat;
+  display: block;
   width: 63px;
   height: 64px;
 }
 
 .dragonfruit {
-  background: url(../assets/items/items.png) -527px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -347px no-repeat;
+@extend %icon
 }
 
 .dragonfruit_cooked {
-  background: url(../assets/items/items.png) -461px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1187px -281px no-repeat;
+@extend %icon
 }
 
 .dragonfruit_seeds {
-  background: url(../assets/items/items.png) -511px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -347px no-repeat;
+@extend %icon
 }
 
 .dragonpie {
-  background: url(../assets/items/items.png) -593px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -347px no-repeat;
+@extend %icon
 }
 
 .drumstick {
-  background: url(../assets/items/items.png) -725px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -347px no-repeat;
+@extend %icon
 }
 
 .drumstick_cooked {
-  background: url(../assets/items/items.png) -659px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -347px no-repeat;
+@extend %icon
 }
 
 .dug_berrybush {
-  background: url(../assets/items/items.png) -577px 0px no-repeat;
-  width: 64px;
-  height: 64px;
-  &:hover {
-    background: url(../assets/items/items.png) -791px -347px no-repeat;
-  }
+  background: url(../assets/items.png) -330px -347px no-repeat;
+@extend %icon
 }
 
 .dug_berrybush2 {
-  background: url(../assets/items/items.png) -791px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -347px no-repeat;
+@extend %icon
 }
 
 .dug_grass {
-  background: url(../assets/items/items.png) -857px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -347px no-repeat;
+@extend %icon
 }
 
 .dug_marsh_bush {
-  background: url(../assets/items/items.png) -923px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -347px no-repeat;
+@extend %icon
 }
 
 .durian {
-  background: url(../assets/items/items.png) -1055px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -347px no-repeat;
+@extend %icon
 }
 
 .durian_cooked {
-  background: url(../assets/items/items.png) -989px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -347px no-repeat;
+@extend %icon
 }
 
 .durian_seeds {
-  background: url(../assets/items/items.png) -643px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -347px no-repeat;
+@extend %icon
 }
 
 .earmuffshat {
-  background: url(../assets/items/items.png) -1121px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -347px no-repeat;
+@extend %icon
 }
 
 .eel {
-  background: url(../assets/items/items.png) 0px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -347px no-repeat;
+@extend %icon
 }
 
 .eel_cooked {
-  background: url(../assets/items/items.png) -1187px -347px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -347px no-repeat;
+@extend %icon
 }
 
 .eggplant {
-  background: url(../assets/items/items.png) -132px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -347px no-repeat;
+@extend %icon
 }
 
 .eggplant_cooked {
-  background: url(../assets/items/items.png) -66px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -347px no-repeat;
+@extend %icon
 }
 
 .eggplant_seeds {
-  background: url(../assets/items/items.png) -709px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -347px no-repeat;
+@extend %icon
 }
 
 .eyebrellahat {
-  background: url(../assets/items/items.png) -198px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -347px no-repeat;
+@extend %icon
 }
 
 .feather_crow {
-  background: url(../assets/items/items.png) -264px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -413px no-repeat;
+@extend %icon
 }
 
 .feather_robin {
-  background: url(../assets/items/items.png) -396px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -413px no-repeat;
+@extend %icon
 }
 
 .feather_robin_winter {
-  background: url(../assets/items/items.png) -330px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -413px no-repeat;
+@extend %icon
 }
 
 .featherfan {
-  background: url(../assets/items/items.png) -462px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -413px no-repeat;
+@extend %icon
 }
 
 .featherhat {
-  background: url(../assets/items/items.png) -528px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -413px no-repeat;
+@extend %icon
 }
 
 .fertilizer {
-  background: url(../assets/items/items.png) -594px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -413px no-repeat;
+@extend %icon
 }
 
 .fireflies {
-  background: url(../assets/items/items.png) -660px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -413px no-repeat;
+@extend %icon
 }
 
 .firestaff {
-  background: url(../assets/items/items.png) -726px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -413px no-repeat;
+@extend %icon
 }
 
 .firesuppressor {
-  background: url(../assets/items/items.png) -312px 0px no-repeat;
+  background: url(../assets/items.png) -312px 0px no-repeat;
+  display: block;
   width: 65px;
   height: 64px;
 }
 
 .fish {
-  background: url(../assets/items/items.png) -858px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -413px no-repeat;
+@extend %icon
 }
 
 .fish_cooked {
-  background: url(../assets/items/items.png) -792px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -413px no-repeat;
+@extend %icon
 }
 
 .fishingrod {
-  background: url(../assets/items/items.png) -924px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -413px no-repeat;
+@extend %icon
 }
 
 .fishsticks {
-  background: url(../assets/items/items.png) -990px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -413px no-repeat;
+@extend %icon
 }
 
 .fishtacos {
-  background: url(../assets/items/items.png) -1056px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -413px no-repeat;
+@extend %icon
 }
 
 .flint {
-  background: url(../assets/items/items.png) -1122px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -413px no-repeat;
+@extend %icon
 }
 
 .flowerhat {
-  background: url(../assets/items/items.png) -1188px -413px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -413px no-repeat;
+@extend %icon
 }
 
 .flowersalad {
-  background: url(../assets/items/items.png) 0px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -413px no-repeat;
+@extend %icon
 }
 
 .foliage {
-  background: url(../assets/items/items.png) -66px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -413px no-repeat;
+@extend %icon
 }
 
 .footballhat {
-  background: url(../assets/items/items.png) -132px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -413px no-repeat;
+@extend %icon
 }
 
 .frogglebunwich {
-  background: url(../assets/items/items.png) -198px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -413px no-repeat;
+@extend %icon
 }
 
 .froglegs {
-  background: url(../assets/items/items.png) -330px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -479px no-repeat;
+@extend %icon
 }
 
 .froglegs_cooked {
-  background: url(../assets/items/items.png) -264px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -479px no-repeat;
+@extend %icon
 }
 
 .fruitmedley {
-  background: url(../assets/items/items.png) -396px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -479px no-repeat;
+@extend %icon
 }
 
 .gears {
-  background: url(../assets/items/items.png) -462px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -479px no-repeat;
+@extend %icon
 }
 
 .glommerflower {
-  background: url(../assets/items/items.png) -528px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -479px no-repeat;
+@extend %icon
 }
 
 .glommerfuel {
-  background: url(../assets/items/items.png) -594px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -479px no-repeat;
+@extend %icon
 }
 
 .glommerwings {
-  background: url(../assets/items/items.png) -660px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -479px no-repeat;
+@extend %icon
 }
 
 .goatmilk {
-  background: url(../assets/items/items.png) -726px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -479px no-repeat;
+@extend %icon
 }
 
 .goldenpickaxe {
-  background: url(../assets/items/items.png) -792px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -479px no-repeat;
+@extend %icon
 }
 
 .goldnugget {
-  background: url(../assets/items/items.png) -858px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -479px no-repeat;
+@extend %icon
 }
 
 .goose_feather {
-  background: url(../assets/items/items.png) -924px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -479px no-repeat;
+@extend %icon
 }
 
 .grass_umbrella {
-  background: url(../assets/items/items.png) -990px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -479px no-repeat;
+@extend %icon
 }
 
 .green_cap {
-  background: url(../assets/items/items.png) -1122px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -479px no-repeat;
+@extend %icon
 }
 
 .green_cap_cooked {
-  background: url(../assets/items/items.png) -1056px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -479px no-repeat;
+@extend %icon
 }
 
 .greenamulet {
-  background: url(../assets/items/items.png) -1188px -479px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -479px no-repeat;
+@extend %icon
 }
 
 .greengem {
-  background: url(../assets/items/items.png) 0px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -479px no-repeat;
+@extend %icon
 }
 
 .greenstaff {
-  background: url(../assets/items/items.png) -66px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -479px no-repeat;
+@extend %icon
 }
 
 .guacamole {
-  background: url(../assets/items/items.png) -132px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -479px no-repeat;
+@extend %icon
 }
 
 .guano {
-  background: url(../assets/items/items.png) -198px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -479px no-repeat;
+@extend %icon
 }
 
 .gunpowder {
-  background: url(../assets/items/items.png) -264px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -545px no-repeat;
+@extend %icon
 }
 
 .hambat {
-  background: url(../assets/items/items.png) -330px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -545px no-repeat;
+@extend %icon
 }
 
 .hammer {
-  background: url(../assets/items/items.png) -396px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -545px no-repeat;
+@extend %icon
 }
 
 .hawaiianshirt {
-  background: url(../assets/items/items.png) -462px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -545px no-repeat;
+@extend %icon
 }
 
 .healingsalve {
-  background: url(../assets/items/items.png) -528px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -545px no-repeat;
+@extend %icon
 }
 
 .health {
-  background: url(../assets/items/items.png) 0px 0px no-repeat;
+  background: url(../assets/items.png) 0px 0px no-repeat;
+  display: block;
   width: 78px;
   height: 81px;
 }
 
 .heatrock {
-  background: url(../assets/items/items.png) -594px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -545px no-repeat;
+@extend %icon
 }
 
 .honey {
-  background: url(../assets/items/items.png) -660px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -545px no-repeat;
+@extend %icon
 }
 
 .honeycomb {
-  background: url(../assets/items/items.png) -726px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -545px no-repeat;
+@extend %icon
 }
 
 .honeyham {
-  background: url(../assets/items/items.png) -792px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -545px no-repeat;
+@extend %icon
 }
 
 .honeynuggets {
-  background: url(../assets/items/items.png) -858px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -545px no-repeat;
+@extend %icon
 }
 
 .horn {
-  background: url(../assets/items/items.png) -924px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -545px no-repeat;
+@extend %icon
 }
 
 .hotchili {
-  background: url(../assets/items/items.png) -990px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -545px no-repeat;
+@extend %icon
 }
 
 .houndstooth {
-  background: url(../assets/items/items.png) -1056px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -545px no-repeat;
+@extend %icon
 }
 
 .hunger {
-  background: url(../assets/items/items.png) -80px 0px no-repeat;
+  background: url(../assets/items.png) -80px 0px no-repeat;
+  display: block;
   width: 78px;
   height: 81px;
 }
 
 .ice {
-  background: url(../assets/items/items.png) -1122px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -545px no-repeat;
+@extend %icon
 }
 
 .icebox {
-  background: url(../assets/items/items.png) -1188px -545px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -545px no-repeat;
+@extend %icon
 }
 
 .icecream {
-  background: url(../assets/items/items.png) 0px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -545px no-repeat;
+@extend %icon
 }
 
 .icehat {
-  background: url(../assets/items/items.png) -66px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -545px no-repeat;
+@extend %icon
 }
 
 .icepack {
-  background: url(../assets/items/items.png) -132px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -545px no-repeat;
+@extend %icon
 }
 
 .icestaff {
-  background: url(../assets/items/items.png) -198px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -545px no-repeat;
+@extend %icon
 }
 
 .jammypreserves {
-  background: url(../assets/items/items.png) -264px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -611px no-repeat;
+@extend %icon
 }
 
 .kabobs {
-  background: url(../assets/items/items.png) -330px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -611px no-repeat;
+@extend %icon
+}
+
+.killerbee {
+  background: url(../assets/items.png) -132px -611px no-repeat;
+@extend %icon
 }
 
 .krampus_sack {
-  background: url(../assets/items/items.png) -973px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -611px no-repeat;
+@extend %icon
 }
 
 .lantern {
-  background: url(../assets/items/items.png) -396px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -611px no-repeat;
+@extend %icon
 }
 
 .lightbulb {
-  background: url(../assets/items/items.png) -462px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -611px no-repeat;
+@extend %icon
 }
 
 .lighter {
-  background: url(../assets/items/items.png) -528px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -611px no-repeat;
+@extend %icon
 }
 
 .lightninggoathorn {
-  background: url(../assets/items/items.png) -594px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -611px no-repeat;
+@extend %icon
 }
 
 .livinglog {
-  background: url(../assets/items/items.png) -660px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -611px no-repeat;
+@extend %icon
 }
 
 .log {
-  background: url(../assets/items/items.png) -726px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -611px no-repeat;
+@extend %icon
 }
 
 .lucy {
-  background: url(../assets/items/items.png) -792px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -611px no-repeat;
+@extend %icon
 }
 
 .lureplantbulb {
-  background: url(../assets/items/items.png) -858px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -611px no-repeat;
+@extend %icon
 }
 
 .mandrake {
-  background: url(../assets/items/items.png) -924px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -611px no-repeat;
+@extend %icon
 }
 
 .mandrakesoup {
-  background: url(../assets/items/items.png) -990px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -611px no-repeat;
+@extend %icon
 }
 
 .manrabbit_tail {
-  background: url(../assets/items/items.png) -1056px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -611px no-repeat;
+@extend %icon
 }
 
 .manure {
-  background: url(../assets/items/items.png) -1122px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -611px no-repeat;
+@extend %icon
 }
 
 .marble {
-  background: url(../assets/items/items.png) -1188px -611px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -611px no-repeat;
+@extend %icon
 }
 
 .meat_dried {
-  background: url(../assets/items/items.png) 0px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -611px no-repeat;
+@extend %icon
 }
 
 .meatballs {
-  background: url(../assets/items/items.png) -66px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -611px no-repeat;
+@extend %icon
 }
 
 .minerhat {
-  background: url(../assets/items/items.png) -132px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -677px no-repeat;
+@extend %icon
 }
 
 .minotaurhorn {
-  background: url(../assets/items/items.png) -198px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -677px no-repeat;
+@extend %icon
 }
 
 .mole {
-  background: url(../assets/items/items.png) -264px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -677px no-repeat;
+@extend %icon
 }
 
 .molehat {
-  background: url(../assets/items/items.png) -330px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -677px no-repeat;
+@extend %icon
 }
 
 .monsterlasagna {
-  background: url(../assets/items/items.png) -396px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -677px no-repeat;
+@extend %icon
 }
 
 .monstermeat {
-  background: url(../assets/items/items.png) -528px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -677px no-repeat;
+@extend %icon
 }
 
 .monstermeat_dried {
-  background: url(../assets/items/items.png) -462px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -677px no-repeat;
+@extend %icon
 }
 
 .mosquito {
-  background: url(../assets/items/items.png) -594px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -677px no-repeat;
+@extend %icon
 }
 
 .mosquitosack {
-  background: url(../assets/items/items.png) -660px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -677px no-repeat;
+@extend %icon
 }
 
 .multitool_axe_pickaxe {
-  background: url(../assets/items/items.png) -726px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -677px no-repeat;
+@extend %icon
 }
 
 .nightmare_timepiece {
-  background: url(../assets/items/items.png) -792px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -677px no-repeat;
+@extend %icon
 }
 
 .nightmarefuel {
-  background: url(../assets/items/items.png) -858px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -677px no-repeat;
+@extend %icon
 }
 
 .nightstick {
-  background: url(../assets/items/items.png) -924px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -677px no-repeat;
+@extend %icon
 }
 
 .nightsword {
-  background: url(../assets/items/items.png) -990px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -677px no-repeat;
+@extend %icon
 }
 
 .nitre {
-  background: url(../assets/items/items.png) -1056px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -677px no-repeat;
+@extend %icon
 }
 
 .onemanband {
-  background: url(../assets/items/items.png) -1122px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -677px no-repeat;
+@extend %icon
 }
 
 .orangeamulet {
-  background: url(../assets/items/items.png) -1188px -677px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -677px no-repeat;
+@extend %icon
 }
 
 .orangegem {
-  background: url(../assets/items/items.png) 0px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -677px no-repeat;
+@extend %icon
 }
 
 .orangestaff {
-  background: url(../assets/items/items.png) -66px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -677px no-repeat;
+@extend %icon
 }
 
 .panflute {
-  background: url(../assets/items/items.png) -132px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -743px no-repeat;
+@extend %icon
 }
 
 .papyrus {
-  background: url(../assets/items/items.png) -198px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -743px no-repeat;
+@extend %icon
 }
 
 .perogies {
-  background: url(../assets/items/items.png) -264px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -743px no-repeat;
+@extend %icon
 }
 
 .petals {
-  background: url(../assets/items/items.png) -396px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -743px no-repeat;
+@extend %icon
 }
 
 .petals_evil {
-  background: url(../assets/items/items.png) -330px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -743px no-repeat;
+@extend %icon
 }
 
 .pickaxe {
-  background: url(../assets/items/items.png) -462px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -743px no-repeat;
+@extend %icon
 }
 
 .piggyback {
-  background: url(../assets/items/items.png) -1039px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -743px no-repeat;
+@extend %icon
 }
 
 .pigskin {
-  background: url(../assets/items/items.png) -528px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -743px no-repeat;
+@extend %icon
 }
 
 .pinecone {
-  background: url(../assets/items/items.png) -594px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -743px no-repeat;
+@extend %icon
 }
 
 .pitchfork {
-  background: url(../assets/items/items.png) -660px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -743px no-repeat;
+@extend %icon
 }
 
 .plantmeat {
-  background: url(../assets/items/items.png) -726px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -743px no-repeat;
+@extend %icon
 }
 
 .pomegranate {
-  background: url(../assets/items/items.png) -858px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -743px no-repeat;
+@extend %icon
 }
 
 .pomegranate_cooked {
-  background: url(../assets/items/items.png) -792px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -743px no-repeat;
+@extend %icon
 }
 
 .pomegranate_seeds {
-  background: url(../assets/items/items.png) -775px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -743px no-repeat;
+@extend %icon
 }
 
 .pottedfern {
-  background: url(../assets/items/items.png) -240px 0px no-repeat;
+  background: url(../assets/items.png) -240px 0px no-repeat;
+  display: block;
   width: 70px;
   height: 68px;
 }
 
 .powcake {
-  background: url(../assets/items/items.png) -924px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -743px no-repeat;
+@extend %icon
 }
 
 .pumpkin {
-  background: url(../assets/items/items.png) -1122px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -743px no-repeat;
+@extend %icon
 }
 
 .pumpkin_cooked {
-  background: url(../assets/items/items.png) -990px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -743px no-repeat;
+@extend %icon
 }
 
 .pumpkin_lantern {
-  background: url(../assets/items/items.png) -1056px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -743px no-repeat;
+@extend %icon
 }
 
 .pumpkin_seeds {
-  background: url(../assets/items/items.png) -841px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -743px no-repeat;
+@extend %icon
 }
 
 .pumpkincookie {
-  background: url(../assets/items/items.png) -1188px -743px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -809px no-repeat;
+@extend %icon
 }
 
 .purpleamulet {
-  background: url(../assets/items/items.png) 0px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -809px no-repeat;
+@extend %icon
 }
 
 .purplegem {
-  background: url(../assets/items/items.png) -66px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -809px no-repeat;
+@extend %icon
 }
 
 .rabbit {
-  background: url(../assets/items/items.png) -132px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -809px no-repeat;
+@extend %icon
 }
 
 .rabbit_beardling {
-  background: url(../assets/items/items.png) -1237px 0px no-repeat;
+  background: url(../assets/items.png) -1237px 0px no-repeat;
+  display: block;
   width: 55px;
   height: 55px;
 }
 
 .raincoat {
-  background: url(../assets/items/items.png) -198px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -809px no-repeat;
+@extend %icon
 }
 
 .rainhat {
-  background: url(../assets/items/items.png) -264px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -809px no-repeat;
+@extend %icon
 }
 
 .ratatouille {
-  background: url(../assets/items/items.png) -330px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -809px no-repeat;
+@extend %icon
 }
 
 .razor {
-  background: url(../assets/items/items.png) -396px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -809px no-repeat;
+@extend %icon
 }
 
 .red_cap {
-  background: url(../assets/items/items.png) -528px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -809px no-repeat;
+@extend %icon
 }
 
 .red_cap_cooked {
-  background: url(../assets/items/items.png) -462px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -809px no-repeat;
+@extend %icon
 }
 
 .redgem {
-  background: url(../assets/items/items.png) -594px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -809px no-repeat;
+@extend %icon
 }
 
 .reflectivevest {
-  background: url(../assets/items/items.png) -660px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -809px no-repeat;
+@extend %icon
 }
 
 .rocks {
-  background: url(../assets/items/items.png) -726px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -809px no-repeat;
+@extend %icon
 }
 
 .rope {
-  background: url(../assets/items/items.png) -792px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -809px no-repeat;
+@extend %icon
 }
 
 .rottenegg {
-  background: url(../assets/items/items.png) -858px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -809px no-repeat;
+@extend %icon
 }
 
 .ruins_bat {
-  background: url(../assets/items/items.png) -924px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -809px no-repeat;
+@extend %icon
 }
 
 .ruinshat {
-  background: url(../assets/items/items.png) -990px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -809px no-repeat;
+@extend %icon
 }
 
 .sanity {
-  background: url(../assets/items/items.png) -160px 0px no-repeat;
+  background: url(../assets/items.png) -160px 0px no-repeat;
+  display: block;
   width: 78px;
   height: 81px;
 }
 
 .sapling {
-  background: url(../assets/items/items.png) -1056px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -809px no-repeat;
+@extend %icon
 }
 
 .seeds {
-  background: url(../assets/items/items.png) -1188px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -875px no-repeat;
+@extend %icon
 }
 
 .seeds_cooked {
-  background: url(../assets/items/items.png) -1122px -809px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -809px no-repeat;
+@extend %icon
 }
 
 .sewing_kit {
-  background: url(../assets/items/items.png) 0px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -875px no-repeat;
+@extend %icon
 }
 
 .shovel {
-  background: url(../assets/items/items.png) -66px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -875px no-repeat;
+@extend %icon
 }
 
 .silk {
-  background: url(../assets/items/items.png) -132px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -875px no-repeat;
+@extend %icon
 }
 
 .slurper_pelt {
-  background: url(../assets/items/items.png) -198px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -875px no-repeat;
+@extend %icon
 }
 
 .slurtle_shellpieces {
-  background: url(../assets/items/items.png) -264px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -875px no-repeat;
+@extend %icon
 }
 
 .slurtlehat {
-  background: url(../assets/items/items.png) -330px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -875px no-repeat;
+@extend %icon
 }
 
 .slurtleslime {
-  background: url(../assets/items/items.png) -396px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -875px no-repeat;
+@extend %icon
 }
 
 .smallmeat {
-  background: url(../assets/items/items.png) -528px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -875px no-repeat;
+@extend %icon
 }
 
 .smallmeat_dried {
-  background: url(../assets/items/items.png) -462px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -875px no-repeat;
+@extend %icon
 }
 
 .spear {
-  background: url(../assets/items/items.png) -660px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -875px no-repeat;
+@extend %icon
 }
 
 .spear_wathgrithr {
-  background: url(../assets/items/items.png) -594px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -875px no-repeat;
+@extend %icon
 }
 
 .spidereggsack {
-  background: url(../assets/items/items.png) -726px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -875px no-repeat;
+@extend %icon
 }
 
 .spidergland {
-  background: url(../assets/items/items.png) -792px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -875px no-repeat;
+@extend %icon
 }
 
 .spiderhat {
-  background: url(../assets/items/items.png) -858px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -875px no-repeat;
+@extend %icon
 }
 
 .spoiled_food {
-  background: url(../assets/items/items.png) -924px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -875px no-repeat;
+@extend %icon
 }
 
 .staff_tornado {
-  background: url(../assets/items/items.png) -990px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -875px no-repeat;
+@extend %icon
 }
 
 .stinger {
-  background: url(../assets/items/items.png) -1056px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -875px no-repeat;
+@extend %icon
 }
 
 .strawhat {
-  background: url(../assets/items/items.png) -1122px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -875px no-repeat;
+@extend %icon
 }
 
 .stuffedeggplant {
-  background: url(../assets/items/items.png) -1188px -875px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -941px no-repeat;
+@extend %icon
 }
 
 .sweatervest {
-  background: url(../assets/items/items.png) 0px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -941px no-repeat;
+@extend %icon
 }
 
 .taffy {
-  background: url(../assets/items/items.png) -66px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -941px no-repeat;
+@extend %icon
 }
 
 .tallbirdegg {
-  background: url(../assets/items/items.png) -198px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -941px no-repeat;
+@extend %icon
 }
 
 .tallbirdegg_cooked {
-  background: url(../assets/items/items.png) -132px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -941px no-repeat;
+@extend %icon
 }
 
 .teleportato_box {
-  background: url(../assets/items/items.png) -264px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -941px no-repeat;
+@extend %icon
 }
 
 .teleportato_crank {
-  background: url(../assets/items/items.png) -330px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -941px no-repeat;
+@extend %icon
 }
 
 .teleportato_potato {
-  background: url(../assets/items/items.png) -396px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -941px no-repeat;
+@extend %icon
 }
 
 .teleportato_ring {
-  background: url(../assets/items/items.png) -462px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -941px no-repeat;
+@extend %icon
 }
 
 .telestaff {
-  background: url(../assets/items/items.png) -528px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -941px no-repeat;
+@extend %icon
 }
 
 .tentaclespike {
-  background: url(../assets/items/items.png) -594px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -941px no-repeat;
+@extend %icon
 }
 
 .tentaclespots {
-  background: url(../assets/items/items.png) -660px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -941px no-repeat;
+@extend %icon
 }
 
 .thulecite {
-  background: url(../assets/items/items.png) -792px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -941px no-repeat;
+@extend %icon
 }
 
 .thulecite_pieces {
-  background: url(../assets/items/items.png) -726px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -941px no-repeat;
+@extend %icon
 }
 
 .tophat {
-  background: url(../assets/items/items.png) -858px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -941px no-repeat;
+@extend %icon
 }
 
 .torch {
-  background: url(../assets/items/items.png) -924px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -941px no-repeat;
+@extend %icon
 }
 
 .trailmix {
-  background: url(../assets/items/items.png) -990px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -941px no-repeat;
+@extend %icon
 }
 
 .transistor {
-  background: url(../assets/items/items.png) -1056px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -941px no-repeat;
+@extend %icon
 }
 
 .trap {
-  background: url(../assets/items/items.png) -1188px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -1007px no-repeat;
+@extend %icon
 }
 
 .trap_teeth {
-  background: url(../assets/items/items.png) -1122px -941px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -941px no-repeat;
+@extend %icon
 }
 
 .trinket_1 {
-  background: url(../assets/items/items.png) 0px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_10 {
-  background: url(../assets/items/items.png) -594px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_11 {
-  background: url(../assets/items/items.png) -660px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_12 {
-  background: url(../assets/items/items.png) -726px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_2 {
-  background: url(../assets/items/items.png) -66px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_3 {
-  background: url(../assets/items/items.png) -132px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_4 {
-  background: url(../assets/items/items.png) -198px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_5 {
-  background: url(../assets/items/items.png) -264px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_6 {
-  background: url(../assets/items/items.png) -330px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_7 {
-  background: url(../assets/items/items.png) -396px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_8 {
-  background: url(../assets/items/items.png) -462px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -1007px no-repeat;
+@extend %icon
 }
 
 .trinket_9 {
-  background: url(../assets/items/items.png) -528px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -1007px no-repeat;
+@extend %icon
 }
 
 .trunk_cooked {
-  background: url(../assets/items/items.png) -792px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -1007px no-repeat;
+@extend %icon
 }
 
 .trunk_summer {
-  background: url(../assets/items/items.png) -858px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -1007px no-repeat;
+@extend %icon
 }
 
 .trunk_winter {
-  background: url(../assets/items/items.png) -924px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -1007px no-repeat;
+@extend %icon
 }
 
 .trunkvest_summer {
-  background: url(../assets/items/items.png) -990px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -1007px no-repeat;
+@extend %icon
 }
 
 .trunkvest_winter {
-  background: url(../assets/items/items.png) -1056px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -1007px no-repeat;
+@extend %icon
 }
 
 .turf_carpetfloor {
-  background: url(../assets/items/items.png) -1122px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -1007px no-repeat;
+@extend %icon
 }
 
 .turf_cave {
-  background: url(../assets/items/items.png) -1188px -1007px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_checkerfloor {
-  background: url(../assets/items/items.png) 0px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_deciduous {
-  background: url(../assets/items/items.png) -66px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_desertdirt {
-  background: url(../assets/items/items.png) -132px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_forest {
-  background: url(../assets/items/items.png) -198px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_fungus {
-  background: url(../assets/items/items.png) -396px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_fungus_green {
-  background: url(../assets/items/items.png) -264px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_fungus_red {
-  background: url(../assets/items/items.png) -330px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_grass {
-  background: url(../assets/items/items.png) -462px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_marsh {
-  background: url(../assets/items/items.png) -528px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_mud {
-  background: url(../assets/items/items.png) -594px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_road {
-  background: url(../assets/items/items.png) -660px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_rocky {
-  background: url(../assets/items/items.png) -726px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_savanna {
-  background: url(../assets/items/items.png) -792px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_sinkhole {
-  background: url(../assets/items/items.png) -858px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_underrock {
-  background: url(../assets/items/items.png) -924px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -1073px no-repeat;
+@extend %icon
 }
 
 .turf_woodfloor {
-  background: url(../assets/items/items.png) -990px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -1073px no-repeat;
+@extend %icon
 }
 
 .turkeydinner {
-  background: url(../assets/items/items.png) -1056px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -1073px no-repeat;
+@extend %icon
 }
 
 .twigs {
-  background: url(../assets/items/items.png) -1122px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -1073px no-repeat;
+@extend %icon
 }
 
 .umbrella {
-  background: url(../assets/items/items.png) -1188px -1073px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -1139px no-repeat;
+@extend %icon
 }
 
 .unagi {
-  background: url(../assets/items/items.png) 0px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -1139px no-repeat;
+@extend %icon
 }
 
 .waffles {
-  background: url(../assets/items/items.png) -66px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -1139px no-repeat;
+@extend %icon
 }
 
 .wall_hay_item {
-  background: url(../assets/items/items.png) -132px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -1139px no-repeat;
+@extend %icon
 }
 
 .wall_ruins_item {
-  background: url(../assets/items/items.png) -198px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -264px -1139px no-repeat;
+@extend %icon
 }
 
 .wall_stone_item {
-  background: url(../assets/items/items.png) -264px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -330px -1139px no-repeat;
+@extend %icon
 }
 
 .wall_wood_item {
-  background: url(../assets/items/items.png) -330px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -396px -1139px no-repeat;
+@extend %icon
 }
 
 .walrus_tusk {
-  background: url(../assets/items/items.png) -396px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -462px -1139px no-repeat;
+@extend %icon
 }
 
 .walrushat {
-  background: url(../assets/items/items.png) -462px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -528px -1139px no-repeat;
+@extend %icon
 }
 
 .watermelon {
-  background: url(../assets/items/items.png) -594px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -726px -1139px no-repeat;
+@extend %icon
 }
 
 .watermelon_cooked {
-  background: url(../assets/items/items.png) -528px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -594px -1139px no-repeat;
+@extend %icon
 }
 
 .watermelon_seeds {
-  background: url(../assets/items/items.png) -907px 0px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -660px -1139px no-repeat;
+@extend %icon
 }
 
 .watermelonhat {
-  background: url(../assets/items/items.png) -660px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -792px -1139px no-repeat;
+@extend %icon
 }
 
 .watermelonicle {
-  background: url(../assets/items/items.png) -726px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -858px -1139px no-repeat;
+@extend %icon
 }
 
 .wathgrithrhat {
-  background: url(../assets/items/items.png) -792px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -924px -1139px no-repeat;
+@extend %icon
 }
 
 .waxwelljournal {
-  background: url(../assets/items/items.png) -858px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -990px -1139px no-repeat;
+@extend %icon
 }
 
 .webberskull {
-  background: url(../assets/items/items.png) -924px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1056px -1139px no-repeat;
+@extend %icon
 }
 
 .wetgoop {
-  background: url(../assets/items/items.png) -990px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1122px -1139px no-repeat;
+@extend %icon
 }
 
 .winterhat {
-  background: url(../assets/items/items.png) -1056px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -1188px -1139px no-repeat;
+@extend %icon
 }
 
 .wormlight {
-  background: url(../assets/items/items.png) -1122px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) 0px -1205px no-repeat;
+@extend %icon
 }
 
 .yellowamulet {
-  background: url(../assets/items/items.png) -1188px -1139px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -66px -1205px no-repeat;
+@extend %icon
 }
 
 .yellowgem {
-  background: url(../assets/items/items.png) 0px -1205px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -132px -1205px no-repeat;
+@extend %icon
 }
 
 .yellowstaff {
-  background: url(../assets/items/items.png) -66px -1205px no-repeat;
-  width: 64px;
-  height: 64px;
+  background: url(../assets/items.png) -198px -1205px no-repeat;
+@extend %icon
 }
