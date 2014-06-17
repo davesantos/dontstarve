@@ -4,7 +4,6 @@ html(lang="en")
         title Don't Starve Cheatsheet
         link(rel='stylesheet', href='css/all.css')
 body
-
     .header
         h1(id='logo') Don't Starve Cheatsheet
     .content
@@ -13,16 +12,19 @@ body
             //- Block Mixin
             mixin item(name,id,tier)
                 li.item
-                    .icon(class=id)
-                    span= name
+                    div
+                        .icon(class=id)
+                        span= name
+                        .prefab
+                            p= id
                     .info.is-hidden
-                        p= id
+
                         if block
                             block
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
 
-            +item('Abigail\'s Flower','abigail_flower')
+            +item('Abigail\'s Flower (Wendy)','abigail_flower')
                 p hello world
             +item('Applied Horticulture','book_gardening')
             +item('Ash','ash')
@@ -69,7 +71,7 @@ body
             +item('Butterfly Wings', 'butterflywings')
             +item('Cactus Flesh', 'cactus_meat')
             +item('Cactus Flower', 'cactus_flower')
-            +item('Carpeted Flooring', 'turf_checkerfloor')
+            +item('Carpeted Flooring', 'turf_carpetfloor')
             +item('Carrot', 'carrot')
             +item('Cat Cap', 'catcoonhat')
             +item('Cat Tail', 'coontail')
@@ -258,6 +260,14 @@ body
             +item('Second-hand Dentures', 'trinket_10')
             +item('Seeds', 'seeds')
             +item('Sewing Kit', 'sewing_kit')
+                p
+                    |Crafting    Log ×1  Silk ×8  Hound's Tooth ×2
+                    |Tab Icon Dress
+                    |Tier    Alchemy Engine
+                    |Durability  5 uses
+                    |Perk    Repair degraded clothing
+                    |Stacks up to    Does not stack
+                    |DebugSpawn  "sewing_kit"
             +item('Shelmet', 'slurtlehat')
             +item('Shovel', 'shovel')
             +item('Silk', 'silk')
