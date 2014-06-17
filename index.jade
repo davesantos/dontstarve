@@ -12,12 +12,12 @@ body
             //- Block Mixin
             mixin item(name,id,tier)
                 li.item
-                    div
+                    .info
                         .icon(class=id)
                         span= name
-                        .prefab
-                            p= id
-                    .info.is-hidden
+                    .prefab
+                        p= id
+                    .pane.is-hidden
 
                         if block
                             block
