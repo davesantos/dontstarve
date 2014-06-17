@@ -14,7 +14,7 @@ search.addEventListener('keyup', function(e) {
 			listItems[i].classList.add('is-hidden');
 			expanded[i].classList.add('is-hidden');
 		} else {
-			listItems[i].classList.remove('is-hidden');
+			listItems[i].classList.remove('is-hidden', 'active');
 			expanded[i].classList.add('is-hidden');
 		}
 
