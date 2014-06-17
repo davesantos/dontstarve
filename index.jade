@@ -1,29 +1,29 @@
 doctype html
 html(lang="en")
     head
-        title Don't Starve Items
+        title Don't Starve Cheatsheet
         link(rel='stylesheet', href='css/all.css')
 body
 
-      .header
-        h1 Don't Starve Items
-
-      .content
-        input(type='search' id='s' placeholder='Item' autofocus)
-        p Food, Weapons, Armor
-
-        .info
-
+    .header
+        h1(id='logo') Don't Starve Cheatsheet
+    .content
+        input(type='search' id='s' placeholder='Food, Weapons, Armor' autofocus)
         ul#itemlist
             //- Block Mixin
-            mixin item(name,id)
-                  li.item
-                        .icon(class=id)
-                        span= name
-                        //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
-                        //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
+            mixin item(name,id,tier)
+                li.item
+                    .icon(class=id)
+                    span= name
+                    .info.is-hidden
+                        p= id
+                        if block
+                            block
+                    //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
+                    //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
 
             +item('Abigail\'s Flower','abigail_flower')
+                p hello world
             +item('Applied Horticulture','book_gardening')
             +item('Ash','ash')
             +item('Axe','axe')
@@ -322,8 +322,8 @@ body
             +item('Wooden Flooring', 'turf_woodfloor')
             +item('Wooden Wall', 'wall_wood_item')
             +item('Yellow Gem', 'yellowgem')
-
     .footer
+        p This is a test
 
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script(type="text/javascript" src="js/all.js")
