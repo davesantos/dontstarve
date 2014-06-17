@@ -22,3 +22,24 @@ search.addEventListener('keyup', function(e) {
   }
 });
 
+
+
+var item = $('.item');
+var allItems = $('#itemlist > .info');
+
+item.on('click', function() {
+	$(this).find('.info').toggleClass('is-hidden');
+	return false;
+});
+
+// (function($) {
+
+//   var allPanels = $('.accordion > dd').hide();
+
+//   $('.accordion > dt > a').click(function() {
+//     allPanels.slideUp();
+//     $(this).parent().next().slideDown();
+//     return false;
+//   });
+
+// })(jQuery);
