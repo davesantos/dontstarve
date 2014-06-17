@@ -15,10 +15,11 @@ body
                     .info
                         .icon(class=id)
                         span= name
+                    .stats
                     .prefab
                         p= id
-                    .pane.is-hidden
 
+                    .pane.is-hidden
                         if block
                             block
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
@@ -54,7 +55,7 @@ body
             +item('Blow Dart', 'blowdart_pipe')
             +item('Blue Cap', 'blue_cap')
             +item('Blue Gem', 'bluegem')
-            +item('Blueprint', 'blueprint')
+            +item('Blueprint', 'prefab_blueprint')
             +item('Boards', 'boards')
             +item('Bone Shards', 'boneshard')
             +item('Boomerang', 'boomerang')
@@ -166,7 +167,6 @@ body
             +item('Ice', 'ice')
             +item('Ice Cream', 'icecream')
             +item('Ice Cube', 'icehat')
-            +item('Ice Flingomatic', 'firesuppressor')
             +item('Ice Staff', 'icestaff')
             +item('Insulated Pack', 'icepack')
             +item('Jerky','meat_dried')
