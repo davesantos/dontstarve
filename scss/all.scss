@@ -5,8 +5,8 @@ $total-columns  : 12;             // a 12-column grid
 $column-width   : 90px;            // each column is 4em wide
 $gutter-width   : 20px;            // 1em gutters between columns
 
-$gray : #eee;
-$darkgray : #bbb;
+$gray : #bbb;
+$darkgray : yellow;
 
 $leading: 1.6em;
 
@@ -18,14 +18,13 @@ $susy: (
 
 @import "mixins";
 
-
 * {
 	@include box-sizing(border-box);
 }
 
 body {
-	padding:0 20px;
 	@include container;
+	padding:0 20px;
 	font-size:14pt;
 	line-height:$leading;
 	font-family: "Lato",Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -53,24 +52,6 @@ h3 {
 	padding-left:0
 }
 
-.header {
-	text-align:center;
-	margin-bottom:spacing(1);
-}
-
-.info {
-	height:spacing(6);
-}
-
-.item {overflow:hidden;
-	height:spacing(3);
-	span {}
-}
-.icon {
-	width:64px;
-	height:64px;
-	display:inline-block;
-}
 ul {
 	@extend %liststyle;
 	li {
@@ -78,9 +59,11 @@ ul {
 	}
 }
 
-
 .header {
+	text-align:center;
+	margin-bottom:spacing(1);
 }
+
 .content {
 	@include full;
 	h2 {
@@ -89,31 +72,58 @@ ul {
 	input {
 		display:inline;
 	}
+}
 
-	ul#itemlist {
-		@extend %liststyle;
-		li {
-			background:$gray;
-			padding: 0 4px;
-			margin:$leading/4 0;
-			transition: all 0.1s ease;
-			span {
-				// color:$darkgray;
-			}
-			&.is-hidden {
-				height: 0;
-				font-size: 0;
-				padding:0;
-				margin:0;
-				position: absolute;
-				visibility: hidden;
-			}
-			&:hover {
-				background:#bcae94;
-			}
-		}
 
+// List
+
+ul#itemlist {
+	@extend %liststyle;
+}
+
+.item {
+	overflow:hidden;
+	background:$gray;
+	margin:$leading/4 0;
+	@include transition-property(all);
+	@include transition-duration(0.1s);
+	@include transition-timing-function(ease-in);
+
+	span {
+		// color:$darkgray;
 	}
+	&:hover {
+		background:$darkgray;
+	}
+}
+
+.icon {
+	margin:5px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.info {
+	@include span(9 of 12);
+}
+.prefab {
+	@include span(last 3);
+	color:#666;
+}
+.pane {
+	height:spacing(6);
+	@include span(11 of 12);
+	@include pre(1);
+}
+.active {
+	background-color:red;
+}
+.is-hidden {
+	height: 0;
+	font-size: 0;
+	padding:0;
+	margin:0;
+	position: absolute;
+	visibility: hidden;
 }
 
 @import "items";
@@ -121,6 +131,18 @@ ul {
 .footer {
 	@include full;
 }
+
+
+* {
+     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+::selection { background: transparent;color:inherit; }
+::-moz-selection { background: transparent;color:inherit; }
 
 
 // Tablet
