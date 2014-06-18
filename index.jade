@@ -23,9 +23,11 @@ body
                             block
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
+            mixin recipe(a,b,c,d,e)
+                  p this is a recipe
 
             +item('Abigail\'s Flower (Wendy)','abigail_flower')
-                p hello world
+                +recipe()
             +item('Applied Horticulture','book_gardening')
             +item('Ash','ash')
             +item('Axe','axe')
