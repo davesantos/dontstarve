@@ -1,7 +1,7 @@
 var search = document.getElementById('s');
 var list = document.getElementById('itemlist');
 var listItems = list.querySelectorAll('li');
-var expanded = list.querySelectorAll('.info');
+var expanded = list.querySelectorAll('.pane');
 // search.focus();
 
 search.addEventListener('keyup', function(e) {
@@ -36,12 +36,13 @@ $(function(){
 
 
 var item = $('.item');
-var allItems = $('#itemlist > .info');
+var pane = $('.pane');
+// var allItems = $('#itemlist > .pane');
 
 item.on('click', function() {
 	var t = $(this);
 	t.addClass('active');
-	t.find('.info').toggleClass('is-hidden');
+	t.find(pane).toggleClass('is-hidden');
 	return false;
 });
 
