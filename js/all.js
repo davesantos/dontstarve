@@ -25,26 +25,25 @@ search.addEventListener('keyup', function(e) {
   }
 });
 
-
-$(function(){
-    $('#itemlist:[unselectable=on]').mousedown(function(event) {
-        event.preventDefault();
-        return false;
-    });
-});
-
-
-
+var allPane = $('.pane');
 var item = $('.item');
 var pane = $('.pane');
-// var allItems = $('#itemlist > .pane');
+
+function closeItem(t) {
+	allPane.addClass('is-hidden');
+	if( item.hasClass('active') ) {
+		item.removeClass('active');
+	}
+}
 
 item.on('click', function() {
 	var t = $(this);
-	t.addClass('active');
-	t.find(pane).toggleClass('is-hidden');
+	closeItem(t);
+	t.addClass('active').find(pane).toggleClass('is-hidden');
 	return false;
 });
+
+
 
 // (function($) {
 
