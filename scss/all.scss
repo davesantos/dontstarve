@@ -6,7 +6,8 @@ $column-width   : 90px;            // each column is 4em wide
 $gutter-width   : 20px;            // 1em gutters between columns
 
 $gray : #bbb;
-$darkgray : yellow;
+$darkgray : #ebdaba;
+$selected : #999;
 
 $leading: 1.6em;
 
@@ -106,6 +107,7 @@ ul#itemlist {
 	.recipe {
 		@include span(last 3);
 		color:#666;
+		text-align:right;
 	}
 	.prefab {
 		color:#666;
@@ -116,7 +118,7 @@ ul#itemlist {
 		@include pre(1);
 	}
 .active {
-	background-color:red;
+	background-color:$selected;
 }
 .is-hidden {
 	height: 0;

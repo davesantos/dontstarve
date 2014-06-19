@@ -10,12 +10,13 @@ body
         input(type='search' id='s' placeholder='Food, Weapons, Armor' autofocus)
         ul#itemlist
             //- Block Mixin
-            mixin item(name,id,tier)
+            mixin item(name,id,char)
                 li.item
                     .name
                         .icon(class=id)
                         span= name
                     .recipe
+                        .icon(class=char+'_48')
                     .data.is-hidden
                         .prefab
                             p= id
@@ -26,12 +27,10 @@ body
             mixin recipe(a,b,c,d,e)
                   p= a + '_48'
 
-
-
-            +item('Abigail\'s Flower (Wendy)','abigail_flower')
+            +item('Abigail\'s Flower','abigail_flower', 'wendy')
                 +recipe(['rope','two'])
             +item('Alchemy Engine','researchlab2')
-            +item('Applied Horticulture','book_gardening')
+            +item('Applied Horticulture','book_gardening','wickerbottom')
             +item('Ash','ash')
             +item('Axe','axe')
             +item('Azure Feather','feather_robin_winter')
@@ -41,8 +40,8 @@ body
             +item('Basic Farm', 'slow_farmplot')
             +item('Bat Bat', 'batbat')
             +item('Batilisk Wing', 'batwing')
-            +item('Battle Helm','wathgrithrhat')
-            +item('Battle Spear', 'spear_wathgrithr')
+            +item('Battle Helm','wathgrithrhat','wigfrid')
+            +item('Battle Spear', 'spear_wathgrithr','wigfrid')
             +item('Beard Hair', 'beardhair')
             +item('Bed Roll', 'bedroll_straw')
             +item('Bee','bee')
@@ -58,7 +57,7 @@ body
             +item('Birchnut', 'acorn')
             +item('Bird Trap', 'birdtrap')
             +item('Birdcage ', 'birdcage')
-            +item('Birds of the World','book_birds')
+            +item('Birds of the World','book_birds','wickerbottom')
             +item('Blow Dart', 'blowdart_pipe')
             +item('Blue Cap', 'blue_cap')
             +item('Blue Gem', 'bluegem')
@@ -91,7 +90,7 @@ body
             +item('Chest', 'treasurechest')
             +item('Chilled Amulet', 'blueamulet')
             +item('Cobblestones', 'turf_road')
-            +item('Codex Umbra', 'waxwelljournal')
+            +item('Codex Umbra', 'waxwelljournal','waxwell')
             +item('Compass', 'compass')
             +item('Construction Amulet', 'greenamulet')
             +item('Corn', 'corn')
@@ -202,7 +201,7 @@ body
             +item('Living Log', 'livinglog')
             +item('Log', 'log')
             +item('Log Suit', 'armorwood')
-            +item('Lucy the Axe','lucy')
+            +item('Lucy the Axe','lucy','woodie')
             +item('Luxury Axe', 'goldenaxe')
             +item('Luxury Fan', 'featherfan')
             +item('Magiluminescence', 'yellowamulet')
@@ -237,7 +236,7 @@ body
             +item('Night Light', 'nightlight')
             +item('Nitre', 'nitre')
             +item('Old Bell', 'bell')
-            +item('On Tentacles', 'book_tentacles')
+            +item('On Tentacles', 'book_tentacles','wickerbottom')
             +item('One-man Band', 'onemanband')
             +item('Opulent Pickaxe', 'goldenpickaxe')
             +item('Orange Gem', 'orangegem')
@@ -248,7 +247,7 @@ body
             +item('Pick/Axe', 'multitool_axe_pickaxe')
             +item('Pierogi', 'perogies')
             +item('Pig Skin', 'pigskin')
-            +item('Pile o\' Balloons', 'balloons_empty')
+            +item('Pile o\' Balloons', 'balloons_empty','wes')
             +item('Pine Cone', 'pinecone')
             +item('Pig House', 'pighouse')
             +item('Piggyback', 'piggyback')
@@ -298,7 +297,7 @@ body
             +item('Sign', 'homesign')
             +item('Silk', 'silk')
             +item('Sleep Dart', 'blowdart_sleep')
-            +item('Sleepytime Stories', 'book_sleep')
+            +item('Sleepytime Stories', 'book_sleep','wickerbottom')
             +item('Slimey Turf', 'turf_sinkhole')
             +item('Slurper', 'armor_slurper')
             +item('Slurper Pelt', 'slurper_pelt')
@@ -325,7 +324,7 @@ body
             +item('Tent', 'tent')
             +item('Tentacle Spike', 'tentaclespike')
             +item('Tentacle Spots', 'tentaclespots')
-            +item('The End is Nigh', 'book_brimstone')
+            +item('The End is Nigh', 'book_brimstone','wickerbottom')
             +item('The Lazy Explorer', 'orangestaff')
             +item('The Lazy Forager', 'orangeamulet')
             +item('Thermal Measurer', 'winterometer')
@@ -356,7 +355,7 @@ body
             +item('Weather Pain', 'staff_tornado')
             +item('Webber\'s Skull', 'webberskull')
             +item('Wet Goop', 'wetgoop')
-            +item('Willow\'s Lighter', 'lighter')
+            +item('Willow\'s Lighter', 'lighter','willow')
             +item('Winter Hat', 'winterhat')
             +item('Wooden Flooring', 'turf_woodfloor')
             +item('Wooden Wall', 'wall_wood_item')
