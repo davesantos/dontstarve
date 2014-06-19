@@ -24,10 +24,12 @@ body
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
             mixin recipe(a,b,c,d,e)
-                  p this is a recipe
+                  p= a + '_48'
+
+
 
             +item('Abigail\'s Flower (Wendy)','abigail_flower')
-                +recipe()
+                +recipe(['rope','two'])
             +item('Alchemy Engine','researchlab2')
             +item('Applied Horticulture','book_gardening')
             +item('Ash','ash')
