@@ -29,8 +29,6 @@ body {
 	line-height:$leading;
 	font-family: "Lato",Arial, "Helvetica Neue", Helvetica, sans-serif;
 	// background: url(http://griddle.it/1300-12-20) repeat-y center top;
-	// padding-left: $gutter-width/2;
-	// padding-right: $gutter-width/2;
 }
 
 a {}
@@ -97,23 +95,26 @@ ul#itemlist {
 	}
 }
 
-.icon {
-	margin:5px;
-	display:inline-block;
-	vertical-align:middle;
-}
-.data {
-	@include span(9 of 12);
-}
-.prefab {
-	@include span(last 3);
-	color:#666;
-}
-.pane {
-	height:spacing(6);
-	@include span(11 of 12);
-	@include pre(1);
-}
+	.icon {
+		margin:5px;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	.name {
+		@include span(8);
+	}
+	.recipe {
+		@include span(last 3);
+		color:#666;
+	}
+	.prefab {
+		color:#666;
+	}
+	.data {
+		height:spacing(6);
+		@include span(11 of 12);
+		@include pre(1);
+	}
 .active {
 	background-color:red;
 }

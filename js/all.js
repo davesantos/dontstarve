@@ -1,7 +1,7 @@
 var search = document.getElementById('s');
 var list = document.getElementById('itemlist');
 var listItems = list.querySelectorAll('li');
-var expanded = list.querySelectorAll('.pane');
+var expanded = list.querySelectorAll('.data');
 // search.focus();
 
 search.addEventListener('keyup', function(e) {
@@ -25,12 +25,11 @@ search.addEventListener('keyup', function(e) {
   }
 });
 
-var allPane = $('.pane');
 var item = $('.item');
-var pane = $('.pane');
+var dataPane = $('.data');
 
 function closeItem(t) {
-	allPane.addClass('is-hidden');
+	dataPane.addClass('is-hidden');
 	if( item.hasClass('active') ) {
 		item.removeClass('active');
 	}
@@ -39,7 +38,7 @@ function closeItem(t) {
 item.on('click', function() {
 	var t = $(this);
 	closeItem(t);
-	t.addClass('active').find(pane).toggleClass('is-hidden');
+	t.addClass('active').find(dataPane).toggleClass('is-hidden');
 	return false;
 });
 

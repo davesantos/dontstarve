@@ -12,13 +12,13 @@ body
             //- Block Mixin
             mixin item(name,id,tier)
                 li.item
-                    .data
+                    .name
                         .icon(class=id)
                         span= name
-                    .prefab
-                        p= id
-
-                    .pane.is-hidden
+                    .recipe
+                    .data.is-hidden
+                        .prefab
+                            p= id
                         if block
                             block
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
@@ -201,6 +201,7 @@ body
             +item('Log', 'log')
             +item('Log Suit', 'armorwood')
             +item('Lucy the Axe','lucy')
+            +item('Luxury Axe', 'goldenaxe')
             +item('Luxury Fan', 'featherfan')
             +item('Magiluminescence', 'yellowamulet')
             +item('Mandrake', 'mandrake')
@@ -236,6 +237,7 @@ body
             +item('Old Bell', 'bell')
             +item('On Tentacles', 'book_tentacles')
             +item('One-man Band', 'onemanband')
+            +item('Opulent Pickaxe', 'goldenpickaxe')
             +item('Orange Gem', 'orangegem')
             +item('Pan Flute', 'panflute')
             +item('Papyrus', 'papyrus')
@@ -270,6 +272,7 @@ body
             +item('Red Cap', 'red_cap')
             +item('Red Gem', 'redgem')
             +item('Redbird', 'robin')
+            +item('Regal Shovel', 'goldenshovel')
             +item('Ring Thing', 'teleportato_ring')
             +item('Rocks', 'rocks')
             +item('Rocky Turf', 'turf_rocky')
@@ -295,8 +298,8 @@ body
             +item('Sleep Dart', 'blowdart_sleep')
             +item('Sleepytime Stories', 'book_sleep')
             +item('Slimey Turf', 'turf_sinkhole')
-            +item('Slurper Pelt', 'slurper_pelt')
             +item('Slurper', 'armor_slurper')
+            +item('Slurper Pelt', 'slurper_pelt')
             +item('Slurtle Slime', 'slurtleslime')
             +item('Small Jerky', 'smallmeat_dried')
             +item('Snowbird', 'robin_winter')
