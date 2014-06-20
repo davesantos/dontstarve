@@ -1,6 +1,7 @@
 var search = document.getElementById('s');
 var list = document.getElementById('itemlist');
 var listItems = list.querySelectorAll('li');
+var searchArea = list.querySelectorAll('.name')
 var expanded = list.querySelectorAll('.data');
 // search.focus();
 
@@ -8,7 +9,7 @@ search.addEventListener('keyup', function(e) {
   var val = new RegExp(e.target.value, 'gi');
   for(var i=0; i<listItems.length; i++) {
 	if( e.target.value.length > 0) {
-	  var text = listItems[i].innerHTML;
+	  var text = searchArea[i].innerHTML;
 
 		if( !text.match(val)) {
 			listItems[i].classList.add('is-hidden');
