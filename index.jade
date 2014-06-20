@@ -12,11 +12,12 @@ body
             //- Block Mixin
             mixin item(name,id,char)
                 li.item
-                    .name
-                        .icon(class=id)
-                        span= name
-                    .recipe
-                        .icon(class=char+'_48')
+                    .top
+                        .name
+                            .icon(class=id)
+                            span= name
+                        .recipe
+                            .icon(class=char+'_48')
                     .data.is-hidden
                         .prefab
                             p= id

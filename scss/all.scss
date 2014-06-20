@@ -81,7 +81,7 @@ ul#itemlist {
 }
 
 .item {
-	overflow:hidden;
+ 	overflow:hidden;
 	background:$gray;
 	margin:$leading/4 0;
 	@include transition-property(all);
@@ -95,6 +95,12 @@ ul#itemlist {
 		background:$darkgray;
 	}
 }
+
+	.top {
+		overflow:hidden;
+		border-bottom:2px solid $gray;
+
+	}
 
 	.icon {
 		margin:5px;
