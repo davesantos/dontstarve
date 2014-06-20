@@ -6,8 +6,8 @@ $column-width   : 90px;            // each column is 4em wide
 $gutter-width   : 20px;            // 1em gutters between columns
 
 $gray : #bbb;
-$darkgray : #ebdaba;
-$selected : #999;
+$hover-color : #f0d7b5;
+$selected-color : #96bfb2;
 
 $leading: 1.6em;
 
@@ -89,10 +89,10 @@ ul#itemlist {
 	@include transition-timing-function(ease-in);
 
 	span {
-		// color:$darkgray;
+		// color:$hover-color;
 	}
 	&:hover {
-		background:$darkgray;
+		background:$hover-color;
 	}
 }
 
@@ -124,7 +124,9 @@ ul#itemlist {
 		@include pre(1);
 	}
 .active {
-	background-color:$selected;
+	.top {
+		background-color:$selected-color;
+	}
 }
 .is-hidden {
 	height: 0;
