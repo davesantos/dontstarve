@@ -5,9 +5,10 @@ html(lang="en")
         link(rel='stylesheet', href='css/all.css')
 body
     .header
-        h1(id='logo') Don't Starve Cheatsheet
-    .content
         input(type='search' id='s' placeholder='Food, Weapons, Armor' autofocus)
+        h1(id='logo') Don't Starve Cheatsheet
+
+    .content
         ul#itemlist
             //- Block Mixin
             mixin item(name,id,char)
@@ -361,8 +362,6 @@ body
             +item('Wooden Flooring', 'turf_woodfloor')
             +item('Wooden Wall', 'wall_wood_item')
             +item('Yellow Gem', 'yellowgem')
-    .footer
-        p This is a test
 
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script(type="text/javascript" src="js/all.js")

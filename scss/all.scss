@@ -25,8 +25,8 @@ $susy: (
 
 body {
 	@include container;
+	@include font-size(18px);
 	padding:0 20px;
-	font-size:14pt;
 	line-height:$leading;
 	font-family: "Lato",Arial, "Helvetica Neue", Helvetica, sans-serif;
 	// background: url(http://griddle.it/1300-12-20) repeat-y center top;
@@ -59,9 +59,24 @@ ul {
 }
 
 .header {
-	text-align:center;
-	margin-bottom:spacing(1);
+	margin-top:spacing(2);
 }
+
+#logo {
+	@include span(last 3);
+	font-size:inherit;
+}
+input[type="search"] {
+	@include span(8);
+	@include font-size(24px);
+	height:spacing(2);
+	border:none;
+ 	font-weight: bold;
+	&:focus {
+		outline: none;
+	}
+}
+
 
 .content {
 	@include full;
