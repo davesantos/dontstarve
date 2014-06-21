@@ -11,14 +11,30 @@ body
     .content
         ul#itemlist
             //- Block Mixin
-            mixin item(name,id,char)
+
+            //- mixin recipe(a,b,c,d,e)
+            //-       p= a + '_48'
+            mixin recipe(a,b,c,d,e)
+                if (a)
+                    .icon(class=a+'_48')
+                if (b)
+                    .icon(class=b+'_48')
+                if (c)
+                    .icon(class=c+'_48')
+                if (d)
+                    .icon(class=d+'_48')
+                if (e)
+                    .icon(class=e+'_48')
+                //- span= a + '_48'
+
+            mixin item(name,id,a,b,c,d,e)
                 li.item
                     .top
                         .name
                             .icon(class=id)
                             span= name
                         .recipe
-                            .icon(class=char+'_48')
+                            +recipe(a,b,c,d,e)
                     .data.is-hidden
                         .prefab
                             p= id
@@ -26,11 +42,10 @@ body
                             block
                     //- Durability, Health, Sanity, Hunger, id, water resistance, damage, perk, tab, tier
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
-            mixin recipe(a,b,c,d,e)
-                  p= a + '_48'
 
-            +item('Abigail\'s Flower','abigail_flower', 'wendy')
-                +recipe(['rope','two'])
+
+            +item('Abigail\'s Flower','abigail_flower','cutgrass','transistor','rope','boards')
+            +item('Abigail\'s Flower','abigail_flower', 'wendy','rope')
             +item('Alchemy Engine','researchlab2')
             +item('Applied Horticulture','book_gardening','wickerbottom')
             +item('Ash','ash')

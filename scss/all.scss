@@ -110,23 +110,16 @@ ul#itemlist {
 		background:$hover-color;
 	}
 }
-
-	.top {
-		overflow:hidden;
-		border-bottom:2px solid $gray;
-
-	}
-
 	.icon {
 		margin:5px;
 		display:inline-block;
 		vertical-align:middle;
 	}
 	.name {
-		@include span(8);
+		@include span(4);
 	}
 	.recipe {
-		@include span(last 3);
+		@include span(last 8);
 		color:#666;
 		text-align:right;
 	}
@@ -141,6 +134,7 @@ ul#itemlist {
 .active {
 	.top {
 		background-color:$selected-color;
+		overflow:hidden;
 	}
 }
 .is-hidden {
