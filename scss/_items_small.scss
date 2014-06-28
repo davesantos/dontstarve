@@ -1,1949 +1,1925 @@
 %icon_small {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
 }
-
-
-.abigail_flower_48 {
-  background: url(../assets/items_small.png) -201px 0px no-repeat;
-  @extend %icon_small;
-
-}
-
-.acorn_48 {
-  background: url(../assets/items_small.png) -251px 0px no-repeat;
+.abigail_flower_32 {
+  background: url(../assets/items_small.png) -35px 0px no-repeat;
   @extend %icon_small;
 }
 
-.acorn_cooked_48 {
-  background: url(../assets/items_small.png) -301px 0px no-repeat;
+.acorn_32 {
+  background: url(../assets/items_small.png) 0px -34px no-repeat;
   @extend %icon_small;
 }
 
-.amulet_48 {
-  background: url(../assets/items_small.png) -351px 0px no-repeat;
+.acorn_cooked_32 {
+  background: url(../assets/items_small.png) -34px -34px no-repeat;
   @extend %icon_small;
 }
 
-.armor_sanity_48 {
-  background: url(../assets/items_small.png) -401px 0px no-repeat;
+.amulet_32 {
+  background: url(../assets/items_small.png) -69px 0px no-repeat;
   @extend %icon_small;
 }
 
-.armor_slurper_48 {
-  background: url(../assets/items_small.png) -350px -902px no-repeat;
-  width: 47px;
-  height: 47px;
-}
-
-.armordragonfly_48 {
-  background: url(../assets/items_small.png) -451px 0px no-repeat;
+.armor_sanity_32 {
+  background: url(../assets/items_small.png) -69px -34px no-repeat;
   @extend %icon_small;
 }
 
-.armorgrass_48 {
-  background: url(../assets/items_small.png) -501px 0px no-repeat;
+.armor_slurper_32 {
+  background: url(../assets/items_small.png) 0px -68px no-repeat;
   @extend %icon_small;
 }
 
-.armormarble_48 {
-  background: url(../assets/items_small.png) -551px 0px no-repeat;
+.armordragonfly_32 {
+  background: url(../assets/items_small.png) -34px -68px no-repeat;
   @extend %icon_small;
 }
 
-.armorruins_48 {
-  background: url(../assets/items_small.png) -601px 0px no-repeat;
+.armorgrass_32 {
+  background: url(../assets/items_small.png) -68px -68px no-repeat;
   @extend %icon_small;
 }
 
-.armorslurper_48 {
-  background: url(../assets/items_small.png) -651px 0px no-repeat;
+.armormarble_32 {
+  background: url(../assets/items_small.png) -103px 0px no-repeat;
   @extend %icon_small;
 }
 
-.armorsnurtleshell_48 {
-  background: url(../assets/items_small.png) -701px 0px no-repeat;
+.armorruins_32 {
+  background: url(../assets/items_small.png) -103px -34px no-repeat;
   @extend %icon_small;
 }
 
-.armorwood_48 {
-  background: url(../assets/items_small.png) -751px 0px no-repeat;
+.armorslurper_32 {
+  background: url(../assets/items_small.png) -103px -68px no-repeat;
   @extend %icon_small;
 }
 
-.ash_48 {
-  background: url(../assets/items_small.png) -801px 0px no-repeat;
-  @extend %icon_small;
-}
-
-.axe_48 {
-  background: url(../assets/items_small.png) -851px 0px no-repeat;
-  @extend %icon_small;
-}
-
-.backpack_48 {
-  background: url(../assets/items_small.png) -901px 0px no-repeat;
-  @extend %icon_small;
-}
-
-.baconeggs_48 {
-  background: url(../assets/items_small.png) -951px 0px no-repeat;
-  @extend %icon_small;
-}
-
-.balloons_empty_48 {
-  background: url(../assets/items_small.png) -1001px 0px no-repeat;
-  @extend %icon_small;
-}
-
-.bandage_48 {
-  background: url(../assets/items_small.png) 0px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.batbat_48 {
-  background: url(../assets/items_small.png) -50px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.batwing_48 {
-  background: url(../assets/items_small.png) -100px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.batwing_cooked_48 {
-  background: url(../assets/items_small.png) -150px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beardhair_48 {
-  background: url(../assets/items_small.png) -200px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bearger_fur_48 {
-  background: url(../assets/items_small.png) -250px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beargervest_48 {
-  background: url(../assets/items_small.png) -300px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bedroll_furry_48 {
-  background: url(../assets/items_small.png) -350px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bedroll_straw_48 {
-  background: url(../assets/items_small.png) -400px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bee_48 {
-  background: url(../assets/items_small.png) -450px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beebox_48 {
-  background: url(../assets/items_small.png) -500px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beefalohat_48 {
-  background: url(../assets/items_small.png) -550px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beefalowool_48 {
-  background: url(../assets/items_small.png) -600px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beehat_48 {
-  background: url(../assets/items_small.png) -650px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.beemine_48 {
-  background: url(../assets/items_small.png) -700px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bell_48 {
-  background: url(../assets/items_small.png) -750px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.berries_48 {
-  background: url(../assets/items_small.png) -800px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.berries_cooked_48 {
-  background: url(../assets/items_small.png) -850px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bird_egg_48 {
-  background: url(../assets/items_small.png) -900px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.bird_egg_cooked_48 {
-  background: url(../assets/items_small.png) -950px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.birdcage_48 {
-  background: url(../assets/items_small.png) -1000px -52px no-repeat;
-  @extend %icon_small;
-}
-
-.birdtrap_48 {
+.armorsnurtleshell_32 {
   background: url(../assets/items_small.png) 0px -102px no-repeat;
   @extend %icon_small;
 }
 
-.blowdart_fire_48 {
-  background: url(../assets/items_small.png) -50px -102px no-repeat;
+.armorwood_32 {
+  background: url(../assets/items_small.png) -34px -102px no-repeat;
   @extend %icon_small;
 }
 
-.blowdart_pipe_48 {
-  background: url(../assets/items_small.png) -100px -102px no-repeat;
+.ash_32 {
+  background: url(../assets/items_small.png) -68px -102px no-repeat;
   @extend %icon_small;
 }
 
-.blowdart_sleep_48 {
-  background: url(../assets/items_small.png) -150px -102px no-repeat;
+.axe_32 {
+  background: url(../assets/items_small.png) -102px -102px no-repeat;
   @extend %icon_small;
 }
 
-.blue_cap_48 {
-  background: url(../assets/items_small.png) -200px -102px no-repeat;
+.backpack_32 {
+  background: url(../assets/items_small.png) -137px 0px no-repeat;
   @extend %icon_small;
 }
 
-.blue_cap_cooked_48 {
-  background: url(../assets/items_small.png) -250px -102px no-repeat;
+.baconeggs_32 {
+  background: url(../assets/items_small.png) -137px -34px no-repeat;
   @extend %icon_small;
 }
 
-.blueamulet_48 {
-  background: url(../assets/items_small.png) -300px -102px no-repeat;
+.balloons_empty_32 {
+  background: url(../assets/items_small.png) -137px -68px no-repeat;
   @extend %icon_small;
 }
 
-.bluegem_48 {
-  background: url(../assets/items_small.png) -350px -102px no-repeat;
+.bandage_32 {
+  background: url(../assets/items_small.png) -137px -102px no-repeat;
   @extend %icon_small;
 }
 
-.blueprint_48 {
-  background: url(../assets/items_small.png) -400px -102px no-repeat;
+.batbat_32 {
+  background: url(../assets/items_small.png) 0px -136px no-repeat;
   @extend %icon_small;
 }
 
-.boards_48 {
-  background: url(../assets/items_small.png) -450px -102px no-repeat;
+.batwing_32 {
+  background: url(../assets/items_small.png) -34px -136px no-repeat;
   @extend %icon_small;
 }
 
-.boneshard_48 {
-  background: url(../assets/items_small.png) -500px -102px no-repeat;
+.batwing_cooked_32 {
+  background: url(../assets/items_small.png) -68px -136px no-repeat;
   @extend %icon_small;
 }
 
-.bonestew_48 {
-  background: url(../assets/items_small.png) -550px -102px no-repeat;
+.beardhair_32 {
+  background: url(../assets/items_small.png) -102px -136px no-repeat;
   @extend %icon_small;
 }
 
-.book_birds_48 {
-  background: url(../assets/items_small.png) -600px -102px no-repeat;
+.bearger_fur_32 {
+  background: url(../assets/items_small.png) -136px -136px no-repeat;
   @extend %icon_small;
 }
 
-.book_brimstone_48 {
-  background: url(../assets/items_small.png) -650px -102px no-repeat;
+.beargervest_32 {
+  background: url(../assets/items_small.png) -171px 0px no-repeat;
   @extend %icon_small;
 }
 
-.book_gardening_48 {
-  background: url(../assets/items_small.png) -700px -102px no-repeat;
+.bedroll_furry_32 {
+  background: url(../assets/items_small.png) -171px -34px no-repeat;
   @extend %icon_small;
 }
 
-.book_sleep_48 {
-  background: url(../assets/items_small.png) -750px -102px no-repeat;
-  width: 47px;
-  height: 48px;
-}
-
-.book_tentacles_48 {
-  background: url(../assets/items_small.png) -799px -102px no-repeat;
-  @extend %icon_small;
-}
-
-.boomerang_48 {
-  background: url(../assets/items_small.png) -849px -102px no-repeat;
-  @extend %icon_small;
-}
-
-.bugnet_48 {
-  background: url(../assets/items_small.png) -899px -102px no-repeat;
-  @extend %icon_small;
-}
-
-.bushhat_48 {
-  background: url(../assets/items_small.png) -949px -102px no-repeat;
-  @extend %icon_small;
-}
-
-.butter_48 {
-  background: url(../assets/items_small.png) -999px -102px no-repeat;
-  @extend %icon_small;
-}
-
-.butterfly_48 {
-  background: url(../assets/items_small.png) 0px -152px no-repeat;
-  @extend %icon_small;
-}
-
-.butterflymuffin_48 {
-  background: url(../assets/items_small.png) -50px -152px no-repeat;
+.bedroll_straw_32 {
+  background: url(../assets/items_small.png) -171px -68px no-repeat;
   @extend %icon_small;
 }
 
-.butterflywings_48 {
-  background: url(../assets/items_small.png) -100px -152px no-repeat;
+.bee_32 {
+  background: url(../assets/items_small.png) -171px -102px no-repeat;
   @extend %icon_small;
 }
 
-.cactus_flower_48 {
-  background: url(../assets/items_small.png) -150px -152px no-repeat;
+.beebox_32 {
+  background: url(../assets/items_small.png) -171px -136px no-repeat;
   @extend %icon_small;
 }
 
-.cactus_meat_48 {
-  background: url(../assets/items_small.png) -200px -152px no-repeat;
+.beefalohat_32 {
+  background: url(../assets/items_small.png) 0px -170px no-repeat;
   @extend %icon_small;
 }
 
-.cactus_meat_cooked_48 {
-  background: url(../assets/items_small.png) -250px -152px no-repeat;
+.beefalowool_32 {
+  background: url(../assets/items_small.png) -34px -170px no-repeat;
   @extend %icon_small;
 }
 
-.campfire_48 {
-  background: url(../assets/items_small.png) -300px -152px no-repeat;
+.beehat_32 {
+  background: url(../assets/items_small.png) -68px -170px no-repeat;
   @extend %icon_small;
 }
 
-.cane_48 {
-  background: url(../assets/items_small.png) -350px -152px no-repeat;
+.beemine_32 {
+  background: url(../assets/items_small.png) -102px -170px no-repeat;
   @extend %icon_small;
 }
 
-.carrot_48 {
-  background: url(../assets/items_small.png) -400px -152px no-repeat;
+.bell_32 {
+  background: url(../assets/items_small.png) -136px -170px no-repeat;
   @extend %icon_small;
 }
 
-.carrot_cooked_48 {
-  background: url(../assets/items_small.png) -450px -152px no-repeat;
+.berries_32 {
+  background: url(../assets/items_small.png) -170px -170px no-repeat;
   @extend %icon_small;
 }
 
-.carrot_seeds_48 {
-  background: url(../assets/items_small.png) -500px -152px no-repeat;
+.berries_cooked_32 {
+  background: url(../assets/items_small.png) -205px 0px no-repeat;
   @extend %icon_small;
 }
 
-.catcoonhat_48 {
-  background: url(../assets/items_small.png) -550px -152px no-repeat;
+.bird_egg_32 {
+  background: url(../assets/items_small.png) -205px -34px no-repeat;
   @extend %icon_small;
 }
 
-.cave_banana_48 {
-  background: url(../assets/items_small.png) -600px -152px no-repeat;
+.bird_egg_cooked_32 {
+  background: url(../assets/items_small.png) -205px -68px no-repeat;
   @extend %icon_small;
 }
 
-.cave_banana_cooked_48 {
-  background: url(../assets/items_small.png) -650px -152px no-repeat;
+.birdcage_32 {
+  background: url(../assets/items_small.png) -205px -102px no-repeat;
   @extend %icon_small;
 }
 
-.charcoal_48 {
-  background: url(../assets/items_small.png) -700px -152px no-repeat;
+.birdtrap_32 {
+  background: url(../assets/items_small.png) -205px -136px no-repeat;
   @extend %icon_small;
 }
 
-.chester_eyebone_48 {
-  background: url(../assets/items_small.png) -750px -152px no-repeat;
+.blowdart_fire_32 {
+  background: url(../assets/items_small.png) -205px -170px no-repeat;
   @extend %icon_small;
 }
 
-.compass_48 {
-  background: url(../assets/items_small.png) -800px -152px no-repeat;
+.blowdart_pipe_32 {
+  background: url(../assets/items_small.png) 0px -204px no-repeat;
   @extend %icon_small;
 }
 
-.cookedmandrake_48 {
-  background: url(../assets/items_small.png) -850px -152px no-repeat;
+.blowdart_sleep_32 {
+  background: url(../assets/items_small.png) -34px -204px no-repeat;
   @extend %icon_small;
 }
 
-.cookedmonstermeat_48 {
-  background: url(../assets/items_small.png) -900px -152px no-repeat;
+.blue_cap_32 {
+  background: url(../assets/items_small.png) -68px -204px no-repeat;
   @extend %icon_small;
 }
 
-.cookedsmallmeat_48 {
-  background: url(../assets/items_small.png) -950px -152px no-repeat;
+.blue_cap_cooked_32 {
+  background: url(../assets/items_small.png) -102px -204px no-repeat;
   @extend %icon_small;
 }
 
-.cookpot_48 {
-  background: url(../assets/items_small.png) -1000px -152px no-repeat;
+.blueamulet_32 {
+  background: url(../assets/items_small.png) -136px -204px no-repeat;
   @extend %icon_small;
 }
 
-.coontail_48 {
-  background: url(../assets/items_small.png) 0px -202px no-repeat;
+.bluegem_32 {
+  background: url(../assets/items_small.png) -170px -204px no-repeat;
   @extend %icon_small;
 }
 
-.corn_48 {
-  background: url(../assets/items_small.png) -50px -202px no-repeat;
+.blueprint_32 {
+  background: url(../assets/items_small.png) -204px -204px no-repeat;
   @extend %icon_small;
 }
 
-.corn_cooked_48 {
-  background: url(../assets/items_small.png) -100px -202px no-repeat;
+.boards_32 {
+  background: url(../assets/items_small.png) -239px 0px no-repeat;
   @extend %icon_small;
 }
 
-.corn_seeds_48 {
-  background: url(../assets/items_small.png) -150px -202px no-repeat;
+.boneshard_32 {
+  background: url(../assets/items_small.png) -239px -34px no-repeat;
   @extend %icon_small;
 }
 
-.crow_48 {
-  background: url(../assets/items_small.png) -200px -202px no-repeat;
+.bonestew_32 {
+  background: url(../assets/items_small.png) -239px -68px no-repeat;
   @extend %icon_small;
 }
 
-.cutgrass_48 {
-  background: url(../assets/items_small.png) -250px -202px no-repeat;
+.book_birds_32 {
+  background: url(../assets/items_small.png) -239px -102px no-repeat;
   @extend %icon_small;
 }
 
-.cutlichen_48 {
-  background: url(../assets/items_small.png) -300px -202px no-repeat;
+.book_brimstone_32 {
+  background: url(../assets/items_small.png) -239px -136px no-repeat;
   @extend %icon_small;
 }
 
-.cutreeds_48 {
-  background: url(../assets/items_small.png) -350px -202px no-repeat;
+.book_gardening_32 {
+  background: url(../assets/items_small.png) -239px -170px no-repeat;
   @extend %icon_small;
 }
 
-.cutstone_48 {
-  background: url(../assets/items_small.png) -400px -202px no-repeat;
+.book_sleep_32 {
+  background: url(../assets/items_small.png) -239px -204px no-repeat;
   @extend %icon_small;
 }
 
-.deerclops_eyeball_48 {
-  background: url(../assets/items_small.png) -450px -202px no-repeat;
+.book_tentacles_32 {
+  background: url(../assets/items_small.png) 0px -238px no-repeat;
   @extend %icon_small;
 }
 
-.diviningrod_48 {
-  background: url(../assets/items_small.png) -500px -202px no-repeat;
+.boomerang_32 {
+  background: url(../assets/items_small.png) -34px -238px no-repeat;
   @extend %icon_small;
 }
 
-.dragon_scales_48 {
-  background: url(../assets/items_small.png) -550px -202px no-repeat;
+.bugnet_32 {
+  background: url(../assets/items_small.png) -68px -238px no-repeat;
   @extend %icon_small;
 }
 
-.dragonflychest_48 {
-  background: url(../assets/items_small.png) -600px -202px no-repeat;
-  width: 47px;
-  height: 48px;
-}
-
-.dragonfruit_48 {
-  background: url(../assets/items_small.png) -649px -202px no-repeat;
-  @extend %icon_small;
-}
-
-.dragonfruit_cooked_48 {
-  background: url(../assets/items_small.png) -699px -202px no-repeat;
+.bushhat_32 {
+  background: url(../assets/items_small.png) -102px -238px no-repeat;
   @extend %icon_small;
 }
 
-.dragonfruit_seeds_48 {
-  background: url(../assets/items_small.png) -749px -202px no-repeat;
+.butter_32 {
+  background: url(../assets/items_small.png) -136px -238px no-repeat;
   @extend %icon_small;
 }
 
-.dragonpie_48 {
-  background: url(../assets/items_small.png) -799px -202px no-repeat;
+.butterfly_32 {
+  background: url(../assets/items_small.png) -170px -238px no-repeat;
   @extend %icon_small;
 }
 
-.drumstick_48 {
-  background: url(../assets/items_small.png) -849px -202px no-repeat;
+.butterflymuffin_32 {
+  background: url(../assets/items_small.png) -204px -238px no-repeat;
   @extend %icon_small;
 }
 
-.drumstick_cooked_48 {
-  background: url(../assets/items_small.png) -899px -202px no-repeat;
+.butterflywings_32 {
+  background: url(../assets/items_small.png) -238px -238px no-repeat;
   @extend %icon_small;
 }
 
-.dug_berrybush2_48 {
-  background: url(../assets/items_small.png) -949px -202px no-repeat;
+.cactus_flower_32 {
+  background: url(../assets/items_small.png) -273px 0px no-repeat;
   @extend %icon_small;
 }
 
-.dug_berrybush_48 {
-  background: url(../assets/items_small.png) -999px -202px no-repeat;
+.cactus_meat_32 {
+  background: url(../assets/items_small.png) -273px -34px no-repeat;
   @extend %icon_small;
 }
 
-.dug_grass_48 {
-  background: url(../assets/items_small.png) 0px -252px no-repeat;
+.cactus_meat_cooked_32 {
+  background: url(../assets/items_small.png) -273px -68px no-repeat;
   @extend %icon_small;
 }
 
-.dug_marsh_bush_48 {
-  background: url(../assets/items_small.png) -50px -252px no-repeat;
+.campfire_32 {
+  background: url(../assets/items_small.png) -273px -102px no-repeat;
   @extend %icon_small;
 }
 
-.durian_48 {
-  background: url(../assets/items_small.png) -100px -252px no-repeat;
+.cane_32 {
+  background: url(../assets/items_small.png) -273px -136px no-repeat;
   @extend %icon_small;
 }
 
-.durian_cooked_48 {
-  background: url(../assets/items_small.png) -150px -252px no-repeat;
+.carrot_32 {
+  background: url(../assets/items_small.png) -273px -170px no-repeat;
   @extend %icon_small;
 }
 
-.durian_seeds_48 {
-  background: url(../assets/items_small.png) -200px -252px no-repeat;
+.carrot_cooked_32 {
+  background: url(../assets/items_small.png) -273px -204px no-repeat;
   @extend %icon_small;
 }
 
-.earmuffshat_48 {
-  background: url(../assets/items_small.png) -250px -252px no-repeat;
+.carrot_seeds_32 {
+  background: url(../assets/items_small.png) -273px -238px no-repeat;
   @extend %icon_small;
 }
 
-.eel_48 {
-  background: url(../assets/items_small.png) -300px -252px no-repeat;
+.catcoonhat_32 {
+  background: url(../assets/items_small.png) 0px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eel_cooked_48 {
-  background: url(../assets/items_small.png) -350px -252px no-repeat;
+.cave_banana_32 {
+  background: url(../assets/items_small.png) -34px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eggplant_48 {
-  background: url(../assets/items_small.png) -400px -252px no-repeat;
+.cave_banana_cooked_32 {
+  background: url(../assets/items_small.png) -68px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eggplant_cooked_48 {
-  background: url(../assets/items_small.png) -450px -252px no-repeat;
+.charcoal_32 {
+  background: url(../assets/items_small.png) -102px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eggplant_seeds_48 {
-  background: url(../assets/items_small.png) -500px -252px no-repeat;
+.chester_eyebone_32 {
+  background: url(../assets/items_small.png) -136px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eyebrellahat_48 {
-  background: url(../assets/items_small.png) -550px -252px no-repeat;
+.compass_32 {
+  background: url(../assets/items_small.png) -170px -272px no-repeat;
   @extend %icon_small;
 }
 
-.eyeturret_item_48 {
-  background: url(../assets/items_small.png) -600px -252px no-repeat;
+.cookedmandrake_32 {
+  background: url(../assets/items_small.png) -204px -272px no-repeat;
   @extend %icon_small;
 }
 
-.fast_farmplot_48 {
-  background: url(../assets/items_small.png) -650px -252px no-repeat;
+.cookedmonstermeat_32 {
+  background: url(../assets/items_small.png) -238px -272px no-repeat;
   @extend %icon_small;
 }
 
-.feather_crow_48 {
-  background: url(../assets/items_small.png) -700px -252px no-repeat;
+.cookedsmallmeat_32 {
+  background: url(../assets/items_small.png) -272px -272px no-repeat;
   @extend %icon_small;
 }
 
-.feather_robin_48 {
-  background: url(../assets/items_small.png) -750px -252px no-repeat;
+.cookpot_32 {
+  background: url(../assets/items_small.png) -307px 0px no-repeat;
   @extend %icon_small;
 }
 
-.feather_robin_winter_48 {
-  background: url(../assets/items_small.png) -800px -252px no-repeat;
+.coontail_32 {
+  background: url(../assets/items_small.png) -307px -34px no-repeat;
   @extend %icon_small;
 }
 
-.featherfan_48 {
-  background: url(../assets/items_small.png) -850px -252px no-repeat;
+.corn_32 {
+  background: url(../assets/items_small.png) -307px -68px no-repeat;
   @extend %icon_small;
 }
 
-.featherhat_48 {
-  background: url(../assets/items_small.png) -900px -252px no-repeat;
+.corn_cooked_32 {
+  background: url(../assets/items_small.png) -307px -102px no-repeat;
   @extend %icon_small;
 }
 
-.fertilizer_48 {
-  background: url(../assets/items_small.png) -950px -252px no-repeat;
+.corn_seeds_32 {
+  background: url(../assets/items_small.png) -307px -136px no-repeat;
   @extend %icon_small;
 }
 
-.fireflies_48 {
-  background: url(../assets/items_small.png) -1000px -252px no-repeat;
+.crow_32 {
+  background: url(../assets/items_small.png) -307px -170px no-repeat;
   @extend %icon_small;
 }
 
-.firepit_48 {
-  background: url(../assets/items_small.png) 0px -302px no-repeat;
+.cutgrass_32 {
+  background: url(../assets/items_small.png) -307px -204px no-repeat;
   @extend %icon_small;
 }
 
-.firestaff_48 {
-  background: url(../assets/items_small.png) -50px -302px no-repeat;
+.cutlichen_32 {
+  background: url(../assets/items_small.png) -307px -238px no-repeat;
   @extend %icon_small;
-}
-
-.firesuppressor_48 {
-  background: url(../assets/items_small.png) -150px 0px no-repeat;
-  width: 49px;
-  height: 48px;
 }
 
-.fish_48 {
-  background: url(../assets/items_small.png) -100px -302px no-repeat;
+.cutreeds_32 {
+  background: url(../assets/items_small.png) -307px -272px no-repeat;
   @extend %icon_small;
 }
 
-.fish_cooked_48 {
-  background: url(../assets/items_small.png) -150px -302px no-repeat;
+.cutstone_32 {
+  background: url(../assets/items_small.png) 0px -306px no-repeat;
   @extend %icon_small;
 }
 
-.fishingrod_48 {
-  background: url(../assets/items_small.png) -200px -302px no-repeat;
+.deerclops_eyeball_32 {
+  background: url(../assets/items_small.png) -34px -306px no-repeat;
   @extend %icon_small;
 }
 
-.fishsticks_48 {
-  background: url(../assets/items_small.png) -250px -302px no-repeat;
+.diviningrod_32 {
+  background: url(../assets/items_small.png) -68px -306px no-repeat;
   @extend %icon_small;
 }
 
-.fishtacos_48 {
-  background: url(../assets/items_small.png) -300px -302px no-repeat;
+.dragon_scales_32 {
+  background: url(../assets/items_small.png) -102px -306px no-repeat;
   @extend %icon_small;
 }
 
-.flint_48 {
-  background: url(../assets/items_small.png) -350px -302px no-repeat;
+.dragonflychest_32 {
+  background: url(../assets/items_small.png) -136px -306px no-repeat;
   @extend %icon_small;
 }
 
-.flowerhat_48 {
-  background: url(../assets/items_small.png) -400px -302px no-repeat;
+.dragonfruit_32 {
+  background: url(../assets/items_small.png) -170px -306px no-repeat;
   @extend %icon_small;
 }
 
-.flowersalad_48 {
-  background: url(../assets/items_small.png) -450px -302px no-repeat;
+.dragonfruit_cooked_32 {
+  background: url(../assets/items_small.png) -204px -306px no-repeat;
   @extend %icon_small;
 }
 
-.foliage_48 {
-  background: url(../assets/items_small.png) -500px -302px no-repeat;
+.dragonfruit_seeds_32 {
+  background: url(../assets/items_small.png) -238px -306px no-repeat;
   @extend %icon_small;
 }
 
-.footballhat_48 {
-  background: url(../assets/items_small.png) -550px -302px no-repeat;
+.dragonpie_32 {
+  background: url(../assets/items_small.png) -272px -306px no-repeat;
   @extend %icon_small;
 }
 
-.frogglebunwich_48 {
-  background: url(../assets/items_small.png) -600px -302px no-repeat;
+.drumstick_32 {
+  background: url(../assets/items_small.png) -306px -306px no-repeat;
   @extend %icon_small;
 }
 
-.froglegs_48 {
-  background: url(../assets/items_small.png) -650px -302px no-repeat;
+.drumstick_cooked_32 {
+  background: url(../assets/items_small.png) -341px 0px no-repeat;
   @extend %icon_small;
 }
 
-.froglegs_cooked_48 {
-  background: url(../assets/items_small.png) -700px -302px no-repeat;
+.dug_berrybush2_32 {
+  background: url(../assets/items_small.png) -341px -68px no-repeat;
   @extend %icon_small;
 }
 
-.fruitmedley_48 {
-  background: url(../assets/items_small.png) -750px -302px no-repeat;
+.dug_berrybush_32 {
+  background: url(../assets/items_small.png) -341px -34px no-repeat;
   @extend %icon_small;
 }
 
-.gears_48 {
-  background: url(../assets/items_small.png) -800px -302px no-repeat;
+.dug_grass_32 {
+  background: url(../assets/items_small.png) -341px -102px no-repeat;
   @extend %icon_small;
 }
 
-.glommerflower_48 {
-  background: url(../assets/items_small.png) -850px -302px no-repeat;
+.dug_marsh_bush_32 {
+  background: url(../assets/items_small.png) -341px -136px no-repeat;
   @extend %icon_small;
 }
 
-.glommerfuel_48 {
-  background: url(../assets/items_small.png) -900px -302px no-repeat;
+.durian_32 {
+  background: url(../assets/items_small.png) -341px -170px no-repeat;
   @extend %icon_small;
 }
 
-.glommerwings_48 {
-  background: url(../assets/items_small.png) -950px -302px no-repeat;
+.durian_cooked_32 {
+  background: url(../assets/items_small.png) -341px -204px no-repeat;
   @extend %icon_small;
 }
 
-.goatmilk_48 {
-  background: url(../assets/items_small.png) -1000px -302px no-repeat;
+.durian_seeds_32 {
+  background: url(../assets/items_small.png) -341px -238px no-repeat;
   @extend %icon_small;
 }
 
-.goldenaxe_48 {
-  background: url(../assets/items_small.png) 0px -352px no-repeat;
+.earmuffshat_32 {
+  background: url(../assets/items_small.png) -341px -272px no-repeat;
   @extend %icon_small;
 }
 
-.goldenpickaxe_48 {
-  background: url(../assets/items_small.png) -50px -352px no-repeat;
+.eel_32 {
+  background: url(../assets/items_small.png) -341px -306px no-repeat;
   @extend %icon_small;
 }
 
-.goldenshovel_48 {
-  background: url(../assets/items_small.png) -100px -352px no-repeat;
+.eel_cooked_32 {
+  background: url(../assets/items_small.png) 0px -340px no-repeat;
   @extend %icon_small;
 }
 
-.goldnugget_48 {
-  background: url(../assets/items_small.png) -150px -352px no-repeat;
+.eggplant_32 {
+  background: url(../assets/items_small.png) -34px -340px no-repeat;
   @extend %icon_small;
 }
 
-.goose_feather_48 {
-  background: url(../assets/items_small.png) -200px -352px no-repeat;
+.eggplant_cooked_32 {
+  background: url(../assets/items_small.png) -68px -340px no-repeat;
   @extend %icon_small;
 }
 
-.grass_umbrella_48 {
-  background: url(../assets/items_small.png) -250px -352px no-repeat;
+.eggplant_seeds_32 {
+  background: url(../assets/items_small.png) -102px -340px no-repeat;
   @extend %icon_small;
 }
 
-.green_cap_48 {
-  background: url(../assets/items_small.png) -300px -352px no-repeat;
+.eyebrellahat_32 {
+  background: url(../assets/items_small.png) -136px -340px no-repeat;
   @extend %icon_small;
 }
 
-.green_cap_cooked_48 {
-  background: url(../assets/items_small.png) -350px -352px no-repeat;
+.eyeturret_item_32 {
+  background: url(../assets/items_small.png) -170px -340px no-repeat;
   @extend %icon_small;
 }
 
-.greenamulet_48 {
-  background: url(../assets/items_small.png) -400px -352px no-repeat;
+.fast_farmplot_32 {
+  background: url(../assets/items_small.png) -204px -340px no-repeat;
   @extend %icon_small;
 }
 
-.greengem_48 {
-  background: url(../assets/items_small.png) -450px -352px no-repeat;
+.feather_crow_32 {
+  background: url(../assets/items_small.png) -238px -340px no-repeat;
   @extend %icon_small;
 }
 
-.greenstaff_48 {
-  background: url(../assets/items_small.png) -500px -352px no-repeat;
+.feather_robin_32 {
+  background: url(../assets/items_small.png) -272px -340px no-repeat;
   @extend %icon_small;
 }
 
-.guacamole_48 {
-  background: url(../assets/items_small.png) -550px -352px no-repeat;
+.feather_robin_winter_32 {
+  background: url(../assets/items_small.png) -306px -340px no-repeat;
   @extend %icon_small;
 }
 
-.guano_48 {
-  background: url(../assets/items_small.png) -600px -352px no-repeat;
+.featherfan_32 {
+  background: url(../assets/items_small.png) -340px -340px no-repeat;
   @extend %icon_small;
 }
 
-.gunpowder_48 {
-  background: url(../assets/items_small.png) -650px -352px no-repeat;
+.featherhat_32 {
+  background: url(../assets/items_small.png) -375px 0px no-repeat;
   @extend %icon_small;
 }
 
-.hambat_48 {
-  background: url(../assets/items_small.png) -700px -352px no-repeat;
+.fertilizer_32 {
+  background: url(../assets/items_small.png) -375px -34px no-repeat;
   @extend %icon_small;
 }
 
-.hammer_48 {
-  background: url(../assets/items_small.png) -750px -352px no-repeat;
+.fireflies_32 {
+  background: url(../assets/items_small.png) -375px -68px no-repeat;
   @extend %icon_small;
 }
 
-.hawaiianshirt_48 {
-  background: url(../assets/items_small.png) -800px -352px no-repeat;
+.firepit_32 {
+  background: url(../assets/items_small.png) -375px -102px no-repeat;
   @extend %icon_small;
 }
 
-.healingsalve_48 {
-  background: url(../assets/items_small.png) -850px -352px no-repeat;
+.firestaff_32 {
+  background: url(../assets/items_small.png) -375px -136px no-repeat;
   @extend %icon_small;
 }
 
-.health_48 {
+.firesuppressor_32 {
   background: url(../assets/items_small.png) 0px 0px no-repeat;
-  width: 48px;
-  height: 50px;
+  width: 33px;
+  height: 32px;
 }
 
-.heatrock_48 {
-  background: url(../assets/items_small.png) -900px -352px no-repeat;
+.fish_32 {
+  background: url(../assets/items_small.png) -375px -170px no-repeat;
   @extend %icon_small;
 }
 
-.homesign_48 {
-  background: url(../assets/items_small.png) -950px -352px no-repeat;
+.fish_cooked_32 {
+  background: url(../assets/items_small.png) -375px -204px no-repeat;
   @extend %icon_small;
 }
 
-.honey_48 {
-  background: url(../assets/items_small.png) -1000px -352px no-repeat;
+.fishingrod_32 {
+  background: url(../assets/items_small.png) -375px -238px no-repeat;
   @extend %icon_small;
 }
 
-.honeycomb_48 {
-  background: url(../assets/items_small.png) 0px -402px no-repeat;
+.fishsticks_32 {
+  background: url(../assets/items_small.png) -375px -272px no-repeat;
   @extend %icon_small;
 }
 
-.honeyham_48 {
-  background: url(../assets/items_small.png) -50px -402px no-repeat;
+.fishtacos_32 {
+  background: url(../assets/items_small.png) -375px -306px no-repeat;
   @extend %icon_small;
 }
 
-.honeynuggets_48 {
-  background: url(../assets/items_small.png) -100px -402px no-repeat;
+.flint_32 {
+  background: url(../assets/items_small.png) -375px -340px no-repeat;
   @extend %icon_small;
 }
 
-.horn_48 {
-  background: url(../assets/items_small.png) -150px -402px no-repeat;
+.flowerhat_32 {
+  background: url(../assets/items_small.png) 0px -374px no-repeat;
   @extend %icon_small;
 }
 
-.hotchili_48 {
-  background: url(../assets/items_small.png) -200px -402px no-repeat;
+.flowersalad_32 {
+  background: url(../assets/items_small.png) -34px -374px no-repeat;
   @extend %icon_small;
 }
 
-.houndstooth_48 {
-  background: url(../assets/items_small.png) -250px -402px no-repeat;
+.foliage_32 {
+  background: url(../assets/items_small.png) -68px -374px no-repeat;
   @extend %icon_small;
 }
 
-.hunger_48 {
-  background: url(../assets/items_small.png) -50px 0px no-repeat;
-  width: 48px;
-  height: 50px;
+.footballhat_32 {
+  background: url(../assets/items_small.png) -102px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.frogglebunwich_32 {
+  background: url(../assets/items_small.png) -136px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.froglegs_32 {
+  background: url(../assets/items_small.png) -170px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.froglegs_cooked_32 {
+  background: url(../assets/items_small.png) -204px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.fruitmedley_32 {
+  background: url(../assets/items_small.png) -238px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.gears_32 {
+  background: url(../assets/items_small.png) -272px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.glommerflower_32 {
+  background: url(../assets/items_small.png) -306px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.glommerfuel_32 {
+  background: url(../assets/items_small.png) -340px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.glommerwings_32 {
+  background: url(../assets/items_small.png) -374px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.goatmilk_32 {
+  background: url(../assets/items_small.png) -409px 0px no-repeat;
+  @extend %icon_small;
+}
+
+.goldenaxe_32 {
+  background: url(../assets/items_small.png) -409px -34px no-repeat;
+  @extend %icon_small;
+}
+
+.goldenpickaxe_32 {
+  background: url(../assets/items_small.png) -409px -68px no-repeat;
+  @extend %icon_small;
+}
+
+.goldenshovel_32 {
+  background: url(../assets/items_small.png) -409px -102px no-repeat;
+  @extend %icon_small;
+}
+
+.goldnugget_32 {
+  background: url(../assets/items_small.png) -409px -136px no-repeat;
+  @extend %icon_small;
+}
+
+.goose_feather_32 {
+  background: url(../assets/items_small.png) -409px -170px no-repeat;
+  @extend %icon_small;
+}
+
+.grass_umbrella_32 {
+  background: url(../assets/items_small.png) -409px -204px no-repeat;
+  @extend %icon_small;
+}
+
+.green_cap_32 {
+  background: url(../assets/items_small.png) -409px -238px no-repeat;
+  @extend %icon_small;
+}
+
+.green_cap_cooked_32 {
+  background: url(../assets/items_small.png) -409px -272px no-repeat;
+  @extend %icon_small;
+}
+
+.greenamulet_32 {
+  background: url(../assets/items_small.png) -409px -306px no-repeat;
+  @extend %icon_small;
+}
+
+.greengem_32 {
+  background: url(../assets/items_small.png) -409px -340px no-repeat;
+  @extend %icon_small;
+}
+
+.greenstaff_32 {
+  background: url(../assets/items_small.png) -409px -374px no-repeat;
+  @extend %icon_small;
+}
+
+.guacamole_32 {
+  background: url(../assets/items_small.png) 0px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.guano_32 {
+  background: url(../assets/items_small.png) -34px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.gunpowder_32 {
+  background: url(../assets/items_small.png) -68px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.hambat_32 {
+  background: url(../assets/items_small.png) -102px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.hammer_32 {
+  background: url(../assets/items_small.png) -136px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.hawaiianshirt_32 {
+  background: url(../assets/items_small.png) -170px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.healingsalve_32 {
+  background: url(../assets/items_small.png) -204px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.heatrock_32 {
+  background: url(../assets/items_small.png) -238px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.homesign_32 {
+  background: url(../assets/items_small.png) -272px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.honey_32 {
+  background: url(../assets/items_small.png) -306px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.honeycomb_32 {
+  background: url(../assets/items_small.png) -340px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.honeyham_32 {
+  background: url(../assets/items_small.png) -374px -408px no-repeat;
+  @extend %icon_small;
+}
+
+.honeynuggets_32 {
+  background: url(../assets/items_small.png) -408px -408px no-repeat;
+  @extend %icon_small;
 }
 
-.ice_48 {
-  background: url(../assets/items_small.png) -300px -402px no-repeat;
+.horn_32 {
+  background: url(../assets/items_small.png) -443px 0px no-repeat;
   @extend %icon_small;
 }
 
-.icebox_48 {
-  background: url(../assets/items_small.png) -350px -402px no-repeat;
+.hotchili_32 {
+  background: url(../assets/items_small.png) -443px -34px no-repeat;
   @extend %icon_small;
 }
 
-.icecream_48 {
-  background: url(../assets/items_small.png) -400px -402px no-repeat;
+.houndstooth_32 {
+  background: url(../assets/items_small.png) -443px -68px no-repeat;
   @extend %icon_small;
 }
 
-.icehat_48 {
-  background: url(../assets/items_small.png) -450px -402px no-repeat;
+.ice_32 {
+  background: url(../assets/items_small.png) -443px -102px no-repeat;
   @extend %icon_small;
 }
 
-.icepack_48 {
-  background: url(../assets/items_small.png) -500px -402px no-repeat;
+.icebox_32 {
+  background: url(../assets/items_small.png) -443px -136px no-repeat;
   @extend %icon_small;
 }
 
-.icestaff_48 {
-  background: url(../assets/items_small.png) -550px -402px no-repeat;
+.icecream_32 {
+  background: url(../assets/items_small.png) -443px -170px no-repeat;
   @extend %icon_small;
 }
 
-.jammypreserves_48 {
-  background: url(../assets/items_small.png) -600px -402px no-repeat;
+.icehat_32 {
+  background: url(../assets/items_small.png) -443px -204px no-repeat;
   @extend %icon_small;
 }
 
-.kabobs_48 {
-  background: url(../assets/items_small.png) -650px -402px no-repeat;
+.icepack_32 {
+  background: url(../assets/items_small.png) -443px -238px no-repeat;
   @extend %icon_small;
 }
 
-.killerbee_48 {
-  background: url(../assets/items_small.png) -700px -402px no-repeat;
+.icestaff_32 {
+  background: url(../assets/items_small.png) -443px -272px no-repeat;
   @extend %icon_small;
 }
 
-.krampus_sack_48 {
-  background: url(../assets/items_small.png) -750px -402px no-repeat;
+.jammypreserves_32 {
+  background: url(../assets/items_small.png) -443px -306px no-repeat;
   @extend %icon_small;
 }
 
-.lantern_48 {
-  background: url(../assets/items_small.png) -800px -402px no-repeat;
+.kabobs_32 {
+  background: url(../assets/items_small.png) -443px -340px no-repeat;
   @extend %icon_small;
 }
 
-.lightbulb_48 {
-  background: url(../assets/items_small.png) -850px -402px no-repeat;
+.killerbee_32 {
+  background: url(../assets/items_small.png) -443px -374px no-repeat;
   @extend %icon_small;
 }
 
-.lighter_48 {
-  background: url(../assets/items_small.png) -900px -402px no-repeat;
+.krampus_sack_32 {
+  background: url(../assets/items_small.png) -443px -408px no-repeat;
   @extend %icon_small;
 }
 
-.lightning_rod_48 {
-  background: url(../assets/items_small.png) -950px -402px no-repeat;
+.lantern_32 {
+  background: url(../assets/items_small.png) 0px -442px no-repeat;
   @extend %icon_small;
 }
 
-.lightninggoathorn_48 {
-  background: url(../assets/items_small.png) -1000px -402px no-repeat;
+.lightbulb_32 {
+  background: url(../assets/items_small.png) -34px -442px no-repeat;
   @extend %icon_small;
 }
 
-.livinglog_48 {
-  background: url(../assets/items_small.png) 0px -452px no-repeat;
+.lighter_32 {
+  background: url(../assets/items_small.png) -68px -442px no-repeat;
   @extend %icon_small;
 }
 
-.log_48 {
-  background: url(../assets/items_small.png) -50px -452px no-repeat;
+.lightning_rod_32 {
+  background: url(../assets/items_small.png) -102px -442px no-repeat;
   @extend %icon_small;
 }
 
-.lucy_48 {
-  background: url(../assets/items_small.png) -100px -452px no-repeat;
+.lightninggoathorn_32 {
+  background: url(../assets/items_small.png) -136px -442px no-repeat;
   @extend %icon_small;
 }
 
-.lureplantbulb_48 {
-  background: url(../assets/items_small.png) -150px -452px no-repeat;
+.livinglog_32 {
+  background: url(../assets/items_small.png) -170px -442px no-repeat;
   @extend %icon_small;
 }
 
-.mandrake_48 {
-  background: url(../assets/items_small.png) -200px -452px no-repeat;
+.log_32 {
+  background: url(../assets/items_small.png) -204px -442px no-repeat;
   @extend %icon_small;
 }
 
-.mandrakesoup_48 {
-  background: url(../assets/items_small.png) -250px -452px no-repeat;
+.lucy_32 {
+  background: url(../assets/items_small.png) -238px -442px no-repeat;
   @extend %icon_small;
 }
 
-.manrabbit_tail_48 {
-  background: url(../assets/items_small.png) -300px -452px no-repeat;
+.lureplantbulb_32 {
+  background: url(../assets/items_small.png) -272px -442px no-repeat;
   @extend %icon_small;
 }
 
-.manure_48 {
-  background: url(../assets/items_small.png) -350px -452px no-repeat;
+.mandrake_32 {
+  background: url(../assets/items_small.png) -306px -442px no-repeat;
   @extend %icon_small;
 }
 
-.marble_48 {
-  background: url(../assets/items_small.png) -400px -452px no-repeat;
+.mandrakesoup_32 {
+  background: url(../assets/items_small.png) -340px -442px no-repeat;
   @extend %icon_small;
 }
 
-.meat_dried_48 {
-  background: url(../assets/items_small.png) -450px -452px no-repeat;
+.manrabbit_tail_32 {
+  background: url(../assets/items_small.png) -374px -442px no-repeat;
   @extend %icon_small;
 }
 
-.meatballs_48 {
-  background: url(../assets/items_small.png) -500px -452px no-repeat;
+.manure_32 {
+  background: url(../assets/items_small.png) -408px -442px no-repeat;
   @extend %icon_small;
 }
 
-.meatrack_48 {
-  background: url(../assets/items_small.png) -550px -452px no-repeat;
+.marble_32 {
+  background: url(../assets/items_small.png) -442px -442px no-repeat;
   @extend %icon_small;
 }
 
-.minerhat_48 {
-  background: url(../assets/items_small.png) -600px -452px no-repeat;
+.meat_dried_32 {
+  background: url(../assets/items_small.png) -477px 0px no-repeat;
   @extend %icon_small;
 }
 
-.minotaurhorn_48 {
-  background: url(../assets/items_small.png) -650px -452px no-repeat;
+.meatballs_32 {
+  background: url(../assets/items_small.png) -477px -34px no-repeat;
   @extend %icon_small;
 }
 
-.mole_48 {
-  background: url(../assets/items_small.png) -700px -452px no-repeat;
+.meatrack_32 {
+  background: url(../assets/items_small.png) -477px -68px no-repeat;
   @extend %icon_small;
 }
 
-.molehat_48 {
-  background: url(../assets/items_small.png) -750px -452px no-repeat;
+.minerhat_32 {
+  background: url(../assets/items_small.png) -477px -102px no-repeat;
   @extend %icon_small;
 }
 
-.monsterlasagna_48 {
-  background: url(../assets/items_small.png) -800px -452px no-repeat;
+.minotaurhorn_32 {
+  background: url(../assets/items_small.png) -477px -136px no-repeat;
   @extend %icon_small;
 }
 
-.monstermeat_48 {
-  background: url(../assets/items_small.png) -850px -452px no-repeat;
+.mole_32 {
+  background: url(../assets/items_small.png) -477px -170px no-repeat;
   @extend %icon_small;
 }
 
-.monstermeat_dried_48 {
-  background: url(../assets/items_small.png) -900px -452px no-repeat;
+.molehat_32 {
+  background: url(../assets/items_small.png) -477px -204px no-repeat;
   @extend %icon_small;
 }
 
-.mosquito_48 {
-  background: url(../assets/items_small.png) -950px -452px no-repeat;
+.monsterlasagna_32 {
+  background: url(../assets/items_small.png) -477px -238px no-repeat;
   @extend %icon_small;
 }
 
-.mosquitosack_48 {
-  background: url(../assets/items_small.png) -1000px -452px no-repeat;
+.monstermeat_32 {
+  background: url(../assets/items_small.png) -477px -272px no-repeat;
   @extend %icon_small;
 }
 
-.multitool_axe_pickaxe_48 {
-  background: url(../assets/items_small.png) 0px -502px no-repeat;
+.monstermeat_dried_32 {
+  background: url(../assets/items_small.png) -477px -306px no-repeat;
   @extend %icon_small;
 }
 
-.nightlight_48 {
-  background: url(../assets/items_small.png) -50px -502px no-repeat;
+.mosquito_32 {
+  background: url(../assets/items_small.png) -477px -340px no-repeat;
   @extend %icon_small;
 }
 
-.nightmare_timepiece_48 {
-  background: url(../assets/items_small.png) -100px -502px no-repeat;
+.mosquitosack_32 {
+  background: url(../assets/items_small.png) -477px -374px no-repeat;
   @extend %icon_small;
 }
 
-.nightmarefuel_48 {
-  background: url(../assets/items_small.png) -150px -502px no-repeat;
+.multitool_axe_pickaxe_32 {
+  background: url(../assets/items_small.png) -477px -408px no-repeat;
   @extend %icon_small;
 }
 
-.nightstick_48 {
-  background: url(../assets/items_small.png) -200px -502px no-repeat;
+.nightlight_32 {
+  background: url(../assets/items_small.png) -477px -442px no-repeat;
   @extend %icon_small;
 }
 
-.nightsword_48 {
-  background: url(../assets/items_small.png) -250px -502px no-repeat;
+.nightmare_timepiece_32 {
+  background: url(../assets/items_small.png) 0px -476px no-repeat;
   @extend %icon_small;
 }
 
-.nitre_48 {
-  background: url(../assets/items_small.png) -300px -502px no-repeat;
+.nightmarefuel_32 {
+  background: url(../assets/items_small.png) -34px -476px no-repeat;
   @extend %icon_small;
 }
 
-.onemanband_48 {
-  background: url(../assets/items_small.png) -350px -502px no-repeat;
+.nightstick_32 {
+  background: url(../assets/items_small.png) -68px -476px no-repeat;
   @extend %icon_small;
 }
 
-.orangeamulet_48 {
-  background: url(../assets/items_small.png) -400px -502px no-repeat;
+.nightsword_32 {
+  background: url(../assets/items_small.png) -102px -476px no-repeat;
   @extend %icon_small;
 }
 
-.orangegem_48 {
-  background: url(../assets/items_small.png) -450px -502px no-repeat;
+.nitre_32 {
+  background: url(../assets/items_small.png) -136px -476px no-repeat;
   @extend %icon_small;
 }
 
-.orangestaff_48 {
-  background: url(../assets/items_small.png) -500px -502px no-repeat;
+.onemanband_32 {
+  background: url(../assets/items_small.png) -170px -476px no-repeat;
   @extend %icon_small;
 }
 
-.panflute_48 {
-  background: url(../assets/items_small.png) -550px -502px no-repeat;
+.orangeamulet_32 {
+  background: url(../assets/items_small.png) -204px -476px no-repeat;
   @extend %icon_small;
 }
 
-.papyrus_48 {
-  background: url(../assets/items_small.png) -600px -502px no-repeat;
+.orangegem_32 {
+  background: url(../assets/items_small.png) -238px -476px no-repeat;
   @extend %icon_small;
 }
 
-.perogies_48 {
-  background: url(../assets/items_small.png) -650px -502px no-repeat;
+.orangestaff_32 {
+  background: url(../assets/items_small.png) -272px -476px no-repeat;
   @extend %icon_small;
 }
 
-.petals_48 {
-  background: url(../assets/items_small.png) -700px -502px no-repeat;
+.panflute_32 {
+  background: url(../assets/items_small.png) -306px -476px no-repeat;
   @extend %icon_small;
 }
 
-.petals_evil_48 {
-  background: url(../assets/items_small.png) -750px -502px no-repeat;
+.papyrus_32 {
+  background: url(../assets/items_small.png) -340px -476px no-repeat;
   @extend %icon_small;
 }
 
-.pickaxe_48 {
-  background: url(../assets/items_small.png) -800px -502px no-repeat;
+.perogies_32 {
+  background: url(../assets/items_small.png) -374px -476px no-repeat;
   @extend %icon_small;
 }
 
-.piggyback_48 {
-  background: url(../assets/items_small.png) -850px -502px no-repeat;
+.petals_32 {
+  background: url(../assets/items_small.png) -408px -476px no-repeat;
   @extend %icon_small;
 }
 
-.pighouse_48 {
-  background: url(../assets/items_small.png) -900px -502px no-repeat;
+.petals_evil_32 {
+  background: url(../assets/items_small.png) -442px -476px no-repeat;
   @extend %icon_small;
 }
 
-.pigskin_48 {
-  background: url(../assets/items_small.png) -950px -502px no-repeat;
+.pickaxe_32 {
+  background: url(../assets/items_small.png) -476px -476px no-repeat;
   @extend %icon_small;
 }
 
-.pinecone_48 {
-  background: url(../assets/items_small.png) -1000px -502px no-repeat;
+.piggyback_32 {
+  background: url(../assets/items_small.png) -511px 0px no-repeat;
   @extend %icon_small;
 }
 
-.pitchfork_48 {
-  background: url(../assets/items_small.png) 0px -552px no-repeat;
+.pighouse_32 {
+  background: url(../assets/items_small.png) -511px -34px no-repeat;
   @extend %icon_small;
 }
 
-.plantmeat_48 {
-  background: url(../assets/items_small.png) -50px -552px no-repeat;
+.pigskin_32 {
+  background: url(../assets/items_small.png) -511px -68px no-repeat;
   @extend %icon_small;
 }
 
-.pomegranate_48 {
-  background: url(../assets/items_small.png) -100px -552px no-repeat;
+.pinecone_32 {
+  background: url(../assets/items_small.png) -511px -102px no-repeat;
   @extend %icon_small;
 }
 
-.pomegranate_cooked_48 {
-  background: url(../assets/items_small.png) -150px -552px no-repeat;
+.pitchfork_32 {
+  background: url(../assets/items_small.png) -511px -136px no-repeat;
   @extend %icon_small;
 }
 
-.pomegranate_seeds_48 {
-  background: url(../assets/items_small.png) -200px -552px no-repeat;
+.plantmeat_32 {
+  background: url(../assets/items_small.png) -511px -170px no-repeat;
   @extend %icon_small;
 }
 
-.pottedfern_48 {
-  background: url(../assets/items_small.png) -250px -552px no-repeat;
+.pomegranate_32 {
+  background: url(../assets/items_small.png) -511px -204px no-repeat;
   @extend %icon_small;
 }
 
-.powcake_48 {
-  background: url(../assets/items_small.png) -300px -552px no-repeat;
+.pomegranate_cooked_32 {
+  background: url(../assets/items_small.png) -511px -238px no-repeat;
   @extend %icon_small;
 }
 
-.pumpkin_48 {
-  background: url(../assets/items_small.png) -350px -552px no-repeat;
+.pomegranate_seeds_32 {
+  background: url(../assets/items_small.png) -511px -272px no-repeat;
   @extend %icon_small;
 }
 
-.pumpkin_cooked_48 {
-  background: url(../assets/items_small.png) -400px -552px no-repeat;
+.pottedfern_32 {
+  background: url(../assets/items_small.png) -511px -306px no-repeat;
   @extend %icon_small;
 }
 
-.pumpkin_lantern_48 {
-  background: url(../assets/items_small.png) -450px -552px no-repeat;
+.powcake_32 {
+  background: url(../assets/items_small.png) -511px -340px no-repeat;
   @extend %icon_small;
 }
 
-.pumpkin_seeds_48 {
-  background: url(../assets/items_small.png) -500px -552px no-repeat;
+.pumpkin_32 {
+  background: url(../assets/items_small.png) -511px -374px no-repeat;
   @extend %icon_small;
 }
 
-.pumpkincookie_48 {
-  background: url(../assets/items_small.png) -550px -552px no-repeat;
+.pumpkin_cooked_32 {
+  background: url(../assets/items_small.png) -511px -408px no-repeat;
   @extend %icon_small;
 }
 
-.purpleamulet_48 {
-  background: url(../assets/items_small.png) -600px -552px no-repeat;
+.pumpkin_lantern_32 {
+  background: url(../assets/items_small.png) -511px -442px no-repeat;
   @extend %icon_small;
 }
 
-.purplegem_48 {
-  background: url(../assets/items_small.png) -650px -552px no-repeat;
+.pumpkin_seeds_32 {
+  background: url(../assets/items_small.png) -511px -476px no-repeat;
   @extend %icon_small;
 }
 
-.rabbit_48 {
-  background: url(../assets/items_small.png) -700px -552px no-repeat;
+.pumpkincookie_32 {
+  background: url(../assets/items_small.png) 0px -510px no-repeat;
   @extend %icon_small;
 }
 
-.rabbit_beardling_48 {
-  background: url(../assets/items_small.png) -399px -902px no-repeat;
-  width: 41px;
-  height: 41px;
+.purpleamulet_32 {
+  background: url(../assets/items_small.png) -34px -510px no-repeat;
+  @extend %icon_small;
+}
+
+.purplegem_32 {
+  background: url(../assets/items_small.png) -68px -510px no-repeat;
+  @extend %icon_small;
 }
 
-.rabbithouse_48 {
-  background: url(../assets/items_small.png) -750px -552px no-repeat;
+.rabbit_32 {
+  background: url(../assets/items_small.png) -102px -510px no-repeat;
   @extend %icon_small;
+}
+
+.rabbit_beardling_32 {
+  background: url(../assets/items_small.png) -102px -646px no-repeat;
+  width: 28px;
+  height: 28px;
 }
 
-.raincoat_48 {
-  background: url(../assets/items_small.png) -800px -552px no-repeat;
+.rabbithouse_32 {
+  background: url(../assets/items_small.png) -136px -510px no-repeat;
   @extend %icon_small;
 }
 
-.rainhat_48 {
-  background: url(../assets/items_small.png) -850px -552px no-repeat;
+.raincoat_32 {
+  background: url(../assets/items_small.png) -170px -510px no-repeat;
   @extend %icon_small;
 }
 
-.rainometer_48 {
-  background: url(../assets/items_small.png) -900px -552px no-repeat;
+.rainhat_32 {
+  background: url(../assets/items_small.png) -204px -510px no-repeat;
   @extend %icon_small;
 }
 
-.ratatouille_48 {
-  background: url(../assets/items_small.png) -950px -552px no-repeat;
+.rainometer_32 {
+  background: url(../assets/items_small.png) -238px -510px no-repeat;
   @extend %icon_small;
 }
 
-.razor_48 {
-  background: url(../assets/items_small.png) -1000px -552px no-repeat;
+.ratatouille_32 {
+  background: url(../assets/items_small.png) -272px -510px no-repeat;
   @extend %icon_small;
 }
 
-.red_cap_48 {
-  background: url(../assets/items_small.png) 0px -602px no-repeat;
+.razor_32 {
+  background: url(../assets/items_small.png) -306px -510px no-repeat;
   @extend %icon_small;
 }
 
-.red_cap_cooked_48 {
-  background: url(../assets/items_small.png) -50px -602px no-repeat;
+.red_cap_32 {
+  background: url(../assets/items_small.png) -340px -510px no-repeat;
   @extend %icon_small;
 }
 
-.redgem_48 {
-  background: url(../assets/items_small.png) -100px -602px no-repeat;
+.red_cap_cooked_32 {
+  background: url(../assets/items_small.png) -374px -510px no-repeat;
   @extend %icon_small;
 }
 
-.reflectivevest_48 {
-  background: url(../assets/items_small.png) -150px -602px no-repeat;
+.redgem_32 {
+  background: url(../assets/items_small.png) -408px -510px no-repeat;
   @extend %icon_small;
 }
 
-.researchlab2_48 {
-  background: url(../assets/items_small.png) -200px -602px no-repeat;
+.reflectivevest_32 {
+  background: url(../assets/items_small.png) -442px -510px no-repeat;
   @extend %icon_small;
 }
 
-.researchlab3_48 {
-  background: url(../assets/items_small.png) -250px -602px no-repeat;
+.researchlab2_32 {
+  background: url(../assets/items_small.png) -510px -510px no-repeat;
   @extend %icon_small;
 }
 
-.researchlab4_48 {
-  background: url(../assets/items_small.png) -300px -602px no-repeat;
+.researchlab3_32 {
+  background: url(../assets/items_small.png) -545px 0px no-repeat;
   @extend %icon_small;
 }
 
-.researchlab_48 {
-  background: url(../assets/items_small.png) -350px -602px no-repeat;
+.researchlab4_32 {
+  background: url(../assets/items_small.png) -545px -34px no-repeat;
   @extend %icon_small;
 }
 
-.resurrectionstatue_48 {
-  background: url(../assets/items_small.png) -400px -602px no-repeat;
+.researchlab_32 {
+  background: url(../assets/items_small.png) -476px -510px no-repeat;
   @extend %icon_small;
 }
 
-.robin_48 {
-  background: url(../assets/items_small.png) -450px -602px no-repeat;
+.resurrectionstatue_32 {
+  background: url(../assets/items_small.png) -545px -68px no-repeat;
   @extend %icon_small;
 }
 
-.robin_winter_48 {
-  background: url(../assets/items_small.png) -500px -602px no-repeat;
+.robin_32 {
+  background: url(../assets/items_small.png) -545px -102px no-repeat;
   @extend %icon_small;
 }
 
-.rocks_48 {
-  background: url(../assets/items_small.png) -550px -602px no-repeat;
+.robin_winter_32 {
+  background: url(../assets/items_small.png) -545px -136px no-repeat;
   @extend %icon_small;
 }
 
-.rope_48 {
-  background: url(../assets/items_small.png) -600px -602px no-repeat;
+.rocks_32 {
+  background: url(../assets/items_small.png) -545px -170px no-repeat;
   @extend %icon_small;
 }
 
-.rottenegg_48 {
-  background: url(../assets/items_small.png) -650px -602px no-repeat;
+.rope_32 {
+  background: url(../assets/items_small.png) -545px -204px no-repeat;
   @extend %icon_small;
 }
 
-.ruins_bat_48 {
-  background: url(../assets/items_small.png) -700px -602px no-repeat;
+.rottenegg_32 {
+  background: url(../assets/items_small.png) -545px -238px no-repeat;
   @extend %icon_small;
 }
 
-.ruinshat_48 {
-  background: url(../assets/items_small.png) -750px -602px no-repeat;
+.ruins_bat_32 {
+  background: url(../assets/items_small.png) -545px -272px no-repeat;
   @extend %icon_small;
 }
 
-.sanity_48 {
-  background: url(../assets/items_small.png) -100px 0px no-repeat;
-  width: 48px;
-  height: 50px;
+.ruinshat_32 {
+  background: url(../assets/items_small.png) -545px -306px no-repeat;
+  @extend %icon_small;
 }
 
-.sapling_48 {
-  background: url(../assets/items_small.png) -800px -602px no-repeat;
+.sapling_32 {
+  background: url(../assets/items_small.png) -545px -340px no-repeat;
   @extend %icon_small;
 }
 
-.seeds_48 {
-  background: url(../assets/items_small.png) -850px -602px no-repeat;
+.seeds_32 {
+  background: url(../assets/items_small.png) -545px -374px no-repeat;
   @extend %icon_small;
 }
 
-.seeds_cooked_48 {
-  background: url(../assets/items_small.png) -900px -602px no-repeat;
+.seeds_cooked_32 {
+  background: url(../assets/items_small.png) -545px -408px no-repeat;
   @extend %icon_small;
 }
 
-.sewing_kit_48 {
-  background: url(../assets/items_small.png) -950px -602px no-repeat;
+.sewing_kit_32 {
+  background: url(../assets/items_small.png) -545px -442px no-repeat;
   @extend %icon_small;
 }
 
-.shovel_48 {
-  background: url(../assets/items_small.png) -1000px -602px no-repeat;
+.shovel_32 {
+  background: url(../assets/items_small.png) -545px -476px no-repeat;
   @extend %icon_small;
 }
 
-.siestahut_48 {
-  background: url(../assets/items_small.png) 0px -652px no-repeat;
+.siestahut_32 {
+  background: url(../assets/items_small.png) -545px -510px no-repeat;
   @extend %icon_small;
 }
 
-.silk_48 {
-  background: url(../assets/items_small.png) -50px -652px no-repeat;
+.silk_32 {
+  background: url(../assets/items_small.png) 0px -544px no-repeat;
   @extend %icon_small;
 }
 
-.slow_farmplot_48 {
-  background: url(../assets/items_small.png) -100px -652px no-repeat;
+.slow_farmplot_32 {
+  background: url(../assets/items_small.png) -34px -544px no-repeat;
   @extend %icon_small;
 }
 
-.slurper_pelt_48 {
-  background: url(../assets/items_small.png) -150px -652px no-repeat;
+.slurper_pelt_32 {
+  background: url(../assets/items_small.png) -68px -544px no-repeat;
   @extend %icon_small;
 }
 
-.slurtle_shellpieces_48 {
-  background: url(../assets/items_small.png) -200px -652px no-repeat;
+.slurtle_shellpieces_32 {
+  background: url(../assets/items_small.png) -102px -544px no-repeat;
   @extend %icon_small;
 }
 
-.slurtlehat_48 {
-  background: url(../assets/items_small.png) -250px -652px no-repeat;
+.slurtlehat_32 {
+  background: url(../assets/items_small.png) -136px -544px no-repeat;
   @extend %icon_small;
 }
 
-.slurtleslime_48 {
-  background: url(../assets/items_small.png) -300px -652px no-repeat;
+.slurtleslime_32 {
+  background: url(../assets/items_small.png) -170px -544px no-repeat;
   @extend %icon_small;
 }
 
-.smallmeat_48 {
-  background: url(../assets/items_small.png) -350px -652px no-repeat;
+.smallmeat_32 {
+  background: url(../assets/items_small.png) -204px -544px no-repeat;
   @extend %icon_small;
 }
 
-.smallmeat_dried_48 {
-  background: url(../assets/items_small.png) -400px -652px no-repeat;
+.smallmeat_dried_32 {
+  background: url(../assets/items_small.png) -238px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spear_48 {
-  background: url(../assets/items_small.png) -450px -652px no-repeat;
+.spear_32 {
+  background: url(../assets/items_small.png) -272px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spear_wathgrithr_48 {
-  background: url(../assets/items_small.png) -500px -652px no-repeat;
+.spear_wathgrithr_32 {
+  background: url(../assets/items_small.png) -306px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spidereggsack_48 {
-  background: url(../assets/items_small.png) -550px -652px no-repeat;
+.spidereggsack_32 {
+  background: url(../assets/items_small.png) -340px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spidergland_48 {
-  background: url(../assets/items_small.png) -600px -652px no-repeat;
+.spidergland_32 {
+  background: url(../assets/items_small.png) -374px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spiderhat_48 {
-  background: url(../assets/items_small.png) -650px -652px no-repeat;
+.spiderhat_32 {
+  background: url(../assets/items_small.png) -408px -544px no-repeat;
   @extend %icon_small;
 }
 
-.spoiled_food_48 {
-  background: url(../assets/items_small.png) -700px -652px no-repeat;
+.spoiled_food_32 {
+  background: url(../assets/items_small.png) -442px -544px no-repeat;
   @extend %icon_small;
 }
 
-.staff_tornado_48 {
-  background: url(../assets/items_small.png) -750px -652px no-repeat;
+.staff_tornado_32 {
+  background: url(../assets/items_small.png) -476px -544px no-repeat;
   @extend %icon_small;
 }
 
-.stinger_48 {
-  background: url(../assets/items_small.png) -800px -652px no-repeat;
+.stinger_32 {
+  background: url(../assets/items_small.png) -510px -544px no-repeat;
   @extend %icon_small;
 }
 
-.strawhat_48 {
-  background: url(../assets/items_small.png) -850px -652px no-repeat;
+.strawhat_32 {
+  background: url(../assets/items_small.png) -544px -544px no-repeat;
   @extend %icon_small;
 }
 
-.stuffedeggplant_48 {
-  background: url(../assets/items_small.png) -900px -652px no-repeat;
+.stuffedeggplant_32 {
+  background: url(../assets/items_small.png) -579px 0px no-repeat;
   @extend %icon_small;
 }
 
-.sweatervest_48 {
-  background: url(../assets/items_small.png) -950px -652px no-repeat;
+.sweatervest_32 {
+  background: url(../assets/items_small.png) -579px -34px no-repeat;
   @extend %icon_small;
 }
 
-.taffy_48 {
-  background: url(../assets/items_small.png) -1000px -652px no-repeat;
+.taffy_32 {
+  background: url(../assets/items_small.png) -579px -68px no-repeat;
   @extend %icon_small;
 }
 
-.tallbirdegg_48 {
-  background: url(../assets/items_small.png) 0px -702px no-repeat;
+.tallbirdegg_32 {
+  background: url(../assets/items_small.png) -579px -102px no-repeat;
   @extend %icon_small;
 }
 
-.tallbirdegg_cooked_48 {
-  background: url(../assets/items_small.png) -50px -702px no-repeat;
+.tallbirdegg_cooked_32 {
+  background: url(../assets/items_small.png) -579px -136px no-repeat;
   @extend %icon_small;
 }
 
-.teleportato_box_48 {
-  background: url(../assets/items_small.png) -100px -702px no-repeat;
+.teleportato_box_32 {
+  background: url(../assets/items_small.png) -579px -170px no-repeat;
   @extend %icon_small;
 }
 
-.teleportato_crank_48 {
-  background: url(../assets/items_small.png) -150px -702px no-repeat;
+.teleportato_crank_32 {
+  background: url(../assets/items_small.png) -579px -204px no-repeat;
   @extend %icon_small;
 }
 
-.teleportato_potato_48 {
-  background: url(../assets/items_small.png) -200px -702px no-repeat;
+.teleportato_potato_32 {
+  background: url(../assets/items_small.png) -579px -238px no-repeat;
   @extend %icon_small;
 }
 
-.teleportato_ring_48 {
-  background: url(../assets/items_small.png) -250px -702px no-repeat;
+.teleportato_ring_32 {
+  background: url(../assets/items_small.png) -579px -272px no-repeat;
   @extend %icon_small;
 }
 
-.telestaff_48 {
-  background: url(../assets/items_small.png) -300px -702px no-repeat;
+.telestaff_32 {
+  background: url(../assets/items_small.png) -579px -306px no-repeat;
   @extend %icon_small;
 }
 
-.tent_48 {
-  background: url(../assets/items_small.png) -350px -702px no-repeat;
+.tent_32 {
+  background: url(../assets/items_small.png) -579px -340px no-repeat;
   @extend %icon_small;
 }
 
-.tentaclespike_48 {
-  background: url(../assets/items_small.png) -400px -702px no-repeat;
+.tentaclespike_32 {
+  background: url(../assets/items_small.png) -579px -374px no-repeat;
   @extend %icon_small;
 }
 
-.tentaclespots_48 {
-  background: url(../assets/items_small.png) -450px -702px no-repeat;
+.tentaclespots_32 {
+  background: url(../assets/items_small.png) -579px -408px no-repeat;
   @extend %icon_small;
 }
 
-.thulecite_48 {
-  background: url(../assets/items_small.png) -500px -702px no-repeat;
+.thulecite_32 {
+  background: url(../assets/items_small.png) -579px -442px no-repeat;
   @extend %icon_small;
 }
 
-.thulecite_pieces_48 {
-  background: url(../assets/items_small.png) -550px -702px no-repeat;
+.thulecite_pieces_32 {
+  background: url(../assets/items_small.png) -579px -476px no-repeat;
   @extend %icon_small;
 }
 
-.tophat_48 {
-  background: url(../assets/items_small.png) -600px -702px no-repeat;
+.tophat_32 {
+  background: url(../assets/items_small.png) -579px -510px no-repeat;
   @extend %icon_small;
 }
 
-.torch_48 {
-  background: url(../assets/items_small.png) -650px -702px no-repeat;
+.torch_32 {
+  background: url(../assets/items_small.png) -579px -544px no-repeat;
   @extend %icon_small;
 }
 
-.trailmix_48 {
-  background: url(../assets/items_small.png) -700px -702px no-repeat;
+.trailmix_32 {
+  background: url(../assets/items_small.png) 0px -578px no-repeat;
   @extend %icon_small;
 }
 
-.transistor_48 {
-  background: url(../assets/items_small.png) -750px -702px no-repeat;
+.transistor_32 {
+  background: url(../assets/items_small.png) -34px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trap_48 {
-  background: url(../assets/items_small.png) -800px -702px no-repeat;
+.trap_32 {
+  background: url(../assets/items_small.png) -68px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trap_teeth_48 {
-  background: url(../assets/items_small.png) -850px -702px no-repeat;
+.trap_teeth_32 {
+  background: url(../assets/items_small.png) -102px -578px no-repeat;
   @extend %icon_small;
 }
 
-.treasurechest_48 {
-  background: url(../assets/items_small.png) -900px -702px no-repeat;
+.treasurechest_32 {
+  background: url(../assets/items_small.png) -136px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_10_48 {
-  background: url(../assets/items_small.png) -950px -702px no-repeat;
+.trinket_10_32 {
+  background: url(../assets/items_small.png) -476px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_11_48 {
-  background: url(../assets/items_small.png) -1000px -702px no-repeat;
+.trinket_11_32 {
+  background: url(../assets/items_small.png) -510px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_12_48 {
-  background: url(../assets/items_small.png) 0px -752px no-repeat;
+.trinket_12_32 {
+  background: url(../assets/items_small.png) -544px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_1_48 {
-  background: url(../assets/items_small.png) -50px -752px no-repeat;
+.trinket_1_32 {
+  background: url(../assets/items_small.png) -170px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_2_48 {
-  background: url(../assets/items_small.png) -100px -752px no-repeat;
+.trinket_2_32 {
+  background: url(../assets/items_small.png) -204px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_3_48 {
-  background: url(../assets/items_small.png) -150px -752px no-repeat;
+.trinket_3_32 {
+  background: url(../assets/items_small.png) -238px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_4_48 {
-  background: url(../assets/items_small.png) -200px -752px no-repeat;
+.trinket_4_32 {
+  background: url(../assets/items_small.png) -272px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_5_48 {
-  background: url(../assets/items_small.png) -250px -752px no-repeat;
+.trinket_5_32 {
+  background: url(../assets/items_small.png) -306px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_6_48 {
-  background: url(../assets/items_small.png) -300px -752px no-repeat;
+.trinket_6_32 {
+  background: url(../assets/items_small.png) -340px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_7_48 {
-  background: url(../assets/items_small.png) -350px -752px no-repeat;
+.trinket_7_32 {
+  background: url(../assets/items_small.png) -374px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_8_48 {
-  background: url(../assets/items_small.png) -400px -752px no-repeat;
+.trinket_8_32 {
+  background: url(../assets/items_small.png) -408px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trinket_9_48 {
-  background: url(../assets/items_small.png) -450px -752px no-repeat;
+.trinket_9_32 {
+  background: url(../assets/items_small.png) -442px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trunk_cooked_48 {
-  background: url(../assets/items_small.png) -500px -752px no-repeat;
+.trunk_cooked_32 {
+  background: url(../assets/items_small.png) -578px -578px no-repeat;
   @extend %icon_small;
 }
 
-.trunk_summer_48 {
-  background: url(../assets/items_small.png) -550px -752px no-repeat;
+.trunk_summer_32 {
+  background: url(../assets/items_small.png) -613px 0px no-repeat;
   @extend %icon_small;
 }
 
-.trunk_winter_48 {
-  background: url(../assets/items_small.png) -600px -752px no-repeat;
+.trunk_winter_32 {
+  background: url(../assets/items_small.png) -613px -34px no-repeat;
   @extend %icon_small;
 }
 
-.trunkvest_summer_48 {
-  background: url(../assets/items_small.png) -650px -752px no-repeat;
+.trunkvest_summer_32 {
+  background: url(../assets/items_small.png) -613px -68px no-repeat;
   @extend %icon_small;
 }
 
-.trunkvest_winter_48 {
-  background: url(../assets/items_small.png) -700px -752px no-repeat;
+.trunkvest_winter_32 {
+  background: url(../assets/items_small.png) -613px -102px no-repeat;
   @extend %icon_small;
 }
 
-.turf_carpetfloor_48 {
-  background: url(../assets/items_small.png) -750px -752px no-repeat;
+.turf_carpetfloor_32 {
+  background: url(../assets/items_small.png) -613px -136px no-repeat;
   @extend %icon_small;
 }
 
-.turf_cave_48 {
-  background: url(../assets/items_small.png) -800px -752px no-repeat;
+.turf_cave_32 {
+  background: url(../assets/items_small.png) -613px -170px no-repeat;
   @extend %icon_small;
 }
 
-.turf_checkerfloor_48 {
-  background: url(../assets/items_small.png) -850px -752px no-repeat;
+.turf_checkerfloor_32 {
+  background: url(../assets/items_small.png) -613px -204px no-repeat;
   @extend %icon_small;
 }
 
-.turf_deciduous_48 {
-  background: url(../assets/items_small.png) -900px -752px no-repeat;
+.turf_deciduous_32 {
+  background: url(../assets/items_small.png) -613px -238px no-repeat;
   @extend %icon_small;
 }
 
-.turf_desertdirt_48 {
-  background: url(../assets/items_small.png) -950px -752px no-repeat;
+.turf_desertdirt_32 {
+  background: url(../assets/items_small.png) -613px -272px no-repeat;
   @extend %icon_small;
 }
 
-.turf_forest_48 {
-  background: url(../assets/items_small.png) -1000px -752px no-repeat;
+.turf_forest_32 {
+  background: url(../assets/items_small.png) -613px -306px no-repeat;
   @extend %icon_small;
 }
 
-.turf_fungus_48 {
-  background: url(../assets/items_small.png) 0px -802px no-repeat;
+.turf_fungus_32 {
+  background: url(../assets/items_small.png) -613px -340px no-repeat;
   @extend %icon_small;
 }
 
-.turf_fungus_green_48 {
-  background: url(../assets/items_small.png) -50px -802px no-repeat;
+.turf_fungus_green_32 {
+  background: url(../assets/items_small.png) -613px -374px no-repeat;
   @extend %icon_small;
 }
 
-.turf_fungus_red_48 {
-  background: url(../assets/items_small.png) -100px -802px no-repeat;
+.turf_fungus_red_32 {
+  background: url(../assets/items_small.png) -613px -408px no-repeat;
   @extend %icon_small;
 }
 
-.turf_grass_48 {
-  background: url(../assets/items_small.png) -150px -802px no-repeat;
+.turf_grass_32 {
+  background: url(../assets/items_small.png) -613px -442px no-repeat;
   @extend %icon_small;
 }
 
-.turf_marsh_48 {
-  background: url(../assets/items_small.png) -200px -802px no-repeat;
+.turf_marsh_32 {
+  background: url(../assets/items_small.png) -613px -476px no-repeat;
   @extend %icon_small;
 }
 
-.turf_mud_48 {
-  background: url(../assets/items_small.png) -250px -802px no-repeat;
+.turf_mud_32 {
+  background: url(../assets/items_small.png) -613px -510px no-repeat;
   @extend %icon_small;
 }
 
-.turf_road_48 {
-  background: url(../assets/items_small.png) -300px -802px no-repeat;
+.turf_road_32 {
+  background: url(../assets/items_small.png) -613px -544px no-repeat;
   @extend %icon_small;
 }
 
-.turf_rocky_48 {
-  background: url(../assets/items_small.png) -350px -802px no-repeat;
+.turf_rocky_32 {
+  background: url(../assets/items_small.png) -613px -578px no-repeat;
   @extend %icon_small;
 }
 
-.turf_savanna_48 {
-  background: url(../assets/items_small.png) -400px -802px no-repeat;
+.turf_savanna_32 {
+  background: url(../assets/items_small.png) 0px -612px no-repeat;
   @extend %icon_small;
 }
 
-.turf_sinkhole_48 {
-  background: url(../assets/items_small.png) -450px -802px no-repeat;
+.turf_sinkhole_32 {
+  background: url(../assets/items_small.png) -34px -612px no-repeat;
   @extend %icon_small;
 }
 
-.turf_underrock_48 {
-  background: url(../assets/items_small.png) -500px -802px no-repeat;
+.turf_underrock_32 {
+  background: url(../assets/items_small.png) -68px -612px no-repeat;
   @extend %icon_small;
 }
 
-.turf_woodfloor_48 {
-  background: url(../assets/items_small.png) -550px -802px no-repeat;
+.turf_woodfloor_32 {
+  background: url(../assets/items_small.png) -102px -612px no-repeat;
   @extend %icon_small;
 }
 
-.turkeydinner_48 {
-  background: url(../assets/items_small.png) -600px -802px no-repeat;
+.turkeydinner_32 {
+  background: url(../assets/items_small.png) -136px -612px no-repeat;
   @extend %icon_small;
 }
 
-.twigs_48 {
-  background: url(../assets/items_small.png) -650px -802px no-repeat;
+.twigs_32 {
+  background: url(../assets/items_small.png) -170px -612px no-repeat;
   @extend %icon_small;
 }
 
-.umbrella_48 {
-  background: url(../assets/items_small.png) -700px -802px no-repeat;
+.umbrella_32 {
+  background: url(../assets/items_small.png) -204px -612px no-repeat;
   @extend %icon_small;
 }
 
-.unagi_48 {
-  background: url(../assets/items_small.png) -750px -802px no-repeat;
+.unagi_32 {
+  background: url(../assets/items_small.png) -238px -612px no-repeat;
   @extend %icon_small;
 }
 
-.waffles_48 {
-  background: url(../assets/items_small.png) -800px -802px no-repeat;
+.waffles_32 {
+  background: url(../assets/items_small.png) -272px -612px no-repeat;
   @extend %icon_small;
 }
 
-.wall_hay_item_48 {
-  background: url(../assets/items_small.png) -850px -802px no-repeat;
+.wall_hay_item_32 {
+  background: url(../assets/items_small.png) -306px -612px no-repeat;
   @extend %icon_small;
 }
 
-.wall_ruins_item_48 {
-  background: url(../assets/items_small.png) -900px -802px no-repeat;
+.wall_ruins_item_32 {
+  background: url(../assets/items_small.png) -340px -612px no-repeat;
   @extend %icon_small;
 }
 
-.wall_stone_item_48 {
-  background: url(../assets/items_small.png) -950px -802px no-repeat;
+.wall_stone_item_32 {
+  background: url(../assets/items_small.png) -374px -612px no-repeat;
   @extend %icon_small;
 }
 
-.wall_wood_item_48 {
-  background: url(../assets/items_small.png) -1000px -802px no-repeat;
+.wall_wood_item_32 {
+  background: url(../assets/items_small.png) -408px -612px no-repeat;
   @extend %icon_small;
 }
 
-.walrus_tusk_48 {
-  background: url(../assets/items_small.png) 0px -852px no-repeat;
+.walrus_tusk_32 {
+  background: url(../assets/items_small.png) -442px -612px no-repeat;
   @extend %icon_small;
 }
 
-.walrushat_48 {
-  background: url(../assets/items_small.png) -50px -852px no-repeat;
+.walrushat_32 {
+  background: url(../assets/items_small.png) -476px -612px no-repeat;
   @extend %icon_small;
 }
 
-.watermelon_48 {
-  background: url(../assets/items_small.png) -100px -852px no-repeat;
+.watermelon_32 {
+  background: url(../assets/items_small.png) -510px -612px no-repeat;
   @extend %icon_small;
 }
 
-.watermelon_cooked_48 {
-  background: url(../assets/items_small.png) -150px -852px no-repeat;
+.watermelon_cooked_32 {
+  background: url(../assets/items_small.png) -544px -612px no-repeat;
   @extend %icon_small;
 }
 
-.watermelon_seeds_48 {
-  background: url(../assets/items_small.png) -200px -852px no-repeat;
+.watermelon_seeds_32 {
+  background: url(../assets/items_small.png) -578px -612px no-repeat;
   @extend %icon_small;
 }
 
-.watermelonhat_48 {
-  background: url(../assets/items_small.png) -250px -852px no-repeat;
+.watermelonhat_32 {
+  background: url(../assets/items_small.png) -612px -612px no-repeat;
   @extend %icon_small;
 }
 
-.watermelonicle_48 {
-  background: url(../assets/items_small.png) -300px -852px no-repeat;
+.watermelonicle_32 {
+  background: url(../assets/items_small.png) -647px 0px no-repeat;
   @extend %icon_small;
 }
 
-.wathgrithrhat_48 {
-  background: url(../assets/items_small.png) -350px -852px no-repeat;
+.wathgrithrhat_32 {
+  background: url(../assets/items_small.png) -647px -34px no-repeat;
   @extend %icon_small;
 }
 
-.waxwell_48 {
-  background: url(../assets/items_small.png) -400px -852px no-repeat;
+.waxwell_32 {
+  background: url(../assets/items_small.png) -647px -68px no-repeat;
   @extend %icon_small;
 }
 
-.waxwelljournal_48 {
-  background: url(../assets/items_small.png) -450px -852px no-repeat;
+.waxwelljournal_32 {
+  background: url(../assets/items_small.png) -647px -102px no-repeat;
   @extend %icon_small;
 }
 
-.webber_48 {
-  background: url(../assets/items_small.png) -500px -852px no-repeat;
+.webber_32 {
+  background: url(../assets/items_small.png) -647px -136px no-repeat;
   @extend %icon_small;
 }
 
-.webberskull_48 {
-  background: url(../assets/items_small.png) -550px -852px no-repeat;
+.webberskull_32 {
+  background: url(../assets/items_small.png) -647px -170px no-repeat;
   @extend %icon_small;
 }
 
-.wendy_48 {
-  background: url(../assets/items_small.png) -600px -852px no-repeat;
+.wendy_32 {
+  background: url(../assets/items_small.png) -647px -204px no-repeat;
   @extend %icon_small;
 }
 
-.wes_48 {
-  background: url(../assets/items_small.png) -650px -852px no-repeat;
+.wes_32 {
+  background: url(../assets/items_small.png) -647px -238px no-repeat;
   @extend %icon_small;
 }
 
-.wetgoop_48 {
-  background: url(../assets/items_small.png) -700px -852px no-repeat;
+.wetgoop_32 {
+  background: url(../assets/items_small.png) -647px -272px no-repeat;
   @extend %icon_small;
 }
 
-.wickerbottom_48 {
-  background: url(../assets/items_small.png) -750px -852px no-repeat;
+.wickerbottom_32 {
+  background: url(../assets/items_small.png) -647px -306px no-repeat;
   @extend %icon_small;
 }
 
-.wigfrid_48 {
-  background: url(../assets/items_small.png) -800px -852px no-repeat;
+.wigfrid_32 {
+  background: url(../assets/items_small.png) -647px -340px no-repeat;
   @extend %icon_small;
 }
 
-.willow_48 {
-  background: url(../assets/items_small.png) -850px -852px no-repeat;
+.willow_32 {
+  background: url(../assets/items_small.png) -647px -374px no-repeat;
   @extend %icon_small;
 }
 
-.wilson_48 {
-  background: url(../assets/items_small.png) -900px -852px no-repeat;
+.wilson_32 {
+  background: url(../assets/items_small.png) -647px -408px no-repeat;
   @extend %icon_small;
 }
 
-.winterhat_48 {
-  background: url(../assets/items_small.png) -950px -852px no-repeat;
+.winterhat_32 {
+  background: url(../assets/items_small.png) -647px -442px no-repeat;
   @extend %icon_small;
 }
 
-.winterometer_48 {
-  background: url(../assets/items_small.png) -1000px -852px no-repeat;
+.winterometer_32 {
+  background: url(../assets/items_small.png) -647px -476px no-repeat;
   @extend %icon_small;
 }
 
-.wolfgang_48 {
-  background: url(../assets/items_small.png) 0px -902px no-repeat;
+.wolfgang_32 {
+  background: url(../assets/items_small.png) -647px -510px no-repeat;
   @extend %icon_small;
 }
 
-.woodie_48 {
-  background: url(../assets/items_small.png) -50px -902px no-repeat;
+.woodie_32 {
+  background: url(../assets/items_small.png) -647px -544px no-repeat;
   @extend %icon_small;
 }
 
-.wormlight_48 {
-  background: url(../assets/items_small.png) -100px -902px no-repeat;
+.wormlight_32 {
+  background: url(../assets/items_small.png) -647px -578px no-repeat;
   @extend %icon_small;
 }
 
-.wx-78_48 {
-  background: url(../assets/items_small.png) -150px -902px no-repeat;
+.wx-78_32 {
+  background: url(../assets/items_small.png) -647px -612px no-repeat;
   @extend %icon_small;
 }
 
-.yellowamulet_48 {
-  background: url(../assets/items_small.png) -200px -902px no-repeat;
+.yellowamulet_32 {
+  background: url(../assets/items_small.png) 0px -646px no-repeat;
   @extend %icon_small;
 }
 
-.yellowgem_48 {
-  background: url(../assets/items_small.png) -250px -902px no-repeat;
+.yellowgem_32 {
+  background: url(../assets/items_small.png) -34px -646px no-repeat;
   @extend %icon_small;
 }
 
-.yellowstaff_48 {
-  background: url(../assets/items_small.png) -300px -902px no-repeat;
+.yellowstaff_32 {
+  background: url(../assets/items_small.png) -68px -646px no-repeat;
   @extend %icon_small;
 }
