@@ -15,16 +15,17 @@ body
             //- mixin recipe(a,b,c,d,e)
             //-       p= a + '_48'
             mixin recipe(a,b,c,d,e)
+                - var suffix = '_32'
                 if (a)
-                    .icon(class=a+'_32')
+                    .icon(class=a+suffix)
                 if (b)
-                    .icon(class=b+'_32')
+                    .icon(class=b+suffix)
                 if (c)
-                    .icon(class=c+'_32')
+                    .icon(class=c+suffix)
                 if (d)
-                    .icon(class=d+'_32')
+                    .icon(class=d+suffix)
                 if (e)
-                    .icon(class=e+'_32')
+                    .icon(class=e+suffix)
                 //- span= a + '_48'
 
             mixin item(name,id,a,b,c,d,e)

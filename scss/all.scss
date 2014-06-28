@@ -110,10 +110,22 @@ ul#itemlist {
 		background:$hover-color;
 	}
 }
+
+.recipe {
+	height:spacing(3);
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+}
 	.icon {
 		margin:5px;
 		display:inline-block;
 		vertical-align:middle;
+
 	}
 	.name {
 		@include span(4);
@@ -151,16 +163,16 @@ ul#itemlist {
 }
 
 
-* {
-     user-select: none;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
-}
+// * {
+//      user-select: none;
+//     -khtml-user-select: none;
+//     -o-user-select: none;
+//     -moz-user-select: -moz-none;
+//     -webkit-user-select: none;
+// }
 
-::selection { background: transparent;color:inherit; }
-::-moz-selection { background: transparent;color:inherit; }
+// ::selection { background: transparent;color:inherit; }
+// ::-moz-selection { background: transparent;color:inherit; }
 
 
 // Tablet
