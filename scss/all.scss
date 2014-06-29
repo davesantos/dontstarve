@@ -113,6 +113,8 @@ ul#itemlist {
 
 .recipe {
 	height:spacing(3);
+
+	//http://css-tricks.com/centering-in-the-unknown/
 	&:before {
 		content: '';
 		display: inline-block;
