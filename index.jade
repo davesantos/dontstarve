@@ -11,17 +11,18 @@ body
     .content
         ul#itemlist
 
-            mixin item(name,id,numArray,countArray)
+            mixin item(name,id,fullArray)
                 li.item
                     .top
                         .name
                             .icon(class=id)
                             span= name
                         .recipe
-                            if numArray
-                                for item in numArray
-                                    .icon(class=item+'_32')
-                                    span= countArray
+                            if fullArray
+                                each item, i in fullArray
+                                    .icon(class=item[0]+'_32')
+                                    span x
+                                        span= item[1]
                     .data.is-hidden
                         .prefab
                             p= id
@@ -31,11 +32,10 @@ body
                     //- Structures:  Houndius Shootius, Sign, Potted Fern, Chest, Ornage Chest, Scaled Chest
 
             +item('Abigail\'s Flower','abigail_flower')
-            +item('Abigail\'s Flower','abigail_flower', ['rope','cutgrass'],[5,6])
-            +item('Alchemy Engine','researchlab2')
+            +item('Alchemy Engine','researchlab2', [['boards',4],['cutstone',3],['transistor',2]])
             +item('Applied Horticulture','book_gardening','wickerbottom')
             +item('Ash','ash')
-            +item('Axe','axe')
+            +item('Axe','axe', [['twigs',1],['flint',1]])
             +item('Azure Feather','feather_robin_winter')
             +item('Backpack','backpack')
             +item('Bacon and Eggs','baconeggs')
