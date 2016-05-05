@@ -78,7 +78,6 @@ input[type="search"] {
 	}
 }
 
-
 .content {
 	@include full;
 	h2 {
@@ -89,8 +88,13 @@ input[type="search"] {
 	}
 }
 
+.footer {
+  @include full;
+}
 
-// List
+//================================
+// Items
+//================================
 
 ul#itemlist {
 	@extend %liststyle;
@@ -99,12 +103,7 @@ ul#itemlist {
 .item {
  	overflow:hidden;
 	background:$gray;
-	// margin:$leading/4 0;
-	// @include transition(all 0.1s ease-in);
-
-	span {
-		// color:$hover-color;
-	}
+  border-bottom: darken($gray, 50%);
 	&:hover {
 		background:$hover-color;
 	}
@@ -112,7 +111,6 @@ ul#itemlist {
 
 .recipe {
 	height:spacing(3);
-
 	//http://css-tricks.com/centering-in-the-unknown/
 	&:before {
 		content: '';
@@ -122,41 +120,42 @@ ul#itemlist {
 		margin-right: -0.25em;
 	}
 }
+
+.icon {
+	display:inline-block;
+	vertical-align:middle;
+}
+.name {
+	@include span(6);
+	height:spacing(3);
 	.icon {
-		display:inline-block;
-		vertical-align:middle;
+		margin:0 20px;
 	}
-	.name {
-		@include span(6);
-		height:spacing(3);
-		.icon {
-			margin:0 20px;
-		}
-		&:before {
-			content: '';
-			display: inline-block;
-			height: 100%;
-			vertical-align: middle;
-			margin-right: -0.25em;
-		}
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
 	}
-	.recipe {
-		@include span(last 6);
-		color:#666;
-		text-align:right;
-		.icon {
-			margin-left:5px;
-			margin-right:5px;
-		}
+}
+.recipe {
+	@include span(last 6);
+	color:#666;
+	text-align:right;
+	.icon {
+		margin-left:5px;
+		margin-right:5px;
 	}
-	.prefab {
-		color:#666;
-	}
-	.data {
-		height:spacing(6);
-		@include span(11 of 12);
-		@include pre(1);
-	}
+}
+.prefab {
+	color:#666;
+}
+.data {
+	height:spacing(6);
+	@include span(11 of 12);
+	@include pre(1);
+}
 .active {
 	.top {
 		background-color:$selected-color;
@@ -170,10 +169,6 @@ ul#itemlist {
 	margin:0;
 	position: absolute;
 	visibility: hidden;
-}
-
-.footer {
-	@include full;
 }
 
 
