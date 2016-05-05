@@ -1,3 +1,5 @@
+@import "base/susy/language/susy";
+@import "base/bourbon/bourbon";
 @import "base";
 
 //1322 Grid System
@@ -18,10 +20,6 @@ $susy: (
 );
 
 @import "mixins";
-
-* {
-	@include box-sizing(border-box);
-}
 
 body {
 	@include container;
@@ -99,9 +97,7 @@ ul#itemlist {
  	overflow:hidden;
 	background:$gray;
 	margin:$leading/4 0;
-	@include transition-property(all);
-	@include transition-duration(0.1s);
-	@include transition-timing-function(ease-in);
+	@include transition(all 0.1s ease-in);
 
 	span {
 		// color:$hover-color;

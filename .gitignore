@@ -1,8 +1,8 @@
 *.DS_Store
+*.css
 *.sass-cache
-*.json
-/css/*
-/components/*
+bower_components
+node_modules
 /assets/*
 /source/*
-index.html
+
