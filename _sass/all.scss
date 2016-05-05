@@ -2,7 +2,6 @@
 // Base
 //================================
 
-
 @import "base/susy/language/susy";
 @import "base/bourbon/bourbon";
 @import "base/variables";
@@ -17,6 +16,9 @@
 @import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
+//================================
+// Structure
+//================================
 
 body {
 	@include container;
@@ -27,19 +29,23 @@ body {
 	// background: url(http://griddle.it/1300-12-20) repeat-y center top;
 }
 
-a {}
-
 img, video, object, embed {
 	max-width: 100%;
 	height: auto !important;
 }
+
+img {
+  -ms-interpolation-mode: bicubic;
+  height: auto !important;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
 h3 {
 	font-weight:normal;
 	font-size:24pt;
 }
-///////////////////////////////////////////////////////////////////
-// Structure
-///////////////////////////////////////////////////////////////////
+
 
 %liststyle {
 	list-style:none;
