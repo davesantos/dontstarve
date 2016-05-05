@@ -6,7 +6,7 @@ html(lang="en")
 
   body
     header.header
-      input(type='search' id='s' placeholder='Food, Weapons, Armor' autofocus)
+      input(type='search' id='s' placeholder='Type food, weapons, armor here' autofocus)
       h1(id='logo') Don't Starve Cheatsheet
 
     main.content
@@ -22,8 +22,8 @@ html(lang="en")
                 if fullArray
                   each item, i in fullArray
                     .icon(class=item[0]+'_32')
-                      span x
-                      span= item[1]
+                    span x
+                    span= item[1]
             .data.is-hidden
               .prefab
                 p= id

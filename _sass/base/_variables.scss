@@ -1,0 +1,16 @@
+//1322 Grid System
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 90px;            // each column is 4em wide
+$gutter-width   : 20px;            // 1em gutters between columns
+
+$gray : #bbb;
+$hover-color : #f0d7b5;
+$selected-color : #96bfb2;
+
+$leading: 1.6em;
+
+$susy: (
+  columns: $total-columns,
+  gutters: $gutter-width / $column-width,
+  column-width: $column-width,
+);

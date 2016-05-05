@@ -1,25 +1,22 @@
+//================================
+// Base
+//================================
+
+
 @import "base/susy/language/susy";
 @import "base/bourbon/bourbon";
-@import "base";
+@import "base/variables";
 
-//1322 Grid System
-$total-columns  : 12;             // a 12-column grid
-$column-width   : 90px;            // each column is 4em wide
-$gutter-width   : 20px;            // 1em gutters between columns
-
-$gray : #bbb;
-$hover-color : #f0d7b5;
-$selected-color : #96bfb2;
-
-$leading: 1.6em;
-
-$susy: (
-	columns: $total-columns,
-	gutters: $gutter-width / $column-width,
-	column-width: $column-width,
-);
+//================================
+// Modules
+//================================
 
 @import "mixins";
+@import "items";
+@import "items_small";
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 
 body {
 	@include container;
@@ -96,8 +93,8 @@ ul#itemlist {
 .item {
  	overflow:hidden;
 	background:$gray;
-	margin:$leading/4 0;
-	@include transition(all 0.1s ease-in);
+	// margin:$leading/4 0;
+	// @include transition(all 0.1s ease-in);
 
 	span {
 		// color:$hover-color;
@@ -172,18 +169,6 @@ ul#itemlist {
 .footer {
 	@include full;
 }
-
-
-// * {
-//      user-select: none;
-//     -khtml-user-select: none;
-//     -o-user-select: none;
-//     -moz-user-select: -moz-none;
-//     -webkit-user-select: none;
-// }
-
-// ::selection { background: transparent;color:inherit; }
-// ::-moz-selection { background: transparent;color:inherit; }
 
 
 // Tablet
