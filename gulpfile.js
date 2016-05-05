@@ -39,10 +39,8 @@ gulp.task('indent', function(){
   gulp.src('*.html')
     .pipe(prettify({
       indent_inner_html: true,
-      indent_with_tabs: true,
-      indent_char:" ",
-      indent_size: 1,
-      preserve_newlines: false
+      indent_with_tabs: false,
+      indent_size: 2
     }))
     .pipe(gulp.dest('.'));
 });
